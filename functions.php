@@ -210,6 +210,11 @@ function wp_bootstrap_starter_scripts() {
         wp_enqueue_style( 'wp-bootstrap-starter-default', get_template_directory_uri() . '/inc/assets/css/presets/color-scheme/blue.css', false, '' );
     }*/
 
+  //Custom CSS Link
+  wp_enqueue_style( 'custom_styles', get_template_directory_uri() . '/custom_styles.css' );
+
+  wp_enqueue_style( 'page_home', get_template_directory_uri() . '/inc/assets/css/page-home.css' );
+
 	wp_enqueue_script('jquery');
 
     // Internet Explorer HTML5 support

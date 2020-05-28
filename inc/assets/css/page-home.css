@@ -1,0 +1,118 @@
+.heading {
+  max-width: 500px;
+}
+
+.heading h1 {
+  font-size: 70px;
+  line-height: 100px;
+}
+
+.subheading {
+  margin-top: 20px;
+  max-width: 640px;
+}
+
+.subheading p {
+  font-size: 18px;
+}
+
+.primary-cta {
+  margin-top: 40px;
+  padding: 14px 64px;
+}
+
+.main-card-row {
+  margin-top: 120px;
+}
+
+.main-card {
+  content: '';
+  width: 400px;
+  padding: 20px;
+  background-color: grey;
+  padding: 80px 20px 20px;
+  color: #FFFFFF;
+}
+
+.main-card p {
+  margin-bottom: 0;
+}
+
+.hyper-apps {
+  margin-top: 40px;
+  padding: 100px 0px;
+}
+
+.hyper-apps p {
+  margin-top: 40px;
+}
+
+.use-cases {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.use-cases h6 {
+  margin-top: 36px;
+}
+
+.use-cases p {
+  margin-top: 24px;
+}
+
+.use-cases button {
+  margin-top: 60px;
+  padding: 14px 60px;
+}
+
+.use-cases .row {
+  margin-top: 64px;
+}
+
+.partners {
+  padding-top: 32px;
+  padding-bottom: 64px;
+}
+
+.partners h4 {
+  margin-bottom: 64px;
+}
+
+.case-studies {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.case-studies h4 {
+  margin-top: 64px;
+}
+
+.case-studies h6 {
+  margin-top: 40px;
+}
+
+.case-studies p {
+  margin-top: 20px;
+}
+
+.case-studies button {
+  margin-top: 54px;
+  padding: 14px 60px;
+}
+
+.blog-list {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.blog-list .category {
+  margin-top: 36px;
+}
+
+.blog-list h5 {
+  margin-top: 8px;
+}
+
+.blog-list p {
+  margin-top: 20px;
+}
