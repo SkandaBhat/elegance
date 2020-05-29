@@ -1,3 +1,7 @@
+.hero {
+  padding-bottom: 90px;
+}
+
 .heading {
   max-width: 520px;
 }
@@ -7,7 +11,6 @@
   font-weight: 800;
   font-size: 70px;
   line-height: 100px;
-  color: rgba(26, 25, 25, 0.78);
 }
 
 .subheading {
@@ -15,7 +18,14 @@
   max-width: 640px;
 }
 
+.subheading h3 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 .subheading p {
+  margin-top: 32px;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
@@ -26,104 +36,47 @@
   padding: 14px 64px;
 }
 
-.green-circle-1 {
+.green-semi-1 {
   position: absolute;
-  top: 170px;
-  right: 0;
-  width: 270px;
-  z-index: -1;
-}
-
-.ochre-square-1 {
-  position: absolute;
-  z-index: -1;
-  width: 130px;
-  top: 50px;
-  right: 400px;
-}
-
-.green-circle-2 {
-  position: absolute;
-  bottom: -260px;
-  left: -10px;
-  width: 120px;
-  z-index: -1;
-  transform: rotate(180deg)
-}
-
-.main-card-row {
-  margin-top: 120px;
-}
-
-.main-card {
-  content: '';
+  top: -360px;
+  right: 0px;
   width: 400px;
-  padding: 20px;
-  border-radius: 0;
-  background-color: grey;
-  padding: 80px 20px 20px;
-  color: #FFFFFF;
-  box-shadow: 0px 5.92625px 17.7788px rgba(0, 0, 0, 0.2);
+  z-index: -1;
 }
 
-.main-card h2 {
-  font-weight: 800;
-  font-size: 36px;
-  line-height: 36px;
-  letter-spacing: 0.01em;
+.transform {
+  padding: 76px 0px 67px;
 }
 
-.main-card p {
-  margin-bottom: 0;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 21px;
-  letter-spacing: 0.01em;
-}
-
-.main-card img {
-  position: absolute;
-  top: 16px;
-  right: 20px;
-  width: 48px;
-}
-
-.card-automate {
-  background-color: #5DA961;
-}
-
-.card-assure {
-  background-color: #CC9B3C;
-}
-
-.card-innovate {
-  background-color: #6284C5;
-}
-
-.hyper-apps {
+.transform h4 {
   margin-top: 40px;
-  padding: 100px 0px;
-}
-
-.hyper-apps h2 {
   font-weight: 800;
-  font-size: 48px;
-  line-height: 66px;
+  font-size: 32px;
+  line-height: 40px;
 }
 
-.hyper-apps h4 {
-  font-weight: 800;
-  font-size: 24px;
-  line-height: 32px;
-}
-
-.hyper-apps p {
-  margin-top: 40px;
+.transform p {
+  margin-top: 20px;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
 }
 
+.features {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.features h4 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 66px;
+}
+
+.feature-card {
+  margin-top: 40px;
+  padding: 100px 67px;
+}
 
 .use-cases {
   padding-top: 60px;
@@ -133,7 +86,7 @@
 .use-cases h4 {
   font-weight: 800;
   font-size: 48px;
-  line-height: 66px
+  line-height: 66px;
 }
 
 .use-cases h6 {
@@ -155,7 +108,7 @@
   right: 0px;
   width: 120px;
   z-index: -1;
-  transform: rotate(-45deg)
+  transform: rotate(-45deg);
 }
 
 .use-cases .row {
@@ -227,31 +180,5 @@
   right: 20px;
   width: 400px;
   z-index: -1;
-  transform: rotate(-25deg)
-}
-
-.case-studies .white-squares {
-  position: absolute;
-  top: 30px;
-  left: 50%;
-  width: 540px;
-  z-index: 2;
-  transform: translateX(-50%);
-}
-
-.blog-list {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.blog-list .category {
-  margin-top: 36px;
-}
-
-.blog-list h5 {
-  margin-top: 8px;
-}
-
-.blog-list p {
-  margin-top: 20px;
+  transform: rotate(-25deg);
 }

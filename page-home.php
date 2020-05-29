@@ -4,8 +4,8 @@
  */
 
 get_header(); ?>
-  <div class="position-relative overflow-hidden">
-    <div class="container">
+  <div class="position-relative">
+    <div class="container overflow-hidden">
       <section id="primary" class="content-area col-sm-12">
         <main id="main" class="site-main" role="main">
           <article>
@@ -146,8 +146,9 @@ get_header(); ?>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           <button class="btn-outline-primary">READ MORE</button>
         </div>
-        <div class="col-sm-12 col-md-8">
+        <div class="col-sm-12 col-md-8 position-relative">
           <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/case_studies.png" />
+          <img class="img white-squares" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_white_squares.png" />
         </div>
       </div>
     </div>

@@ -1,0 +1,215 @@
+.hero {
+  padding-bottom: 90px;
+}
+
+.heading {
+  max-width: 520px;
+}
+
+.heading h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 100px;
+}
+
+.subheading {
+  margin-top: 20px;
+  max-width: 640px;
+}
+
+.subheading h3 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.subheading p {
+  margin-top: 32px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.primary-cta {
+  margin-top: 40px;
+  padding: 14px 64px;
+}
+
+.green-semi-1 {
+  position: absolute;
+  top: -360px;
+  right: 0px;
+  width: 400px;
+  z-index: -1;
+}
+
+.transform {
+  padding: 76px 0px 67px;
+}
+
+.transform h4 {
+  margin-top: 40px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.transform p {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.features {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.features h4 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 66px;
+}
+
+.features .feature-card {
+  margin-top: 40px;
+  padding: 100px 67px;
+}
+
+.features .text1 {
+  padding-right: 36px;
+}
+
+.featues .text2 {
+  padding-left: 36px;
+}
+
+.features h6 {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.features p {
+  margin-top: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.green-circle-features {
+  position: absolute;
+  bottom: 370px;
+  left: -70px;
+  width: 280px;
+  z-index: -1;
+  transform: rotate(180deg);
+}
+
+.use-cases {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.use-cases h4 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 66px;
+}
+
+.use-cases h6 {
+  margin-top: 36px;
+}
+
+.use-cases p {
+  margin-top: 24px;
+}
+
+.use-cases button {
+  margin-top: 60px;
+  padding: 14px 60px;
+}
+
+.use-cases .green-circle-use-cases {
+  position: absolute;
+  bottom: -150px;
+  right: 40px;
+  width: 260px;
+  z-index: -1;
+  transform: rotate(15deg);
+}
+
+.use-cases .row {
+  margin-top: 64px;
+}
+
+.in-action h4 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 66px;
+  margin: 60px 0;
+}
+
+.in-action h6 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 50px;
+}
+
+.in-action p {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.in-action .row {
+  margin-bottom: 60px;
+}
+
+.partners {
+  padding-top: 32px;
+  padding-bottom: 64px;
+}
+
+.partners h4 {
+  margin-bottom: 64px;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 66px;
+}
+
+.partners .hcl {
+  width: 130px;
+}
+
+.partners .kpmg {
+  width: 120px;
+}
+
+.partners .tech-m {
+  width: 150px;
+}
+
+.partners .deloitte {
+  width: 112px;
+}
+
+.cta-section {
+  padding: 80px 0;
+}
+
+.cta-section h5 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 66px;
+}
+
+.cta-section button {
+  margin-top: 24px;
+  padding: 14px 64px;
+}
