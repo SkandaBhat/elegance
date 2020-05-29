@@ -1,6 +1,11 @@
+button:active {
+  background-color:  red;
+}
+
 .btn-primary {
   background-color: #4F8B52;
   border: none;
+  transition: background-color 0.2s ease;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
@@ -10,6 +15,7 @@
 .btn-outline-primary {
   color: #4F8B52;
   border-color: #4F8B52;
+  transition: background-color 0.2s ease;
 }
 
 .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .open>.dropdown-toggle.btn-outline-primary {

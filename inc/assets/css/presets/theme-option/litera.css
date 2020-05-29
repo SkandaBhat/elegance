@@ -12,6 +12,15 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+/* @font-face {
+    font-family: 'Avenir';
+    src: url('wp-content/themes/your-theme/fonts/font-file.eot');
+    src: url('wp-content/themes/your-theme/fonts/font-file.eot?#iefix') format('embedded-opentype'),
+         url('wp-content/themes/your-theme/fonts/font-file.woff') format('woff'),
+         url('wp-content/themes/your-theme/fonts/font-file.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal; 
+} */
 :root {
   --blue: #508D53;
   --indigo: #6610f2;
@@ -250,8 +259,7 @@ button {
 }
 
 button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: none;
 }
 
 input,
@@ -2535,13 +2543,12 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #226be8;
-  border-color: #1863e6;
+  background-color: #304631;
+  border-color: #304631;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(69, 130, 236, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(69, 130, 236, 0.5);
+  box-shadow: none;
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
@@ -2553,14 +2560,14 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #1863e6;
-  border-color: #165edb;
+  background-color: #304631;
+  border-color: #304631;
+  box-shadow: none;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(69, 130, 236, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(69, 130, 236, 0.5);
+  box-shadow: none;
 }
 
 .btn-secondary {
@@ -2829,8 +2836,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(69, 130, 236, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(69, 130, 236, 0.5);
+  box-shadow: none;
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {

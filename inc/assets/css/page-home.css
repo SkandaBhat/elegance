@@ -3,8 +3,11 @@
 }
 
 .heading h1 {
+  font-style: normal;
+  font-weight: 800;
   font-size: 70px;
   line-height: 100px;
+  color: rgba(26, 25, 25, 0.78);
 }
 
 .subheading {
@@ -13,12 +16,39 @@
 }
 
 .subheading p {
+  font-weight: 500;
   font-size: 18px;
+  line-height: 28px;
 }
 
 .primary-cta {
   margin-top: 40px;
   padding: 14px 64px;
+}
+
+.green-circle-1 {
+  position: absolute;
+  top: 170px;
+  right: 0;
+  width: 270px;
+  z-index: -1;
+}
+
+.ochre-square-1 {
+  position: absolute;
+  z-index: -1;
+  width: 130px;
+  top: 50px;
+  right: 400px;
+}
+
+.green-circle-2 {
+  position: absolute;
+  bottom: -260px;
+  left: -10px;
+  width: 120px;
+  z-index: -1;
+  transform: rotate(180deg)
 }
 
 .main-card-row {
@@ -29,13 +59,45 @@
   content: '';
   width: 400px;
   padding: 20px;
+  border-radius: 0;
   background-color: grey;
   padding: 80px 20px 20px;
   color: #FFFFFF;
+  box-shadow: 0px 5.92625px 17.7788px rgba(0, 0, 0, 0.2);
+}
+
+.main-card h2 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0.01em;
 }
 
 .main-card p {
   margin-bottom: 0;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+}
+
+.main-card img {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  width: 48px;
+}
+
+.card-automate {
+  background-color: #5DA961;
+}
+
+.card-assure {
+  background-color: #CC9B3C;
+}
+
+.card-innovate {
+  background-color: #6284C5;
 }
 
 .hyper-apps {
@@ -43,13 +105,35 @@
   padding: 100px 0px;
 }
 
+.hyper-apps h2 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 66px;
+}
+
+.hyper-apps h4 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 .hyper-apps p {
   margin-top: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
 }
+
 
 .use-cases {
   padding-top: 60px;
   padding-bottom: 50px;
+}
+
+.use-cases h4 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 66px
 }
 
 .use-cases h6 {
@@ -65,6 +149,15 @@
   padding: 14px 60px;
 }
 
+.use-cases .green-circle-3 {
+  position: absolute;
+  top: -150px;
+  right: 0px;
+  width: 120px;
+  z-index: -1;
+  transform: rotate(-45deg)
+}
+
 .use-cases .row {
   margin-top: 64px;
 }
@@ -76,6 +169,25 @@
 
 .partners h4 {
   margin-bottom: 64px;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 66px;
+}
+
+.partners .hcl {
+  width: 130px;
+}
+
+.partners .kpmg {
+  width: 120px;
+}
+
+.partners .tech-m {
+  width: 150px;
+}
+
+.partners .deloitte {
+  width: 112px;
 }
 
 .case-studies {
@@ -85,19 +197,37 @@
 
 .case-studies h4 {
   margin-top: 64px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 66px;
 }
 
 .case-studies h6 {
   margin-top: 40px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
 }
 
 .case-studies p {
   margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .case-studies button {
   margin-top: 54px;
   padding: 14px 60px;
+}
+
+.case-studies .green-semi {
+  position: absolute;
+  top: -100px;
+  right: 20px;
+  width: 400px;
+  z-index: -1;
+  transform: rotate(-25deg)
 }
 
 .blog-list {
