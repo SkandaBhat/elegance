@@ -227,7 +227,11 @@ function wp_bootstrap_starter_scripts() {
   }
 
   if (is_page_template ( 'page-use_case.php' ) ) {
-    wp_enqueue_style( 'page_case_study', get_template_directory_uri() . '/inc/assets/css/page-case_study.css' );
+    wp_enqueue_style( 'page_use_case', get_template_directory_uri() . '/inc/assets/css/page-case_study.css' );
+  }
+
+  if (is_page ( 'company' ) ) {
+    wp_enqueue_style( 'company', get_template_directory_uri() . '/inc/assets/css/page-company.css' );
   }
 
 	wp_enqueue_script('jquery');

@@ -10,7 +10,6 @@
   max-width: 610px;
 }
 
-
 .heading h1 {
   font-style: normal;
   font-weight: 800;
@@ -226,7 +225,7 @@
 }
 
 .product-testimonials .slick-current .upper-part {
-  background-color: #508D53;
+  background-color: #508d53;
   color: #ffffff;
 }
 
