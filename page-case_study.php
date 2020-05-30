@@ -63,7 +63,44 @@ get_header(); ?>
         </div>
       </div>
     </div>
-    <img class="img green-circle-3" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" />
+    <!-- <img class="img green-circle-3" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" /> -->
+  </section>
+
+  <section class="use-cases position-relative overflow-hidden">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+          <div class="text-center">
+            <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_1.png" />
+          </div>
+          <h6>Results</h6>
+          <?php $checkbox_checked_values = get_field( 'checkbox' ); ?>
+          <?php if ( $checkbox_checked_values ) : ?>
+            <ul>
+              <?php foreach ( $checkbox_checked_values as $checkbox_value ): ?>
+                <li><?php echo ( $checkbox_value ); ?></li>
+              <?php endforeach; ?>
+            </ul>
+          <?php endif; ?>
+        </div>
+      </div>
+    </div>
+    <!-- <img class="img green-circle-3" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" /> -->
+  </section>
+
+    <section class="use-cases position-relative overflow-hidden">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+          <div class="text-center">
+            <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_1.png" />
+          </div>
+          <h6>Results</h6>
+                <?php the_field( 'super' ); ?>
+        </div>
+      </div>
+    </div>
+    <!-- <img class="img green-circle-3" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" /> -->
   </section>
 
 <?php

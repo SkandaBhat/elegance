@@ -101,6 +101,30 @@
   line-height: 28px;
 }
 
+.features .ochre-square {
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  top: 0;
+  right: 0;
+}
+
+.features .pointer-ochre {
+  position: absolute;
+  width: 243px;
+  top: 50%;
+  left: -263px;
+  z-index: 1;
+}
+
+.features .pointer-green {
+  position: absolute;
+  width: 243px;
+  top: 50%;
+  right: -183px;
+  z-index: 1;
+}
+
 .green-circle-features {
   position: absolute;
   bottom: 370px;
@@ -169,6 +193,63 @@
 
 .in-action .row {
   margin-bottom: 60px;
+}
+
+.testimonials {
+  padding: 80px 0;
+}
+
+.testimonials h4 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 66px;
+  margin-bottom: 60px;
+}
+
+.product-testimonials .testimonial:focus {
+  outline: none;
+}
+
+.product-testimonials .upper-part {
+  padding: 50px;
+  color: #868686;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  width: 466px;
+  transition: background-color 0.5s ease;
+}
+
+.product-testimonials .slick-current .upper-part {
+  background-color: #508D53;
+  color: #ffffff;
+}
+
+.product-testimonials .upper-part .quotes {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 30px;
+}
+
+.product-testimonials .slick-current .upper-part .quotes {
+  opacity: 0.5;
+}
+
+.product-testimonials .lower-part .title {
+  margin-top: 28px;
+  margin-bottom: 0;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  color: #868686;
+}
+
+.product-testimonials .lower-part .subtitle {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #868686;
 }
 
 .partners {

@@ -65,7 +65,7 @@ get_header(); ?>
         </div>
       </div>
     </div>
-    <img class="img green-circle-3" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" />
+    <!-- <img class="img green-circle-3" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" /> -->
   </section>
 
 <?php
