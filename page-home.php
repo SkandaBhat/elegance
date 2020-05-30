@@ -14,22 +14,21 @@ get_header(); ?>
                 <h1>Accelerate human-machine collaboration</h1>
               </div>
               <div class="subheading">
-                <p>Jiffy.ai’s revolutionary automation suite turbo-charges productivity, transforms processes, and helps
-                  your teams unleash their creativity and innovation.</p>
+                <p>JIFFY.ai’s revolutionary automation suite turbo-charges productivity, transforms processes, and helps your teams unleash their creativity and innovation.</p>
               </div>
               <button class="btn-primary primary-cta">REQUEST DEMO</button>
             </div>
-    
+
             <div class="row justify-content-between main-card-row">
               <div class="card main-card card-automate">
                 <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/automate_icon.png" />
                 <h2>JIFFY.ai Automate</h2>
-                <p>Business processes, tranformed</p>
+                <p>Business processes, transformed</p>
               </div>
               <div class="card main-card card-assure">
                 <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/assure_icon.png" />
                 <h2>JIFFY.ai Assure</h2>
-                <p>Test automation, perfected</p>
+                <p>Continuous testing, perfected</p>
               </div>
               <div class="card main-card card-innovate">
                 <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/innovate_icon.png" />
@@ -37,7 +36,7 @@ get_header(); ?>
                 <p>Software development, reimagined</p>
               </div>
             </div>
-    
+
           </article>
         </main><!-- #main -->
       </section><!-- #primary -->
@@ -48,7 +47,7 @@ get_header(); ?>
     <img class="img green-circle-2" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" />
 
   </div>
-  
+
 
   <section class="hyper-apps bg-light">
     <div class="container">
@@ -57,11 +56,9 @@ get_header(); ?>
           <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
         </div>
         <div class="col-sm-12 col-md-6">
-          <h2>Meet Jiffy.ai’s Hyper Apps</h2>
-          <h4>Our Hyper Apps outdo basic apps by easing the most complex business roadblocks, with surprising ease.</h4>
-          <p>Jiffy.ai’s Invoice Processing Hyper App is the only comprehensive solution that addresses all the gaps and
-          inefficiencies in your invoice processing workflow. Our AI and ML powered app integrates with your ERP seamlessly, and
-          assures faster, more economical, and accurate invoice processing.</p>
+          <h2>Meet JIFFY.ai’s Hyper Apps.</h2>
+          <h4>Our Hyper Apps are specifically designed to help enterprises automate and improve the most complex business processes with ease.</h4>
+          <p>JIFFY.ai’s Invoice Processing Hyper App is the only comprehensive solution that addresses all the gaps and inefficiencies in your invoice processing workflow. Our AI and ML powered app integrates with your ERP seamlessly, and assures faster, more economical, and more accurate invoice processing.</p>
         </div>
       </div>
     </div>
@@ -76,18 +73,16 @@ get_header(); ?>
           <div class="text-center">
             <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_1.png" />
           </div>
-          <h6>KYC Process Automation with Intelligent RPA</h6>
-          <p>KYC processes are tedious, expensive and inaccurate. Jiffy-Automate’s result-focused and intuitive app takes over the
-          monotonous tasks seamlessly. Not only are your documents read accurately, the app learns over time and improves itself,
-          minimizing human intervention.</p>
+          <h6>Helping Telecom Customer Service Teams in Times of Crisis</h6>
+          <p>With the Covid-19 pandemic forcing the global workforce to work from home, the pressure on telecom networks has increased. Customer service teams are struggling with customer inquiry volumes. JIFFY.ai can automate help desk operations, ensuring 30% improvement in agent efficiency.</p>
           <button class="btn-outline-primary">READ MORE</button>
         </div>
         <div class="col-sm-12 col-md-4">
           <div class="text-center">
             <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_2.png" />
-          </div>         
-          <h6>Hyperautomating Group Airline Bookings</h6>
-          <p>Managing group travel bookings can be rather frustrating for the customer service teams managed by airlines. At the very least, each booking drains them by 3+ hours. Enter Jiffy-Automate. With a single smart bot, we can process more than 10,000 transactions, every single day.</p>
+          </div>
+          <h6>KYC Process Automation with Intelligent RPA</h6>
+          <p>Know Your Customer processes are tedious, expensive and inaccurate. JIFFY.ai Automate’s result-focused and intuitive app takes over repetitive tasks seamlessly. Not only are your documents processed accurately, the app learns over time and improves itself, minimizing human intervention</p>
           <button class="btn-outline-primary">READ MORE</button>
         </div>
         <div class="col-sm-12 col-md-4">
@@ -95,7 +90,7 @@ get_header(); ?>
             <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_3.png" />
           </div>
           <h6>Transforming Finance and Accounting Processes</h6>
-          <p>Companies that have implemented the Jiffy-Automate app for F&A report that they are able to realize returns on their investment in six months or less, with success rates as high as 85%, we’ve made this critical process more foolproof, nimble and cost-effective.</p>
+          <p>Companies that have implemented the JIFFY.ai Automate app for F&A report that they are able to realize returns on their investment in six months or less. With success rates as high as 85%, we’ve made this critical process more foolproof, nimble, and cost-effective.</p>
           <button class="btn-outline-primary">READ MORE</button>
         </div>
       </div>
@@ -137,13 +132,13 @@ get_header(); ?>
   </section>
 
 
-  <section class="case-studies position-relative overflow-hidden">
+  <section class="case-studies case-first position-relative overflow-hidden">
     <div class="container">
+      <h4 class="text-center text-primary">Case Studies</h4>
       <div class="row justify-content-between">
         <div class="col-sm-12 col-md-3">
-          <h4 class="text-primary">Case Studies</h4>  
-          <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h6>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <h6>Automating Employee Onboarding for a Global Professional Services Firm</h6>
+          <p>Our client wanted to automate their new hire onboarding process to ensure a smooth first experience for their new hires, as well as make their HR teams more efficient. JIFFY.ai automated 80% of their onboarding activities, making the process fast and frictionless.</p>
           <button class="btn-outline-primary">READ MORE</button>
         </div>
         <div class="col-sm-12 col-md-8 position-relative">
@@ -153,6 +148,41 @@ get_header(); ?>
       </div>
     </div>
     <img class="img green-semi" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" />
+  </section>
+
+  <section class="case-studies grey position-relative overflow-hidden">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-sm-12 col-md-8 position-relative">
+          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/case_studies.png" />
+          <img class="img white-squares" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_white_squares.png" />
+        </div>
+        <div class="col-sm-12 col-md-3">
+          <h6>Automating Cancellation & Refund Queue Requests for a Leading American Airline</h6>
+          <p>With global restrictions on travel due to the Covid-19 pandemic, our client faced an overload of requests for flight cancellations, rescheduling, and refunds. JIFFY.ai stepped in and automated the cancellation and refund queue process, clearing thousands of requests in less than a week.</p>
+          <button class="btn-outline-primary">READ MORE</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section class="case-studies position-relative overflow-hidden">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-sm-12 col-md-3">
+          <h6>Cognitive Invoice Processing for an Automobile Manufacturer</h6>
+          <p>Our client wanted to automate their finance and accounting process. JIFFY.ai deployed a cognitive, self-learning RPA which was used to process structured and unstructured data, something that rule-based RPA platforms were unable to do. Turnaround time for invoice processing improved by 85%.</p>
+          <button class="btn-outline-primary">READ MORE</button>
+        </div>
+        <div class="col-sm-12 col-md-8 position-relative">
+          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/case_studies.png" />
+          <img class="img white-squares" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_white_squares.png" />
+        </div>
+      </div>
+    </div>
+    <!-- <img class="img green-semi" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" /> -->
+    <img class="img green-circle-2" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" />
+
   </section>
 
 
@@ -186,7 +216,7 @@ get_header(); ?>
       </div>
     </div>
   </section>
-      
+
 
 <?php
 get_footer();

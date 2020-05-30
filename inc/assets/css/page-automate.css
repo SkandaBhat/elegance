@@ -6,6 +6,11 @@
   max-width: 520px;
 }
 
+.heading-xl {
+  max-width: 610px;
+}
+
+
 .heading h1 {
   font-style: normal;
   font-weight: 800;
