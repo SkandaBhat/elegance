@@ -4,8 +4,8 @@
  */
 
 get_header(); ?>
-  <div class="position-relative">
-    <div class="container overflow-hidden">
+  <div class="hero position-relative overflow-hidden">
+    <div class="container">
       <section id="primary" class="content-area col-sm-12">
         <main id="main" class="site-main" role="main">
           <article>
@@ -102,28 +102,20 @@ get_header(); ?>
   <section class="partners bg-light">
     <div class="container">
       <h4 class="text-center text-secondary">Partners</h4>
-      <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-10">
-          <div class="row align-items-center">
-            <div class="col-sm-12 col-md-3">
-              <div class="text-center">
-                <img class="hcl" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hcl.png"/>
-              </div>
+      <div class="row justify-content-around">
+        <div class="col-xs-12 col-md-10">
+          <div class="row text-center justify-content-between align-items-center">
+            <div class="col-xs-4 col-md-3">
+              <img class="hcl" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hcl.png"/>
             </div>
-            <div class="col-sm-12 col-md-3">
-              <div class="text-center">
-                <img class="kpmg" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/kpmg.png"/>
-              </div>
+            <div class="col-xs-4 col-md-3">
+              <img class="kpmg" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/kpmg.png"/>
             </div>
-            <div class="col-sm-12 col-md-3">
-              <div class="text-center">
-                <img class="tech-m" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/tech_mahindra.png"/>
-              </div>
+            <div class="col-xs-4 col-md-3">
+              <img class="tech-m" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/tech_mahindra.png"/>
             </div>
-            <div class="col-sm-12 col-md-3">
-              <div class="text-center">
-                <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/deloitte.png"/>
-              </div>
+            <div class="col-xs-4 col-md-3">
+              <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/deloitte.png"/>
             </div>
           </div>
         </div>
@@ -150,7 +142,7 @@ get_header(); ?>
     <img class="img green-semi" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" />
   </section>
 
-  <section class="case-studies grey position-relative overflow-hidden">
+  <section class="case-studies case-second bg-light">
     <div class="container">
       <div class="row justify-content-between">
         <div class="col-sm-12 col-md-8 position-relative">

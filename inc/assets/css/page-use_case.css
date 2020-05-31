@@ -1,9 +1,15 @@
+#content.site-content {
+  padding-top: 0;
+}
+
 .hero {
   padding-bottom: 90px;
 }
 
 .heading {
-  max-width: 520px;
+  color: #fff;
+  padding: 40px 0;
+  width: 1016px;
 }
 
 .heading h1 {
@@ -111,10 +117,6 @@
   transform: rotate(-45deg);
 }
 
-.use-cases .row {
-  margin-top: 64px;
-}
-
 .partners {
   padding-top: 32px;
   padding-bottom: 64px;
@@ -181,4 +183,18 @@
   width: 400px;
   z-index: -1;
   transform: rotate(-25deg);
+}
+
+.banner-section {
+  height: 100%;
+}
+
+.banner-section img {
+  position: absolute;
+  top: -64px;
+}
+
+.grey {
+  background-color: #f9f9f9;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }

@@ -710,8 +710,8 @@ a img.aligncenter {
 ## Posts and pages
 --------------------------------------------------------------*/
 #content.site-content {
-  padding-bottom: 3.75rem;
-  padding-top: 4.125rem;
+  padding-bottom: 5rem;
+  padding-top: 0;
 }
 
 .sticky .entry-title::before {
