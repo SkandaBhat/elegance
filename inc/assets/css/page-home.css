@@ -80,7 +80,7 @@
     position: absolute;
     z-index: -1;
     width: 30px;
-    top: 25%;
+    top: 30%;
     right: 20%;
   }
 }
@@ -290,10 +290,14 @@
 }
 
 .partners h4 {
-  margin-bottom: 64px;
+  margin-bottom: 20px;
   font-weight: 900;
   font-size: 48px;
   line-height: 66px;
+}
+
+.partners img {
+  margin-top: 40px;
 }
 
 .partners .hcl {

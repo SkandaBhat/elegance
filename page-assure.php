@@ -50,7 +50,7 @@ get_header(); ?>
 
       <section class="features">
         <h4 class="text-center text-primary">Features</h4>
-        <div class="row bg-primary feature-card align-items-center justify-content-between position-relative">
+        <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-md-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
           </div>
@@ -75,7 +75,7 @@ get_header(); ?>
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
           </div>
         </div>
-        <div class="row bg-primary feature-card align-items-center justify-content-between">
+        <div class="row features-first bg-primary feature-card align-items-center justify-content-between">
           <div class="col-sm-12 col-md-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
           </div>
@@ -154,7 +154,7 @@ get_header(); ?>
   <section class="in-action bg-light">
     <div class="container">
       <h4 class="text-center text-secondary">In Action</h4>
-      <div class="row justify-content-around align-items-center">
+      <div class="row first-row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-6">
           <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
         </div>
@@ -228,28 +228,20 @@ get_header(); ?>
   <section class="partners bg-light">
     <div class="container">
       <h4 class="text-center text-secondary">Partners</h4>
-      <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-10">
-          <div class="row align-items-center">
-            <div class="col-sm-12 col-md-3">
-              <div class="text-center">
-                <img class="hcl" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hcl.png"/>
-              </div>
+      <div class="row justify-content-around">
+        <div class="col-xs-12 col-md-10">
+          <div class="row text-center justify-content-between align-items-center">
+            <div class="col-xs-4 col-md-3 col-sm-6">
+              <img class="hcl" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hcl.png"/>
             </div>
-            <div class="col-sm-12 col-md-3">
-              <div class="text-center">
-                <img class="kpmg" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/kpmg.png"/>
-              </div>
+            <div class="col-sm-6 col-xs-4 col-md-3">
+              <img class="kpmg" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/kpmg.png"/>
             </div>
-            <div class="col-sm-12 col-md-3">
-              <div class="text-center">
-                <img class="tech-m" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/tech_mahindra.png"/>
-              </div>
+            <div class="col-sm-6 col-xs-4 col-md-3">
+              <img class="tech-m" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/tech_mahindra.png"/>
             </div>
-            <div class="col-sm-12 col-md-3">
-              <div class="text-center">
-                <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/deloitte.png"/>
-              </div>
+            <div class="col-sm-6 col-xs-4 col-md-3">
+              <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/deloitte.png"/>
             </div>
           </div>
         </div>
@@ -262,7 +254,7 @@ get_header(); ?>
       <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-5">
           <h5>Transform the way your teams test</h5>
-          <button class="btn-primary">SCHEDULE A DEMO</button>
+          <button class="btn-primary">REQUEST DEMO</button>
         </div>
         <div class="col-sm-12 col-md-6">
           <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_cta.png" />

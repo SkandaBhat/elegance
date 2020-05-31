@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: Case Study
+* Template Name: Use Case
  */
 
 get_header(); ?>
@@ -28,8 +28,8 @@ get_header(); ?>
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-12">
-          <h4 class="text-primary">Executive Summary</h4>
-          <p><?php the_field( 'executive_summary' ); ?></p>
+          <h5 class="text-primary"><?php the_field( 'tagline' ); ?></h5>
+          <p><?php the_field( 'main_paragraph_1' ); ?></p>
         </div>
       </div>
     </div>
@@ -40,8 +40,18 @@ get_header(); ?>
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-12">
-          <h4 class="text-primary">The Challenge</h4>
-          <p><?php the_field( 'the_challenge' ); ?></p>
+          <h5 class="text-primary"><?php the_field( 'jiffy_helps_by' ); ?></h5>
+          <?php $benefit_list_checked_values = get_field( 'benefit_list' ); ?>
+          <?php if ( $benefit_list_checked_values ) : ?>
+            <ul>
+              <?php foreach ( $benefit_list_checked_values as $benefit_list_value ): ?>
+                <li><?php echo esc_html( $benefit_list_value ); ?></li>
+              <?php endforeach; ?>
+            </ul>
+          <?php endif; ?>
+          <?php if ( get_field( 'workflow_image' ) ) : ?>
+            <img src="<?php the_field( 'workflow_image' ); ?>" />
+          <?php endif ?>
         </div>
       </div>
     </div>
@@ -52,21 +62,23 @@ get_header(); ?>
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-12">
-          <h4 class="text-primary">Our Approach</h4>
-            <p><?php the_field( 'our_approach' ); ?></p>
-            <p><?php the_field( 'we_helped_by_label' ); ?></p>
-            <?php $we_helped_by_checked_values = get_field( 'we_helped_by' ); ?>
-            <?php if ( $we_helped_by_checked_values ) : ?>
-              <ul>
-                <?php foreach ( $we_helped_by_checked_values as $we_helped_by_value ): ?>
-                  <li><?php echo ( $we_helped_by_value ); ?></li>
-                <?php endforeach; ?>
-              </ul>
-            <?php endif; ?>
-            <p><?php the_field( 'we_helped_by_ending' ); ?></p>
-            <?php if ( get_field( 'image' ) ) : ?>
-              <img src="<?php the_field( 'image' ); ?>" />
-            <?php endif ?>
+          <h4 class="text-primary"><?php the_field( 'impact_label' ); ?></h4>
+            <p><?php the_field( 'impact_content' ); ?></p>
+            <div class="row stat">
+            <div class="col-sm-12 col-md-4">
+              <p class="title"><?php the_field( 'impact_1_metric' ); ?></p>
+              <p class="subtitle"><?php the_field( 'impact_1_text' ); ?></p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <p class="title"><?php the_field( 'impact_2_metric' ); ?></p>
+              <p class="subtitle"><?php the_field( 'impact_2_text' ); ?></p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <p class="title"><?php the_field( 'impact_3_metric' ); ?></p>
+              <p class="subtitle"><?php the_field( 'impact_3_text' ); ?></p>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

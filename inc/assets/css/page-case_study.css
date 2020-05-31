@@ -198,3 +198,20 @@
   background-color: #f9f9f9;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+.stat {
+  margin-top: 150px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 28px;
+}
+
+.subtitle {
+  margin-top: 36px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}

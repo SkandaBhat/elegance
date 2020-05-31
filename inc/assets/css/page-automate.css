@@ -1,5 +1,5 @@
 .hero {
-  padding-bottom: 90px;
+  padding: 80px 0;
 }
 
 .heading {
@@ -48,6 +48,27 @@
   z-index: -1;
 }
 
+@media (max-width: 576px) {
+  .heading h1 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .subheading p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .green-semi-1 {
+    position: absolute;
+    top: -90px;
+    right: 0px;
+    width: 90px;
+    z-index: -1;
+  }
+}
+
 .transform {
   padding: 76px 0px 67px;
 }
@@ -64,6 +85,29 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
+}
+
+@media (max-width: 576px) {
+  .transform .row {
+    flex-direction: column-reverse;
+  }
+
+  .transform h4 {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 12px;
+  }
+
+  .transform p {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .transform img {
+    margin-top: 50px;
+  }
 }
 
 .features {
@@ -138,6 +182,39 @@
   transform: rotate(180deg);
 }
 
+@media (max-width: 576px) {
+  .features .features-first {
+    flex-direction: column-reverse;
+  }
+
+  .features .feature-card {
+    margin-top: 40px;
+    padding: 100px 20px;
+  }
+
+  .features .feature-card img {
+    margin-top: 50px;
+  }
+
+  .features .ochre-square {
+    margin-top: 0 !important;
+    position: absolute;
+    z-index: 1;
+    width: 50px;
+    top: 0;
+    right: 0;
+  }
+
+  .features .pointer-green,
+  .features .pointer-ochre {
+    display: none;
+  }
+
+  .green-circle-features {
+    display: none;
+  }
+}
+
 .use-cases {
   padding-top: 60px;
   padding-bottom: 50px;
@@ -175,6 +252,46 @@
   margin-top: 64px;
 }
 
+@media (max-width: 576px) {
+  .use-cases {
+    padding-top: 100px;
+  }
+
+  .use-cases .green-circle-use-cases {
+    bottom: -280px;
+    right: 0px;
+    width: 240px;
+  }
+
+  .use-cases .row {
+    margin-top: 0;
+  }
+
+  .use-cases .second-row {
+    flex-direction: column-reverse;
+  }
+
+  .use-cases .col-sm-12 {
+    margin-top: 0px;
+  }
+
+  .use-cases button {
+    margin: 40px 0;
+  }
+
+  .use-cases h6 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .use-cases p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
 .in-action h4 {
   font-weight: 800;
   font-size: 48px;
@@ -198,6 +315,17 @@
 .in-action .row {
   margin-bottom: 60px;
 }
+
+@media (max-width: 576px) {
+  .in-action .first-row {
+    flex-direction: column-reverse;
+  }
+
+  .in-action img {
+    margin-top: 50px;
+  }
+}
+
 
 .testimonials {
   padding: 80px 0;
@@ -262,10 +390,14 @@
 }
 
 .partners h4 {
-  margin-bottom: 64px;
+  margin-bottom: 20px;
   font-weight: 900;
   font-size: 48px;
   line-height: 66px;
+}
+
+.partners img {
+  margin-top: 40px;
 }
 
 .partners .hcl {
@@ -297,4 +429,10 @@
 .cta-section button {
   margin-top: 24px;
   padding: 14px 64px;
+}
+
+@media (max-width: 576px) {
+  .cta-section img {
+    margin-top: 50px;
+  }
 }
