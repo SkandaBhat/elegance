@@ -9642,3 +9642,9 @@ table-danger,
 .navbar-brand > a {
   color: #333;
 }
+
+@media (max-width: 576px) {
+  button {
+    width: 100%;
+  }
+}

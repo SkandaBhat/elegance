@@ -84,25 +84,5 @@ get_header(); ?>
     </div>
     <!-- <img class="img green-semi" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" /> -->
   </section>
-
-  <section class="use-cases position-relative overflow-hidden grey">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-12">
-          <h4 class="text-primary">Results</h4>
-          <p><?php the_field( 'results' ); ?></p>
-          <?php $results_list_checked_values = get_field( 'results_list' ); ?>
-          <?php if ( $results_list_checked_values ) : ?>
-            <ul>
-              <?php foreach ( $results_list_checked_values as $results_list_value ): ?>
-                <li><?php echo esc_html( $results_list_value ); ?></li>
-              <?php endforeach; ?>
-            </ul>
-          <?php endif; ?>
-        </div>
-      </div>
-    </div>
-    <!-- <img class="img green-circle-3" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" /> -->
-  </section>
 <?php
 get_footer();

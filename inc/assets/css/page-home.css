@@ -8,10 +8,10 @@
 
 .heading h1 {
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 70px;
   line-height: 100px;
-  color: rgba(26, 25, 25, 0.78);
+  color: #121212;
 }
 
 .subheading {
@@ -56,8 +56,12 @@
 }
 
 @media (max-width: 576px) {
+  .heading {
+    max-width: 330px;
+  }
+
   .heading h1 {
-    font-weight: 800;
+    font-weight: 600;
     font-size: 40px;
     line-height: 48px;
   }
@@ -80,8 +84,8 @@
     position: absolute;
     z-index: -1;
     width: 30px;
-    top: 30%;
-    right: 20%;
+    top: 18%;
+    right: 9%;
   }
 }
 
@@ -91,17 +95,23 @@
 
 .main-card {
   content: "";
-  width: 400px;
+  width: 340px;
   padding: 20px;
   border-radius: 0;
   background-color: grey;
   padding: 80px 20px 20px;
   color: #ffffff;
   box-shadow: 0px 5.92625px 17.7788px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.main-card:hover {
+  transform: translateY(-10px);
 }
 
 .main-card h2 {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 36px;
   line-height: 36px;
   letter-spacing: 0.01em;
@@ -137,10 +147,11 @@
 @media (max-width: 576px) {
   .main-card {
     margin-top: 30px;
+    width: 100%;
   }
 
   .main-card h2 {
-    font-weight: 800;
+    font-weight: 600;
     font-size: 32px;
     line-height: 40px;
   }
@@ -153,18 +164,24 @@
   }
 }
 
+@media (min-width: 1281px) {
+  .main-card {
+    width: 400px;
+  }
+}
+
 .hyper-apps {
   padding: 100px 0px;
 }
 
 .hyper-apps h2 {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 48px;
   line-height: 66px;
 }
 
 .hyper-apps h4 {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 24px;
   line-height: 32px;
 }
@@ -185,10 +202,11 @@
     font-size: 40px;
     line-height: 48px;
     margin-bottom: 12px;
+    max-width: 310px;
   }
 
   .hyper-apps h4 {
-    font-weight: 800;
+    font-weight: 600;
     font-size: 20px;
     line-height: 24px;
   }
@@ -211,14 +229,14 @@
 }
 
 .use-cases h4 {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 48px;
   line-height: 66px;
 }
 
 .use-cases h6 {
   margin-top: 36px;
-  font-weight: 900;
+  font-weight: 600;
   font-size: 24px;
   line-height: 32px;
 }
@@ -272,7 +290,7 @@
   }
 
   .use-cases h6 {
-    font-weight: 900;
+    font-weight: 600;
     font-size: 20px;
     line-height: 32px;
   }
@@ -291,7 +309,7 @@
 
 .partners h4 {
   margin-bottom: 20px;
-  font-weight: 900;
+  font-weight: 600;
   font-size: 48px;
   line-height: 66px;
 }
@@ -330,7 +348,7 @@
 }
 
 .case-studies h4 {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 48px;
   line-height: 66px;
   margin-bottom: 64px;
@@ -338,7 +356,7 @@
 
 .case-studies h6 {
   margin-top: 40px;
-  font-weight: 900;
+  font-weight: 600;
   font-size: 24px;
   line-height: 32px;
 }
@@ -379,7 +397,7 @@
   }
 
   .case-studies h4 {
-    font-weight: 800;
+    font-weight: 600;
     font-size: 40px;
     line-height: 48px;
     margin-bottom: 20px;
@@ -387,7 +405,7 @@
 
   .case-studies h6 {
     margin-top: 40px;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 20px;
     line-height: 24px;
   }

@@ -8,7 +8,7 @@
 
 .heading h1 {
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 70px;
   line-height: 100px;
 }
@@ -44,7 +44,7 @@
 
 .welcome h4 {
   margin-bottom: 40px;
-  font-weight: 900;
+  font-weight: 600;
   font-size: 48px;
   line-height: 66px;
 }
@@ -54,7 +54,7 @@
 }
 
 .vision h6 {
-  font-weight: 900;
+  font-weight: 600;
   font-size: 48px;
   line-height: 66px;
 }
@@ -71,17 +71,18 @@
 }
 
 .team h4 {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 48px;
   line-height: 66px;
 }
 
 .investors {
+  border-top: 1px solid #efefef;
   padding: 80px 0 100px;
 }
 
 .investors h4 {
-  font-weight: 900;
+  font-weight: 600;
   font-size: 48px;
   line-height: 66px;
 }
@@ -99,7 +100,7 @@
 }
 
 .metrics h4 {
-  font-weight: 900;
+  font-weight: 600;
   font-size: 48px;
   line-height: 66px;
 }
@@ -140,7 +141,7 @@
 }
 
 .cta-section h5 {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 48px;
   line-height: 66px;
 }
@@ -155,4 +156,10 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
+}
+
+.features {
+  margin-top: 40px;
+  padding: 100px 67px;
+  color: white;
 }

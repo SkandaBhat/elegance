@@ -9,7 +9,6 @@
 .heading {
   color: #fff;
   padding: 40px 0;
-  width: 1016px;
 }
 
 .heading h1 {
@@ -200,7 +199,7 @@
 }
 
 .stat {
-  margin-top: 150px;
+  margin-top: 60px;
 }
 
 .title {
@@ -214,4 +213,10 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 780px;
+  }
 }
