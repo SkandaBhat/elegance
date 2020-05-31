@@ -1,5 +1,5 @@
 .hero {
-  padding: 80px 0;
+  padding: 64px 0;
 }
 
 .heading {
@@ -70,7 +70,7 @@
 }
 
 .transform {
-  padding: 76px 0px 67px;
+  padding: 64px 0px;
 }
 
 .transform h4 {
@@ -111,19 +111,18 @@
 }
 
 .features {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 64px;
 }
 
 .features h4 {
   font-weight: 600;
   font-size: 48px;
   line-height: 66px;
+  margin-bottom: 64px;
 }
 
 .features .feature-card {
-  margin-top: 40px;
-  padding: 100px 67px;
+  padding: 64px;
 }
 
 .features .text1 {
@@ -188,8 +187,8 @@
   }
 
   .features .feature-card {
-    margin-top: 40px;
-    padding: 100px 20px;
+    margin-top: 0;
+    padding: 64px 20px;
   }
 
   .features .feature-card img {
@@ -216,8 +215,7 @@
 }
 
 .use-cases {
-  padding-top: 60px;
-  padding-bottom: 50px;
+  padding: 64px 0;
 }
 
 .use-cases h4 {
@@ -254,7 +252,7 @@
 
 @media (max-width: 576px) {
   .use-cases {
-    padding-top: 100px;
+    padding-top: 64px;
   }
 
   .use-cases .green-circle-use-cases {
@@ -296,7 +294,7 @@
   font-weight: 600;
   font-size: 48px;
   line-height: 66px;
-  margin: 60px 0;
+  margin: 64px 0;
 }
 
 .in-action h6 {
@@ -327,14 +325,14 @@
 }
 
 .testimonials {
-  padding: 80px 0;
+  padding: 64px 0;
 }
 
 .testimonials h4 {
   font-weight: 600;
   font-size: 48px;
   line-height: 66px;
-  margin-bottom: 60px;
+  margin-bottom: 64px;
 }
 
 /* .product-testimonials .testimonial {
@@ -345,6 +343,10 @@
 
 .product-testimonials .testimonial:focus {
   outline: none;
+}
+
+.product-testimonials .wrapper {
+  height: 300px;
 }
 
 .product-testimonials .upper-part {
@@ -389,9 +391,14 @@
   color: #868686;
 }
 
+@media (max-width: 576px) {
+  .product-testimonials .wrapper {
+    height: auto;
+  }
+}
+
 .partners {
-  padding-top: 32px;
-  padding-bottom: 64px;
+  padding: 64px;
 }
 
 .partners h4 {
@@ -422,7 +429,7 @@
 }
 
 .cta-section {
-  padding: 80px 0;
+  padding: 64px 0;
 }
 
 .cta-section h5 {

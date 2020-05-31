@@ -1,5 +1,5 @@
 .hero {
-  padding: 80px 0;
+  padding: 64px 0;
 }
 
 .heading {
@@ -171,7 +171,7 @@
 }
 
 .hyper-apps {
-  padding: 100px 0px;
+  padding: 64px 0px;
 }
 
 .hyper-apps h2 {
@@ -224,8 +224,7 @@
 }
 
 .use-cases {
-  padding-top: 60px;
-  padding-bottom: 50px;
+  padding: 64px 0;
 }
 
 .use-cases h4 {
@@ -303,8 +302,7 @@
 }
 
 .partners {
-  padding-top: 32px;
-  padding-bottom: 64px;
+  padding: 64px 0; 
 }
 
 .partners h4 {
@@ -331,11 +329,11 @@
 }
 
 .partners .deloitte {
-  width: 112px;
+  width: 125px;
 }
 
 .case-studies {
-  padding: 100px 0;
+  padding: 64px 0;
 }
 
 .grey {
@@ -344,7 +342,7 @@
 }
 
 .case-first {
-  padding-top: 60px;
+  padding-top: 64px;
 }
 
 .case-studies h4 {
@@ -404,7 +402,6 @@
   }
 
   .case-studies h6 {
-    margin-top: 40px;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -446,8 +443,7 @@
 }
 
 .blog-list {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 64px; 
 }
 
 .blog-list .category {
@@ -465,5 +461,9 @@
 @media (max-width: 576px) {
   .blog-list .col-sm-12 {
     margin-bottom: 50px;
+  }
+
+  .blog-list .col-sm-12:last-child {
+    margin-bottom: 0;
   }
 }

@@ -123,10 +123,12 @@ get_header(); ?>
     <h4 class="text-center text-primary">Clients Speak</h4>
     <div class="product-testimonials">
       <div class="testimonial">
-        <div class="upper-part position-relative">
-          JIFFY.ai has the ability to process complex PDFs, work with legacy systems, comply with our software security needs, and
-          are a good partner.
-          <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
+        <div class="wrapper">
+          <div class="upper-part position-relative">
+            JIFFY.ai has the ability to process complex PDFs, work with legacy systems, comply with our software security needs, and
+            are a good partner.
+            <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
+          </div>
         </div>
         <div class="lower-part text-center">
           <p class="title">Tamra Butler, RPA Manager</p>
@@ -134,9 +136,11 @@ get_header(); ?>
         </div>
       </div>
       <div class="testimonial">
-        <div class="upper-part position-relative">
-          JIFFY.ai really helped us take away heavy year-end workload and let us focus on year closing activity
-          <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
+        <div class="wrapper">
+          <div class="upper-part position-relative">
+            JIFFY.ai really helped us take away heavy year-end workload and let us focus on year closing activity
+            <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
+          </div>
         </div>
         <div class="lower-part text-center">
           <p class="title">Mah Johnson</p>
@@ -144,12 +148,14 @@ get_header(); ?>
         </div>
       </div>
       <div class="testimonial">
-        <div class="upper-part position-relative">
-          (The JIFFY.ai team) went above and beyond to turn (our) automation around in such a short time.
-          On behalf of [our company], we are very grateful for your heroic efforts. You are helping us to make our JIFFY.ai
-          Automate program a success and help us deliver value to our customers. This is especially critical for us at this
-          uncertain (COVID) time.
-          <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
+        <div class="wrapper">
+          <div class="upper-part position-relative">
+            (The JIFFY.ai team) went above and beyond to turn (our) automation around in such a short time.
+            On behalf of [our company], we are very grateful for your heroic efforts. You are helping us to make our JIFFY.ai
+            Automate program a success and help us deliver value to our customers. This is especially critical for us at this
+            uncertain (COVID) time.
+            <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
+          </div>
         </div>
         <div class="lower-part text-center">
           <p class="title">RPA Manager</p>
@@ -157,10 +163,12 @@ get_header(); ?>
         </div>
       </div>
       <div class="testimonial">
-        <div class="upper-part position-relative">
-          Thank you for all your heroic efforts over the last few months. We have together made a ton of progress! We thank you
-          for your dedication, hard work, long hours, and partnership in this RPA journey!
-          <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
+        <div class="wrapper">
+          <div class="upper-part position-relative">
+            Thank you for all your heroic efforts over the last few months. We have together made a ton of progress! We thank you
+            for your dedication, hard work, long hours, and partnership in this RPA journey!
+            <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
+          </div>
         </div>
         <div class="lower-part text-center">
           <p class="title">Managing Director, Business Transformation</p>
