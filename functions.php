@@ -215,6 +215,7 @@ function wp_bootstrap_starter_scripts() {
 
   if (is_page ( 'home' ) ) {
     wp_enqueue_style( 'page_home', get_template_directory_uri() . '/inc/assets/css/page-home.css' );
+    wp_enqueue_style( 'slick-css', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css' );
   }
 
   if (is_page ( 'automate' ) || is_page ( 'assure' ) || is_page ( 'innovate' ) || is_page('invoice-processing') ) {

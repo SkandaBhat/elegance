@@ -127,55 +127,53 @@ get_header(); ?>
   <section class="case-studies case-first position-relative overflow-hidden">
     <div class="container">
       <h4 class="text-center text-primary">Case Studies</h4>
-      <div class="row justify-content-between align-items-center">
-        <div class="col-sm-12 col-md-3">
-          <h6>Automating Employee Onboarding for a Global Professional Services Firm</h6>
-          <p>Our client wanted to automate their new hire onboarding process to ensure a smooth first experience for their new hires, as well as make their HR teams more efficient. JIFFY.ai automated 80% of their onboarding activities, making the process fast and frictionless.</p>
-          <a href="/automating-employee-onboarding-for-a-global-professional-services-firm/"><button class="btn-outline-primary">READ MORE</button></a>
+      <div class="case-studies-slider">
+        <div>
+          <div class="row justify-content-between align-items-center">
+            <div class="col-sm-12 col-md-3">
+              <h6>Automating Employee Onboarding for a Global Professional Services Firm</h6>
+              <p>Our client wanted to automate their new hire onboarding process to ensure a smooth first experience for their new hires, as well as make their HR teams more efficient. JIFFY.ai automated 80% of their onboarding activities, making the process fast and frictionless.</p>
+              <a href="/automating-employee-onboarding-for-a-global-professional-services-firm/"><button class="btn-outline-primary">READ MORE</button></a>
+            </div>
+            <div class="col-sm-12 col-md-8 position-relative">
+              <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/case_studies.png" />
+              <img class="img white-squares" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_white_squares.png" />
+            </div>
+          </div>
         </div>
-        <div class="col-sm-12 col-md-8 position-relative">
-          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/case_studies.png" />
-          <img class="img white-squares" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_white_squares.png" />
+        <div>
+          <div class="row justify-content-between align-items-center">
+            <div class="col-sm-12 col-md-3">
+              <h6>Automating Cancellation & Refund Queue Requests for a Leading American Airline</h6>
+              <p>With global restrictions on travel due to the Covid-19 pandemic, our client faced an overload of requests for flight cancellations, rescheduling, and refunds. JIFFY.ai stepped in and automated the cancellation and refund queue process, clearing thousands of requests in less than a week.</p>
+              <a href="/automating-employee-onboarding-for-a-global-professional-services-firm/"><button class="btn-outline-primary">READ MORE</button></a>
+            </div>
+            <div class="col-sm-12 col-md-8 position-relative">
+              <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/case_studies.png" />
+              <img class="img white-squares" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_white_squares.png" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row justify-content-between align-items-center">
+            <div class="col-sm-12 col-md-3">
+              <h6>Cognitive Invoice Processing for an Automobile Manufacturer</h6>
+              <p>Our client wanted to automate their finance and accounting process. JIFFY.ai deployed a cognitive, self-learning RPA which was used to process structured and unstructured data, something that rule-based RPA platforms were unable to do. Turnaround time for invoice processing improved by 85%.</p>
+              <a href="/automating-employee-onboarding-for-a-global-professional-services-firm/"><button class="btn-outline-primary">READ MORE</button></a>
+            </div>
+            <div class="col-sm-12 col-md-8 position-relative">
+              <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/case_studies.png" />
+              <img class="img white-squares" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_white_squares.png" />
+            </div>
+          </div>
+
         </div>
       </div>
+
     </div>
     <img class="img green-semi" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" />
   </section>
 
-  <section class="case-studies case-second bg-light">
-    <div class="container">
-      <div class="row justify-content-between align-items-center">
-        <div class="col-sm-12 col-md-8 position-relative">
-          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/case_studies.png" />
-          <img class="img white-squares" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_white_squares.png" />
-        </div>
-        <div class="col-sm-12 col-md-3">
-          <h6>Automating Cancellation & Refund Queue Requests for a Leading American Airline</h6>
-          <p>With global restrictions on travel due to the Covid-19 pandemic, our client faced an overload of requests for flight cancellations, rescheduling, and refunds. JIFFY.ai stepped in and automated the cancellation and refund queue process, clearing thousands of requests in less than a week.</p>
-          <a href="/automating-employee-onboarding-for-a-global-professional-services-firm/"><button class="btn-outline-primary">READ MORE</button></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-    <section class="case-studies position-relative overflow-hidden">
-    <div class="container">
-      <div class="row justify-content-between align-items-center">
-        <div class="col-sm-12 col-md-3">
-          <h6>Cognitive Invoice Processing for an Automobile Manufacturer</h6>
-          <p>Our client wanted to automate their finance and accounting process. JIFFY.ai deployed a cognitive, self-learning RPA which was used to process structured and unstructured data, something that rule-based RPA platforms were unable to do. Turnaround time for invoice processing improved by 85%.</p>
-          <a href="/automating-employee-onboarding-for-a-global-professional-services-firm/"><button class="btn-outline-primary">READ MORE</button></a>
-        </div>
-        <div class="col-sm-12 col-md-8 position-relative">
-          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/case_studies.png" />
-          <img class="img white-squares" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_white_squares.png" />
-        </div>
-      </div>
-    </div>
-    <!-- <img class="img green-semi" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" /> -->
-    <img class="img green-circle-2" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" />
-
-  </section>
 
 
   <section class="blog-list bg-light">
@@ -208,6 +206,24 @@ get_header(); ?>
       </div>
     </div>
   </section>
+
+    <!-- LOAD THE SLICK SLIDER -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+      jQuery(document).ready(function () {
+        jQuery('.case-studies-slider').slick({
+          pauseOnHover: true,
+          arrows: false,
+          // autoplay: true,
+          dots: true,
+          // slidesToShow: 1,
+          // adaptiveHeight: true,
+          speed: 800,
+          // autoplaySpeed: 3000,
+          centerPadding: '40px',
+      });
+    });
+  </script>
 
 
 <?php

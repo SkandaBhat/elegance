@@ -1,5 +1,5 @@
 .hero {
-  padding: 64px 0;
+  padding: 162px 0 64px 0;
 }
 
 .heading {
@@ -222,7 +222,8 @@
     display: none;
   }
 
-  .green-circle-features, .green-cirlce-how {
+  .green-circle-features,
+  .green-cirlce-how {
     display: none;
   }
 }
@@ -238,7 +239,7 @@
 }
 
 .use-cases h6 {
-  margin-top: 36px;
+  margin-top: 26px;
 }
 
 .use-cases p {
@@ -246,7 +247,7 @@
 }
 
 .use-cases button {
-  margin-top: 60px;
+  margin-top: 20px;
   padding: 14px 60px;
 }
 

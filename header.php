@@ -23,7 +23,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wp-bootstrap-starter' ); ?></a>
     <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
-	<header id="masthead" class="site-header navbar-static-top <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
+	<header id="masthead" class="site-header navbar-static-top fixed-top <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
         <div class="container header">
             <nav class="navbar navbar-expand-xl p-0">
                 <div class="navbar-brand">
@@ -47,7 +47,7 @@
                   'theme_location'    => 'primary',
                   'container'       => 'div',
                   'container_id'    => 'main-nav',
-                  'container_class' => 'collapse navbar-collapse justify-content-end',
+                  'container_class' => 'collapse navbar-collapse',
                   'menu_id'         => false,
                   'menu_class'      => 'navbar-nav',
                   'depth'           => 3,
@@ -55,6 +55,14 @@
                   'walker'          => new wp_bootstrap_navwalker()
                   ));
                   ?>
+
+                  <div id="main-nav" class="navbar-collapse justify-content-end collapse" style="">
+                    <ul id="menu-products" class="navbar-nav">
+                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150 nav-item"><a title="HyperApps" href="http://159.89.140.235/invoice-processing/" class="nav-link">Company</a></li>
+                        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-153 nav-item"><a title="Company" href="http://159.89.140.235/company/" class="nav-link">Support</a></li>
+                        <li><button class="request-demo btn-primary primary-cta">REQUEST DEMO</button></li>
+                    </ul>
+                  </div>
 
                 </div>
 

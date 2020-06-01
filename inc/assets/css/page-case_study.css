@@ -11,7 +11,7 @@
 }
 
 .hero {
-  padding-bottom: 90px;
+  padding: 162px 0 90px 0;
 }
 
 .heading {
@@ -193,6 +193,7 @@
 
 .banner-section {
   height: 100%;
+  padding: 162px 0 90px 0;
 }
 
 .banner-section img {

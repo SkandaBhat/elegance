@@ -26,6 +26,21 @@
 <?php endif; ?>
 </div><!-- #page -->
 
+        <script>
+          jQuery(document).ready(function () {
+            jQuery(document).on("scroll", function(){
+              if
+                (jQuery(document).scrollTop() > 86){
+                jQuery("#masthead").addClass("border-shadow");
+              }
+              else
+              {
+                jQuery("#masthead").removeClass("border-shadow");
+              }
+            });
+          });
+        </script>
+
 <?php wp_footer(); ?>
 </body>
 </html>
