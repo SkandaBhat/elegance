@@ -470,6 +470,14 @@
   outline: none !important;
 }
 
+.slick-slide {
+  margin: 0 20px;
+}
+
+.slick-list {
+  margin: 0 -20px;
+}
+
 .slick-dotted.slick-slider {
   margin-bottom: 30px;
 }

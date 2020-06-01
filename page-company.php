@@ -59,8 +59,120 @@ get_header(); ?>
   <section class="team bg-light">
     <div class="container">
       <h4 class="text-primary text-center">Team</h4>
+      <div class="row justify-content-between">
+        <div class="col-sm-12 col-md-7 text-center">
+          <div class="row justify-content-between align-items-center">
+
+            <div data-id="1" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+            <div data-id="2" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+            <div data-id="3" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+            <div data-id="4" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+            <div data-id="5" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+
+            <div class="d-none d-md-block w-100"></div>
+
+            <div data-id="6" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+            <div data-id="7" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+            <div data-id="8" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+            <div data-id="9" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+            <div data-id="10" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+
+            <div class="d-none d-md-block w-100"></div>
+
+            <div data-id="11" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+            <div data-id="12" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+            <div data-id="13" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+            <div data-id="14" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+            <div data-id="15" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+
+            <div class="d-none d-md-block w-100"></div>
+
+            <div data-id="16" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+            <div data-id="17" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+            <div data-id="18" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+            <div data-id="19" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+            <div data-id="20" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+
+            <div class="d-none d-md-block w-100"></div>
+
+             <div data-id="21" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+            <div data-id="22" class="team-member col-sm-6 col-md-2">
+              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+            </div>
+
+            <div class="d-none d-md-block col-md-2"></div>
+            <div class="d-none d-md-block col-md-2"></div>
+            <div class="d-none d-md-block col-md-2"></div>
+          </div>
+        </div>
+        <div class="d-none d-md-block col-md-4">
+          <div class="team-bio">
+            <div class="title"></div>
+            <p class="bio"></p>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </section>
+
+  <div class="modal" tabindex="-1" role="dialog" id="team-mobile">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close text-right" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="team-modal">
+            <div class="title"></div>
+            <p class="bio"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
    <section class="vision">
     <div class="container">
@@ -144,6 +256,49 @@ get_header(); ?>
         </div>
       </div>
     </div>
+  </section>
+
+  <script>
+    jQuery(document).ready(function () {
+
+      var teamData = null
+      var currentMemberId = 1
+
+      jQuery.getJSON("<?php echo get_template_directory_uri(); ?>/team.json", function( data ) {
+       teamData = data
+       replaceTeamText(currentMemberId)
+      })
+
+      var replaceTeamText = function(memberId) {
+        var memberBio = teamData[memberId]
+        jQuery( ".team-bio > .title" ).text(memberBio.title)
+        jQuery( ".team-bio > .bio" ).html(memberBio.bio)
+        jQuery (".team-member[data-id=" + currentMemberId+ "]").removeClass("active")
+        currentMemberId = memberId
+        jQuery (".team-member[data-id=" + currentMemberId+ "]").addClass("active")
+      }
+
+      jQuery('.team-member[data-id]').hover(function() {
+        var memberId = jQuery(this).attr('data-id')
+          if (currentMemberId !== memberId) {
+            replaceTeamText(memberId)
+          }
+      });
+
+      jQuery('.team-member[data-id]').click(function(e) {
+        if (window.innerWidth < 768) {
+          var memberId = jQuery(this).attr('data-id')
+          var memberBio = teamData[memberId]
+          jQuery( "#team-mobile .title" ).text(memberBio.title)
+          jQuery( "#team-mobile .bio" ).html(memberBio.bio)
+          jQuery( "#team-mobile").modal('show')
+        } else {
+          e.preventDefault()
+        }
+      })
+    });
+  </script>
+
 
 
 

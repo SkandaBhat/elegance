@@ -75,6 +75,32 @@
   line-height: 66px;
 }
 
+.team .team-member {
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.team .team-member.active img{
+  border: 3px solid #508d53;
+}
+
+.team-bio {
+  margin-top: 40px;
+}
+
+.team-bio .title, .team-modal .title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.team-bio .bio, .team-modal .bio{
+  margin-top: 28px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
 .investors {
   border-top: 1px solid #efefef;
   padding: 80px 0 100px;

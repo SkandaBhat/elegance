@@ -214,12 +214,12 @@ get_header(); ?>
         jQuery('.case-studies-slider').slick({
           pauseOnHover: true,
           arrows: false,
-          // autoplay: true,
+          autoplay: true,
           dots: true,
           // slidesToShow: 1,
           // adaptiveHeight: true,
           speed: 800,
-          // autoplaySpeed: 3000,
+          autoplaySpeed: 3000,
           centerPadding: '40px',
       });
     });
