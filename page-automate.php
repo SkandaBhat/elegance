@@ -38,7 +38,7 @@ get_header(); ?>
           <h4>Transform your business processes</h4>
           <p>JIFFY.ai Automate is the only application platform that lets you implement, manage and monitor enterprise-wide automation, so you can deliver on the promise of business transformation.
           <br/> <br/>
-          JIFFY.ai Automat's single dashboard combines the power of RPA, ML, AI, document processing, workflow and analytics, to support the end-to-end lifecycle management of automation so you can actually achieve significant ROI.</p>
+          JIFFY.ai Automate's single dashboard combines the power of RPA, ML, AI, document processing, workflow and analytics, to support the end-to-end lifecycle management of automation so you can actually achieve significant ROI.</p>
         </div>
       </div>
     </div>
@@ -58,17 +58,17 @@ get_header(); ?>
               <h6>Intelligent document processing</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
             </div>
-            <p>The only hybrid document processing engine with self learning machine models that can handle structured, semi-structured and unstructured documents without the need to create machine models from scratch</p>
+            <p>The only hybrid document processing engine with self learning machine models that can handle structured, semi-structured and unstructured documents without the need to create machine models from scratch.</p>
           </div>
           <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_light_ochre_square.png" />
         </div>
         <div class="row bg-secondary feature-card align-items-center justify-content-between">
           <div class="col-sm-12 col-md-5 text2">
             <div class="position-relative">
-              <h6>ML based automation, simplifiedy</h6>
+              <h6>ML based automation, simplified</h6>
               <img class="img pointer-green" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_green.png" />
             </div>
-            <p>A native machine learning workspace that helps both non data science and data science professionals with building and leveraging ML models - truly democratizing machine learning based automation</p>
+            <p>A native machine learning workspace that helps both non data science and data science professionals with building and leveraging ML models - truly democratizing machine learning based automation.</p>
           </div>
           <div class="col-sm-12 col-md-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />

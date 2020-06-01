@@ -14,7 +14,6 @@
   font-style: normal;
   font-weight: 600;
   font-size: 70px;
-  line-height: 100px;
 }
 
 .subheading {
@@ -49,6 +48,9 @@
 }
 
 @media (max-width: 576px) {
+  .impossible-width br {
+    display: none;
+  }
   .heading h1 {
     font-weight: 600;
     font-size: 40px;

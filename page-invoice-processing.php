@@ -14,7 +14,7 @@ get_header(); ?>
                 <h1>High-speed Invoice Processing</h1>
               </div>
               <div class="subheading">
-                <h3>Hyperautomate invoice processing for effortless cash flow management </h3>
+                <h3>Hyperautomate for effortless cash flow management.</h3>
                 <p>JIFFY.ai’s Invoice Processing Hyper App is the only comprehensive solution that addresses all the gaps in your invoice processing workflow</p>
               </div>
               <button class="btn-primary primary-cta">REQUEST DEMO</button>
@@ -58,7 +58,7 @@ get_header(); ?>
               <h6>Intelligent Invoice Processing</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
             </div>
-            <p>The only hybrid invoice processing engine with self learning machine models that captures invoices through OCR and supplier portals, eliminating the need for manual data entry. It handles new vendors and new UI formats with ease</p>
+            <p>The only hybrid invoice processing engine with self learning machine models that captures invoices through OCR and supplier portals, eliminating the need for manual data entry. It handles new vendors and new UI formats with ease.</p>
           </div>
           <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_light_ochre_square.png" />
         </div>
@@ -104,13 +104,13 @@ get_header(); ?>
         </div>
         <div class="col-sm-12 col-md-4">
           <h6>Powerful data analytics</h6>
-          <p>Our Hyper App generates analytics that provide complete visibility into the invoicing process as well as automation success metrics</p>
+          <p>Our Hyper App generates analytics that provide visibility into the invoicing process as well as automation success metrics.</p>
         </div>
       </div>
       <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-4">
-          <h6>Adaptable and ready-to-deploy</h6>
-          <p>Seamless integration with existing ERP and accounting systems to complete the invoice and payment lifecycle</p>
+          <h6>Ready-To-Deploy</h6>
+          <p>Seamless integration with existing ERP and accounting systems to complete the invoice and payment lifecycle.</p>
         </div>
         <div class="col-sm-12 col-md-6">
           <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />

@@ -627,11 +627,17 @@ pre code {
   .container {
     max-width: 540px;
   }
+  .header {
+    max-width: 540px !important;
+  }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
+  }
+  .header {
+    max-width: 720px !important;
   }
 }
 
@@ -639,17 +645,26 @@ pre code {
   .container {
     max-width: 960px;
   }
+  .header {
+    max-width: 960px !important;
+  }
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
+  .header {
+    max-width: 1140px !important;
+  }
 }
 
 @media (min-width: 1330px) {
   .container {
     max-width: 1310px;
+  }
+  .header {
+    max-width: 1310px !important;
   }
 }
 

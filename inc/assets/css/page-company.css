@@ -10,7 +10,6 @@
   font-style: normal;
   font-weight: 600;
   font-size: 70px;
-  line-height: 100px;
 }
 
 .subheading {
@@ -162,4 +161,10 @@
   margin-top: 40px;
   padding: 100px 67px;
   color: white;
+}
+
+@media (max-width: 576px) {
+  .tomorrows-width br {
+    display: none;
+  }
 }

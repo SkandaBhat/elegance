@@ -10,7 +10,6 @@
   font-style: normal;
   font-weight: 600;
   font-size: 70px;
-  line-height: 100px;
   color: #121212;
 }
 
@@ -302,7 +301,7 @@
 }
 
 .partners {
-  padding: 64px 0; 
+  padding: 64px 0;
 }
 
 .partners h4 {
@@ -443,7 +442,7 @@
 }
 
 .blog-list {
-  padding: 64px; 
+  padding: 64px;
 }
 
 .blog-list .category {

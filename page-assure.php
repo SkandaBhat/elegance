@@ -159,13 +159,13 @@ get_header(); ?>
           <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
         </div>
         <div class="col-sm-12 col-md-4">
-          <h6>Package solution ready</h6>
+          <h6>Solution ready package</h6>
           <p>With JIFFY.ai Assure’s domain ready test bots – be it retail, banking or manufacturing – you can leverage our pre-built automation components across standard enterprise applications including SAP, SFDC, IBM and more.</p>
         </div>
       </div>
       <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-4">
-          <h6>Smart test data management</h6>
+          <h6>Smart data management</h6>
           <p>Our cognitive data platform chooses the right test data for you. No more test data creation hassles. Your test cycles get faster with automatic data selection.</p>
         </div>
         <div class="col-sm-12 col-md-6">

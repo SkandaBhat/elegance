@@ -10,8 +10,8 @@ get_header(); ?>
         <main id="main" class="site-main" role="main">
           <article>
             <div>
-              <div class="heading">
-                <h1>Tomorrow’s Automation,<br/>Today</h1>
+              <div class="heading tomorrows-width">
+                <h1>Tomorrow's<br/> Automation, Today</h1>
               </div>
               <div class="subheading">
                 <p>At JIFFY.ai, we see automation through a new lens. A lens of possibilities. A lens of innovation. A lens of speed. A lens of ease. While never losing sight of the need for the human touch.
@@ -49,7 +49,7 @@ get_header(); ?>
           <h6 class="text-primary">Vision</h6>
           <p>We are a team of people here to disrupt tomorrow. We have set out to transform how innovation happens, for a better future.
             <br/><br/>
-            We think faster, create faster, automate faster, and innovate faster. To achieve tomorrow’s possibilities, today.
+            We think, create, automate and innovate faster to achieve tomorrow's possibilities today.
           </p>
         </div>
       </div>
@@ -71,7 +71,7 @@ get_header(); ?>
         <div class="col-sm-12 col-md-6">
           <h6 class="text-primary">Responsible Innovation</h6>
           <p>At JIFFY.ai, we believe in the power of advancing computing and automation, while being conscious of the social impact of such disruptive technology. The Paanini Foundation was created to help support the displacement of human resources caused by automation.<br/><br/> The Paanini Foundation partners with our clients to help them manage the potential workforce disruption caused by the automation we bring in via upskilling initiatives that prepare the workforce for new age jobs.
-            
+
         </div>
       </div>
     </div>
@@ -145,7 +145,7 @@ get_header(); ?>
       </div>
     </div>
 
- 
+
 
 <?php
 get_footer();

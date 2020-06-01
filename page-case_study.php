@@ -4,8 +4,8 @@
  */
 
 get_header(); ?>
-
-  <div class="position-relative banner-section" style="background-image: url(<?php the_field( 'banner' ); ?>)">
+<div class="case-study-section">
+  <div class="position-relative banner-section" style="background: linear-gradient(rgba(80, 141, 83, 0.3), rgba(80, 141, 83, 0.3)), url(<?php the_field( 'banner' ); ?>)">
     <!-- <?php if ( get_field( 'banner' ) ) : ?>
       <img src="<?php the_field( 'banner' ); ?>" />
     <?php endif ?> -->
@@ -33,6 +33,8 @@ get_header(); ?>
         </div>
       </div>
     </div>
+    <img class="img green-circle-3" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" />
+
     <!-- <img class="img green-circle-3" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" /> -->
   </section>
 
@@ -70,6 +72,8 @@ get_header(); ?>
         </div>
       </div>
     </div>
+    <!-- <img class="img green-circle-2" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" /> -->
+    <img class="img green-circle-features" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" />
     <!-- <img class="img green-semi" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" /> -->
   </section>
 
@@ -92,5 +96,6 @@ get_header(); ?>
     </div>
     <!-- <img class="img green-circle-3" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" /> -->
   </section>
+  </div>
 <?php
 get_footer();

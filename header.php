@@ -24,7 +24,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wp-bootstrap-starter' ); ?></a>
     <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
 	<header id="masthead" class="site-header navbar-static-top <?php echo wp_bootstrap_starter_bg_class(); ?>" role="banner">
-        <div class="container">
+        <div class="container header">
             <nav class="navbar navbar-expand-xl p-0">
                 <div class="navbar-brand">
                     <?php if ( get_theme_mod( 'wp_bootstrap_starter_logo' ) ): ?>
@@ -68,7 +68,7 @@
 	</header><!-- #masthead -->
     <?php if(is_front_page() && !get_theme_mod( 'header_banner_visibility' )): ?>
         <div id="page-sub-header" <?php if(has_header_image()) { ?>style="background-image: url('<?php header_image(); ?>');" <?php } ?>>
-            <div class="container">
+            <div class="container header">
                 <h1>
                     <?php
                     if(get_theme_mod( 'header_banner_title_setting' )){

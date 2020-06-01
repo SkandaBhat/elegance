@@ -10,8 +10,8 @@ get_header(); ?>
         <main id="main" class="site-main" role="main">
           <article>
             <div>
-              <div class="heading">
-                <h1>Develop The Impossible</h1>
+              <div class="heading impossible-width">
+                <h1>Develop<br />The Impossible</h1>
               </div>
               <div class="subheading">
                 <h3>Software development, faster than you think</h3>
@@ -55,10 +55,10 @@ get_header(); ?>
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">
-              <h6>Communicate in your natural language</h6>
+              <h6>Talk in your natural language</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
             </div>
-            <p>Tell JIFFY.ai Innovate what you need by speaking to it, chatting with it, or submitting a document. Natural Language Processing ensures your requirement is converted accurately into JIFFY.ai’s proprietary Intermediate Language</p>
+            <p>Tell JIFFY.ai Innovate what you need by speaking to it, chatting with it, or submitting a document. Natural Language Processing ensures your requirement is converted accurately into JIFFY.ai’s proprietary Intermediate Language.</p>
           </div>
           <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_light_ochre_square.png" />
         </div>
@@ -68,7 +68,7 @@ get_header(); ?>
               <h6>Let the platform do the work</h6>
               <img class="img pointer-green" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_green.png" />
             </div>
-            <p>JIFFY.ai Innovate uses the inputs to generate the required code, ensures continuous integration and deployment, and runs test cases continuously, ensuring your software runs without glitches</p>
+            <p>JIFFY.ai Innovate uses the inputs to generate the required code, ensures continuous integration and deployment, and runs test cases continuously, ensuring your software runs without glitches.</p>
           </div>
           <div class="col-sm-12 col-md-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
@@ -134,7 +134,7 @@ get_header(); ?>
           <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
         </div>
         <div class="col-sm-12 col-md-4">
-          <h6>Software development, reimagined</h6>
+          <h6>Reimagined software development</h6>
           <p>JIFFY.ai Innovate requires no coding knowledge. Anyone can develop software, minimizing lag and dependencies.</p>
         </div>
       </div>
