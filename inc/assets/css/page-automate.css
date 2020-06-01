@@ -125,6 +125,7 @@
 
 .features .feature-card {
   padding: 64px;
+  margin-bottom: 64px;
 }
 
 .features .text1 {
@@ -183,6 +184,15 @@
   transform: rotate(180deg);
 }
 
+.green-circle-how {
+  position: absolute;
+  bottom: -120px;
+  left: -70px;
+  width: 280px;
+  z-index: -1;
+  transform: rotate(180deg);
+}
+
 @media (max-width: 576px) {
   .features .features-first {
     flex-direction: column-reverse;
@@ -190,6 +200,7 @@
 
   .features .feature-card {
     margin-top: 0;
+    margin-bottom: 0;
     padding: 64px 20px;
   }
 
@@ -211,7 +222,7 @@
     display: none;
   }
 
-  .green-circle-features {
+  .green-circle-features, .green-cirlce-how {
     display: none;
   }
 }
@@ -300,15 +311,15 @@
 }
 
 .in-action h6 {
-  font-weight: bold;
+  font-weight: 600;
   font-size: 32px;
-  line-height: 50px;
+  line-height: 44px;
 }
 
 .in-action p {
   margin-top: 20px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 28px;
 }
 

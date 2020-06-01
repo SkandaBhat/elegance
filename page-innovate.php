@@ -14,7 +14,7 @@ get_header(); ?>
                 <h1>Develop<br />The Impossible</h1>
               </div>
               <div class="subheading">
-                <h3>Software development, faster than you think</h3>
+                <h3>Software development, faster than you think.</h3>
                 <p>JIFFY.ai Innovate dramatically shortens and simplifies your software development life cycle. So you can focus on the big ideas.</p>
               </div>
               <button class="btn-primary primary-cta">REQUEST DEMO</button>
@@ -92,7 +92,7 @@ get_header(); ?>
       </section> -->
 
     </div>
-    <img class="img green-circle-features" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" />
+    <img class="img green-circle-how" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" />
   </div>
 
   <!-- <section class="use-cases pt-0 bg-light">

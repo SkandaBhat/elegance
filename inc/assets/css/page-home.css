@@ -352,7 +352,6 @@
 }
 
 .case-studies h6 {
-  margin-top: 40px;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -366,7 +365,7 @@
 }
 
 .case-studies button {
-  margin-top: 54px;
+  margin-top: 24px;
   padding: 14px 60px;
 }
 

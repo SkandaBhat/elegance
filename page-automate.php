@@ -82,7 +82,7 @@ get_header(); ?>
           <div class="col-sm-12 col-md-4">
             <h6>KYC Process Automation with Intelligent RPA</h6>
             <p>KYC processes are tedious, expensive and inaccurate. JIFFY.ai Automate's result focused and intuitive app takes over the monotonous tasks seamlessly. Not only are your documents read accurately, the app learns over time and improves itself, minimizing human intervention.</p>
-            <button class="btn-outline-primary">READ MORE</button>
+            <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
           </div>
           <div class="col-sm-12 col-md-6 text-center">
             <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_1.png" />
@@ -104,7 +104,7 @@ get_header(); ?>
         <div class="col-sm-12 col-md-4">
           <h6>Hyperautomating Group Airline Bookings</h6>
           <p>Managing group travel bookings can be a drain on customer service teams. At the very least, each booking can take 3+ hours to complete. Enter JIFFY.ai Automate. With a single smart bot, we can process more than 10,000 transactions, every single day.</p>
-          <button class="btn-outline-primary">READ MORE</button>
+            <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
         </div>
       </div>
     </div>
@@ -116,7 +116,7 @@ get_header(); ?>
         <div class="col-sm-12 col-md-4">
           <h6>Transforming Finance and Accounting Processes</h6>
           <p>Companies that have implemented the JIFFY.ai Automate app for F&A report that they are able to realize returns on their investment in six months or less. With success rates as high as 85%, we've made this critical process more foolproof, nimble, and cost-effective.</p>
-          <button class="btn-outline-primary">READ MORE</button>
+            <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
         </div>
         <div class="col-sm-12 col-md-6 text-center">
           <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_3.png" />
@@ -135,13 +135,13 @@ get_header(); ?>
         </div>
         <div class="col-sm-12 col-md-4">
           <h6>Adaptable and ready-to-deploy</h6>
-          <p>Our versatile dashboard allows you to build workflows with a few clicks, without having to make changes to existing business applications</p>
+          <p>Our versatile dashboard allows you to build workflows with a few clicks, without having to make changes to existing business applications.</p>
         </div>
       </div>
       <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-4">
           <h6>Powerful data analytics</h6>
-          <p>Our data engine performs data cleansing, analytics and reconciliation to solve complex reporting and reconciliation problems</p>
+          <p>Our data engine performs data cleansing, analytics and reconciliation to solve complex reporting and reconciliation problems.</p>
         </div>
         <div class="col-sm-12 col-md-6">
           <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />

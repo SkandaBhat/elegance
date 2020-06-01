@@ -107,7 +107,7 @@ get_header(); ?>
           <div class="col-sm-12 col-md-4">
             <h6>Automated testing of order management lifecycle for retailers</h6>
             <p>A typical order management lifecycle has numerous steps, all dependent on the smooth and cohesive functioning of different systems and platforms. This results in a high possibility of the lifecycle breaking down, and leading to frustrations for the customer and retailer alike. With JIFFY.ai Assure, you can automate your testing process, making it smart, fast and accurate.</p>
-            <button class="btn-outline-primary">READ MORE</button>
+            <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
           </div>
           <div class="col-sm-12 col-md-6 text-center">
             <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_1.png" />

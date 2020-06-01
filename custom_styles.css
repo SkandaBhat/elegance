@@ -22,6 +22,7 @@ button:active {
   border-color: #4F8B52;
   transition: background-color 0.2s ease;
   font-weight: 700;
+  border-style: solid;
 }
 
 .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .open>.dropdown-toggle.btn-outline-primary {
