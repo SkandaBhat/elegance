@@ -9,6 +9,13 @@
 
 ?>
 
+<style>
+article {
+  margin: 15px auto 10px;
+  max-width: 750px;
+}
+</style>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php
     $enable_vc = get_post_meta(get_the_ID(), '_wpb_vc_js_status', true);

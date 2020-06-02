@@ -206,8 +206,8 @@ a {
 }
 
 a:hover {
-  color: #1559cf;
-  text-decoration: underline;
+  color: inherit;
+  text-decoration: none;
 }
 
 a:not([href]):not([tabindex]) {
@@ -9709,7 +9709,7 @@ header#masthead {
 }
 
 .border-shadow {
-  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25) !important;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15) !important;
 }
 
 .site-footer {
@@ -9808,6 +9808,11 @@ footer .card-innovate {
   margin-left: 26px;
 }
 
+.navbar-brand img {
+  height: 40px;
+  width: 170px;
+}
+
 @media (max-width: 576px) {
   button {
     width: 100%;
@@ -9817,17 +9822,24 @@ footer .card-innovate {
   }
   footer .main-card {
     min-width: 60px;
-    max-width: 130px;
+    max-width: 120px;
+    margin-top: 42px;
+    padding: 10px;
   }
   footer .main-card h2 {
     line-height: 1;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
   }
   footer .main-card p {
     font-size: 5px;
     line-height: 1;
+    display: none;
   }
   footer .main-card-row {
-    margin-top: 0;
+    padding: 0 12px;
+    margin-top: 0px;
   }
   .social-media {
     float: unset;
@@ -9839,5 +9851,11 @@ footer .card-innovate {
   .site-info {
     margin-top: 8px;
     text-align: center;
+  }
+  footer .main-card img {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    width: 14px;
   }
 }

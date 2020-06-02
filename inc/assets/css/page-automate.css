@@ -1,5 +1,5 @@
 .hero {
-  padding: 162px 0 64px 0;
+  padding: 142px 0 130px 0;
 }
 
 .heading {
@@ -13,7 +13,7 @@
 .heading h1 {
   font-style: normal;
   font-weight: 600;
-  font-size: 70px;
+  font-size: 60px;
 }
 
 .subheading {
@@ -76,7 +76,6 @@
 }
 
 .transform h4 {
-  margin-top: 40px;
   font-weight: 600;
   font-size: 32px;
   line-height: 40px;
@@ -239,11 +238,16 @@
 }
 
 .use-cases h6 {
-  margin-top: 26px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
 }
 
 .use-cases p {
   margin-top: 24px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .use-cases button {
@@ -403,6 +407,14 @@
   font-size: 14px;
   line-height: 24px;
   color: #868686;
+}
+
+.product-testimonials .slick-current .lower-part .title {
+  color: #508d53;
+}
+
+.product-testimonials .slick-current .lower-part .subtitle {
+  color: #508d53;
 }
 
 @media (max-width: 576px) {

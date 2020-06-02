@@ -20,21 +20,21 @@ get_header(); ?>
             </div>
 
             <div class="row justify-content-between main-card-row">
-              <div class="card main-card card-automate">
+              <a href="http://159.89.140.235/automate/" class="card main-card card-automate">
                 <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/automate_icon.png" />
                 <h2>JIFFY.ai Automate</h2>
                 <p>Business processes, transformed</p>
-              </div>
-              <div class="card main-card card-assure">
+              </a>
+              <a href="http://159.89.140.235/assure/" class="card main-card card-assure">
                 <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/assure_icon.png" />
                 <h2>JIFFY.ai Assure</h2>
                 <p>Continuous testing, perfected</p>
-              </div>
-              <div class="card main-card card-innovate">
+              </a>
+              <a href="http://159.89.140.235/innovate/" class="card main-card card-innovate">
                 <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/innovate_icon.png" />
                 <h2>JIFFY.ai Innovate</h2>
                 <p>Software development, reimagined</p>
-              </div>
+              </a>
             </div>
 
           </article>
@@ -51,7 +51,7 @@ get_header(); ?>
 
   <section class="hyper-apps bg-light">
     <div class="container">
-      <div class="row justify-content-between">
+      <div class="row justify-content-between align-items-center">
         <div class="col-sm-12 col-md-6">
           <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
         </div>

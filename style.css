@@ -248,14 +248,29 @@ p {
   margin-bottom: 1.5em;
 }
 h1.entry-title {
-  font-size: 1.31rem;
-  border-bottom: 1px solid #eaecef;
+  font-size: 52px;
+  /* border-bottom: 1px solid #eaecef; */
 }
 h2.entry-title {
   border-bottom: 1px solid #eaecef;
 }
 h3.widget-title {
   font-size: 1.2rem;
+}
+
+.green-circle-1 {
+  position: absolute;
+  top: 240px;
+  right: 0px;
+  width: 290px;
+  z-index: -1;
+}
+
+.entry-content p {
+  font-size: 20px;
+  line-height: 1.7em;
+  word-spacing: 1px;
+  margin: 1.6em 0;
 }
 
 /*--------------------------------------------------------------

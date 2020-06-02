@@ -59,24 +59,34 @@ get_header(); ?>
   <section class="team bg-light">
     <div class="container">
       <h4 class="text-primary text-center">Team</h4>
-      <div class="row justify-content-between">
-        <div class="col-sm-12 col-md-7 text-center">
-          <div class="row justify-content-between align-items-center">
-
+      <div class="row justify-content-around">
+        <div class="col-sm-12 col-md-10 text-center">
+          <div class="row justify-content-between">
+            <div class="w-100 text-left team-name">Business Excellence Team</div>
             <div data-id="1" class="team-member col-sm-6 col-md-2">
               <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+              <p class="personal-name">Babu Sivadasan</p>
+              <p class="personal-designation">Chairman & CEO</p>
             </div>
             <div data-id="2" class="team-member col-sm-6 col-md-2">
               <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+              <p class="personal-name">Hari Menon</p>
+              <p class="personal-designation">Group President, Product & Strategy</p>
             </div>
             <div data-id="3" class="team-member col-sm-6 col-md-2">
               <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+              <p class="personal-name">Bob Ward</p>
+              <p class="personal-designation">Advisor to the CEO</p>
             </div>
             <div data-id="4" class="team-member col-sm-6 col-md-2">
               <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+              <p class="personal-name">Babu Sivadasan</p>
+              <p class="personal-designation">Chairman & CEO</p>
             </div>
             <div data-id="5" class="team-member col-sm-6 col-md-2">
               <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+              <p class="personal-name">Payeli Ghosh</p>
+              <p class="personal-designation">Chief People, Marketing and Operations Officer</p>
             </div>
 
             <div class="d-none d-md-block w-100"></div>
@@ -93,6 +103,13 @@ get_header(); ?>
             <div data-id="9" class="team-member col-sm-6 col-md-2">
               <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
             </div>
+
+            <div class="d-none d-md-block col-md-2"></div>
+
+
+
+            <div class="w-100 text-left team-name">Customer Excellence Team</div>
+
             <div data-id="10" class="team-member col-sm-6 col-md-2">
               <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
             </div>
@@ -145,12 +162,6 @@ get_header(); ?>
             <div class="d-none d-md-block col-md-2"></div>
             <div class="d-none d-md-block col-md-2"></div>
             <div class="d-none d-md-block col-md-2"></div>
-          </div>
-        </div>
-        <div class="d-none d-md-block col-md-4">
-          <div class="team-bio">
-            <div class="title"></div>
-            <p class="bio"></p>
           </div>
         </div>
       </div>
@@ -217,11 +228,11 @@ get_header(); ?>
         </div>
         <div class="col-sm-12 col-md-3">
           <p class="title">150+</p>
-          <p class="subtitle">employees</p>
+          <p class="subtitle">Employees</p>
         </div>
         <div class="col-sm-12 col-md-3">
           <p class="title">100+</p>
-          <p class="subtitle">Projects executed</p>
+          <p class="subtitle">Projects Executed</p>
         </div>
         <div class="col-sm-12 col-md-3">
           <p class="title">4</p>
@@ -229,14 +240,17 @@ get_header(); ?>
         </div>
       </div>
 
-      <div class="row awards justify-content-between text-left">
+      <div class="row awards justify-content-between text-center">
         <div class="col-sm-12 col-md-3">
+          <img class="img top-10" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/top_10_logo.png" />
           <p>HFS Top 10 Vendor</p>
         </div>
         <div class="col-sm-12 col-md-3">
-          <p>IDC Game Changer for Financial Services</p>
+          <img class="img idc" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/idc_logo.png" />
+          <p>IDC Game Changer for <br/> Financial Services</p>
         </div>
         <div class="col-sm-12 col-md-3">
+          <img class="img gartner" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/gartner_logo.png" />
           <p>Honourable mention in Gartner Magic Quadrant for RPA 2019</p>
         </div>
       </div>
@@ -278,7 +292,7 @@ get_header(); ?>
         jQuery (".team-member[data-id=" + currentMemberId+ "]").addClass("active")
       }
 
-      jQuery('.team-member[data-id]').hover(function() {
+      jQuery('.team-member[data-id]').click(function() {
         var memberId = jQuery(this).attr('data-id')
           if (currentMemberId !== memberId) {
             replaceTeamText(memberId)
@@ -293,7 +307,11 @@ get_header(); ?>
           jQuery( "#team-mobile .bio" ).html(memberBio.bio)
           jQuery( "#team-mobile").modal('show')
         } else {
-          e.preventDefault()
+          var memberId = jQuery(this).attr('data-id')
+          var memberBio = teamData[memberId]
+          jQuery( "#team-mobile .title" ).text(memberBio.title)
+          jQuery( "#team-mobile .bio" ).html(memberBio.bio)
+          jQuery( "#team-mobile").modal('show')
         }
       })
     });

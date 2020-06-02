@@ -9,25 +9,36 @@
 
 ?>
 
+<style>
+article {
+  margin: 15px auto 10px;
+  max-width: 750px;
+}
+</style>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="post-thumbnail">
-		<?php the_post_thumbnail(); ?>
-	</div>
 	<header class="entry-header">
 		<?php
 		if ( is_single() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
+		endif; ?>
 
-		if ( 'post' === get_post_type() ) : ?>
+
+	</header><!-- .entry-header -->
+
+	<div class="post-thumbnail">
+		<?php the_post_thumbnail(); ?>
+	</div>
+
+    <?php if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php wp_bootstrap_starter_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
-	</header><!-- .entry-header -->
+
 	<div class="entry-content">
 		<?php
         if ( is_single() ) :
@@ -41,6 +52,7 @@
 				'after'  => '</div>',
 			) );
 		?>
+    <img class="img green-circle-1" src="http://159.89.140.235/wp-content/uploads/2020/05/home_green_circle.png">
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">

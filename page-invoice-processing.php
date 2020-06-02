@@ -30,7 +30,7 @@ get_header(); ?>
 
   <section class="transform bg-light">
     <div class="container">
-      <div class="row justify-content-between">
+      <div class="row justify-content-between align-items-center">
         <div class="col-sm-12 col-md-6">
           <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/transform_dashboard.png" />
         </div>
@@ -60,7 +60,7 @@ get_header(); ?>
             </div>
             <p>The only hybrid invoice processing engine with self learning machine models that captures invoices through OCR and supplier portals, eliminating the need for manual data entry. It handles new vendors and new UI formats with ease.</p>
           </div>
-          <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_light_ochre_square.png" />
+          <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/product_light_ochre_square.png" />
         </div>
         <div class="row bg-secondary feature-card align-items-center justify-content-between">
           <div class="col-sm-12 col-md-5 text2">
@@ -78,7 +78,7 @@ get_header(); ?>
 
       <section class="use-cases">
         <h4 class="text-center text-primary">Case Study</h4>
-        <div class="row justify-content-around">
+        <div class="row justify-content-around align-items-center">
           <div class="col-sm-12 col-md-4">
             <h6>Cognitive Invoice Processing for an Automobile Manufacturer</h6>
             <p>Our client wanted to automate their finance and accounting process. JIFFY.ai deployed a cognitive, self-learning RPA which was used to process structured and unstructured data, something that rule-based RPA platforms were unable to do. Turnaround time for invoice processing improved by 85%.</p>

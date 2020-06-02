@@ -30,7 +30,7 @@ get_header(); ?>
 
   <section class="transform bg-light">
     <div class="container">
-      <div class="row justify-content-between">
+      <div class="row justify-content-between align-items-center">
         <div class="col-sm-12 col-md-6">
           <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/transform_dashboard.png" />
         </div>
@@ -60,7 +60,7 @@ get_header(); ?>
             </div>
             <p>The only hybrid document processing engine with self learning machine models that can handle structured, semi-structured and unstructured documents without the need to create machine models from scratch.</p>
           </div>
-          <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_light_ochre_square.png" />
+          <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/product_light_ochre_square.png" />
         </div>
         <div class="row bg-secondary feature-card align-items-center justify-content-between">
           <div class="col-sm-12 col-md-5 text2">
@@ -78,7 +78,7 @@ get_header(); ?>
 
       <section class="use-cases">
         <h4 class="text-center text-primary">Use Cases</h4>
-        <div class="row justify-content-around">
+        <div class="row justify-content-around align-items-center">
           <div class="col-sm-12 col-md-4">
             <h6>KYC Process Automation with Intelligent RPA</h6>
             <p>KYC processes are tedious, expensive and inaccurate. JIFFY.ai Automate's result focused and intuitive app takes over the monotonous tasks seamlessly. Not only are your documents read accurately, the app learns over time and improves itself, minimizing human intervention.</p>
@@ -97,7 +97,7 @@ get_header(); ?>
 
   <section class="use-cases pt-0 bg-light">
     <div class="container">
-      <div class="row second-row justify-content-around">
+      <div class="row second-row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-6 text-center">
           <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_2.png" />
         </div>
@@ -112,7 +112,7 @@ get_header(); ?>
 
   <section class="use-cases pt-0 position-relative overflow-hidden">
     <div class="container">
-      <div class="row justify-content-around">
+      <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-4">
           <h6>Transforming Finance and Accounting Processes</h6>
           <p>Companies that have implemented the JIFFY.ai Automate app for F&A report that they are able to realize returns on their investment in six months or less. With success rates as high as 85%, we've made this critical process more foolproof, nimble, and cost-effective.</p>

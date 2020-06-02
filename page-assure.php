@@ -31,7 +31,7 @@ get_header(); ?>
 
   <section class="transform bg-light">
     <div class="container">
-      <div class="row justify-content-between">
+      <div class="row justify-content-between align-items-center">
         <div class="col-sm-12 col-md-6">
           <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/transform_dashboard.png" />
         </div>
@@ -61,7 +61,7 @@ get_header(); ?>
             </div>
             <p>JIFFY.ai Assure works seamlessly across the entire testing lifecycle, and thrives on web, desktop and even legacy systems. It’s easy drag-drop-and-connect interface ensures that your teams can start testing from the word go.</p>
           </div>
-          <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_light_ochre_square.png" />
+          <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/product_light_ochre_square.png" />
         </div>
         <div class="row bg-secondary feature-card align-items-center justify-content-between">
           <div class="col-sm-12 col-md-5 text2">
@@ -103,7 +103,7 @@ get_header(); ?>
 
       <section class="use-cases">
         <h4 class="text-center text-primary">Use Cases</h4>
-        <div class="row justify-content-around">
+        <div class="row justify-content-around align-items-center">
           <div class="col-sm-12 col-md-4">
             <h6>Automated testing of order management lifecycle for retailers</h6>
             <p>A typical order management lifecycle has numerous steps, all dependent on the smooth and cohesive functioning of different systems and platforms. This results in a high possibility of the lifecycle breaking down, and leading to frustrations for the customer and retailer alike. With JIFFY.ai Assure, you can automate your testing process, making it smart, fast and accurate.</p>

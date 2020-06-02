@@ -3,13 +3,13 @@
 }
 
 .heading {
-  max-width: 520px;
+  max-width: 500px;
 }
 
 .heading h1 {
   font-style: normal;
   font-weight: 600;
-  font-size: 70px;
+  font-size: 60px;
   color: #121212;
 }
 
@@ -90,6 +90,7 @@
 
 .main-card-row {
   margin-top: 120px;
+  color: #ffffff;
 }
 
 .main-card {
@@ -119,7 +120,7 @@
 .main-card p {
   margin-bottom: 0;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 21px;
   letter-spacing: 0.01em;
 }
@@ -190,6 +191,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
+  margin-bottom: 0;
 }
 
 @media (max-width: 576px) {
@@ -247,7 +249,7 @@
 }
 
 .use-cases button {
-  margin-top: 60px;
+  margin-top: 24px;
   padding: 14px 60px;
 }
 
@@ -380,11 +382,11 @@
 
 .case-studies .white-squares {
   position: absolute;
-  top: 30px;
+  top: 50%;
   left: 50%;
-  width: 540px;
+  width: 60%;
   z-index: 2;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 576px) {
@@ -446,14 +448,23 @@
 
 .blog-list .category {
   margin-top: 36px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .blog-list h5 {
-  margin-top: 8px;
+  margin-top: 18px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .blog-list p {
   margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 @media (max-width: 576px) {

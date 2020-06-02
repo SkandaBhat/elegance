@@ -30,7 +30,7 @@ get_header(); ?>
 
   <section class="transform bg-light">
     <div class="container">
-      <div class="row justify-content-between">
+      <div class="row justify-content-between align-items-center">
         <div class="col-sm-12 col-md-6">
           <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/transform_dashboard.png" />
         </div>
@@ -60,7 +60,7 @@ get_header(); ?>
             </div>
             <p>Tell JIFFY.ai Innovate what you need by speaking to it, chatting with it, or submitting a document. Natural Language Processing ensures your requirement is converted accurately into JIFFY.ai’s proprietary Intermediate Language.</p>
           </div>
-          <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_light_ochre_square.png" />
+          <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/product_light_ochre_square.png" />
         </div>
         <div class="row bg-secondary feature-card align-items-center justify-content-between">
           <div class="col-sm-12 col-md-5 text2">
