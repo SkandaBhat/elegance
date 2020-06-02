@@ -67,12 +67,14 @@
 
 .team {
   padding: 60px 0;
+  color: #fff;
 }
 
 .team h4 {
   font-weight: 600;
   font-size: 48px;
   line-height: 66px;
+  color: #fff;
 }
 
 .team .team-member {
@@ -82,6 +84,7 @@
 }
 
 .team .team-name {
+  margin: 50px 0 14px;
   font-size: 24px;
   font-weight: 600;
 }
@@ -90,11 +93,22 @@
   margin: 20px 0 0;
   font-size: 18px;
   font-weight: 600;
+  color: #fff;
 }
 
 .team .personal-designation {
   font-size: 16px;
   font-weight: 500;
+  color: #fff;
+}
+
+.team .team-member .member-image {
+  width: 150px;
+  height: 150px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 150px 187px;
+  display: inline-block;
 }
 
 .team .team-member.active img{

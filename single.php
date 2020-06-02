@@ -32,8 +32,18 @@ get_header(); ?>
 		endwhile; // End of the loop.
 		?>
 
-		</main><!-- #main -->
-	</section><!-- #primary -->
+    </main><!-- #main -->
+
+  </section><!-- #primary -->
+
+    <img class="img green-circle-1" src="http://159.89.140.235/wp-content/uploads/2020/05/home_green_circle.png">
+    <img class="img green-circle-features" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" />
+
+    <img class="img green-circle-1-2" src="http://159.89.140.235/wp-content/uploads/2020/05/home_green_circle.png">
+    <img class="img green-circle-features-2" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" />
+
+
+    <img class="img green-circle-1-3" src="http://159.89.140.235/wp-content/uploads/2020/05/home_green_circle.png">
 
 <?php
 // get_sidebar();

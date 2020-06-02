@@ -52,8 +52,8 @@ article {
 				'after'  => '</div>',
 			) );
 		?>
-    <img class="img green-circle-1" src="http://159.89.140.235/wp-content/uploads/2020/05/home_green_circle.png">
-	</div><!-- .entry-content -->
+  </div><!-- .entry-content -->
+
 
 	<footer class="entry-footer">
 		<?php wp_bootstrap_starter_entry_footer(); ?>

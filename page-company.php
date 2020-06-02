@@ -56,112 +56,226 @@ get_header(); ?>
     </div>
   </section>
 
-  <section class="team bg-light">
+  <section class="team bg-primary">
     <div class="container">
-      <h4 class="text-primary text-center">Team</h4>
+      <h4 class="text-center">Team</h4>
       <div class="row justify-content-around">
         <div class="col-sm-12 col-md-10 text-center">
           <div class="row justify-content-between">
-            <div class="w-100 text-left team-name">Business Excellence Team</div>
+            <div class="w-100 text-center team-name">Business Excellence Team</div>
             <div data-id="1" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+              <div 
+                class="member-image img rounded-circle" 
+                style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutbabu.jpg')"
+              ></div>
               <p class="personal-name">Babu Sivadasan</p>
               <p class="personal-designation">Chairman & CEO</p>
             </div>
             <div data-id="2" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+              <div 
+                class="member-image img rounded-circle" 
+                style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutharimenon.jpg')"
+              ></div>
               <p class="personal-name">Hari Menon</p>
               <p class="personal-designation">Group President, Product & Strategy</p>
             </div>
             <div data-id="3" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+              <div 
+                class="member-image img rounded-circle" 
+                style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutBob.jpg')"
+              ></div>
               <p class="personal-name">Bob Ward</p>
               <p class="personal-designation">Advisor to the CEO</p>
             </div>
             <div data-id="4" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
-              <p class="personal-name">Babu Sivadasan</p>
-              <p class="personal-designation">Chairman & CEO</p>
-            </div>
-            <div data-id="5" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+              <div 
+                class="member-image img rounded-circle" 
+                style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutpayeli.jpg')"
+              ></div>
               <p class="personal-name">Payeli Ghosh</p>
               <p class="personal-designation">Chief People, Marketing and Operations Officer</p>
             </div>
+            <div data-id="5" class="team-member col-sm-6 col-md-2">
+              <div 
+                class="member-image img rounded-circle" 
+                style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutkris.jpg')"
+              ></div>              
+              <p class="personal-name">Kris Subramanian</p>
+              <p class="personal-designation">President & COO</p>
+            </div>
 
             <div class="d-none d-md-block w-100"></div>
+
+            <div class="d-none d-md-block offset-md-1"></div>
+
 
             <div data-id="6" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+              <div 
+                class="member-image img rounded-circle" 
+                style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutDino.jpg')"
+              ></div>              
+              <p class="personal-name">Dino	Di Palma</p>
+              <p class="personal-designation">Group President, Telecom Vertical</p>
             </div>
             <div data-id="7" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+              <div 
+                class="member-image img rounded-circle" 
+                style="background-image: url('https://place-hold.it/150x150')"
+              ></div>              
+              <p class="personal-name">Sangeetha Phalgunan</p>
+              <p class="personal-designation">VP, APAC Sales & Alliances</p>
             </div>
             <div data-id="8" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+              <div 
+                class="member-image img rounded-circle" 
+                style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutDavid Baker.jpg')"
+              ></div>              
+              <p class="personal-name">David Baker</p>
+              <p class="personal-designation">VP, Sales - Financial Services</p>
             </div>
             <div data-id="9" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
+              <div 
+                class="member-image img rounded-circle" 
+                style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutZora.jpg')"
+              ></div>              
+              <p class="personal-name">Zora	Arnautovic</p>
+              <p class="personal-designation">VP, Sales - Europe</p>
             </div>
 
-            <div class="d-none d-md-block col-md-2"></div>
+            <div class="d-none d-md-block col-md-1"></div>
 
+            <div class="w-100 text-center team-name">Customer Excellence Team</div>
 
+            <div class="d-none d-md-block offset-md-1"></div>
 
-            <div class="w-100 text-left team-name">Customer Excellence Team</div>
 
             <div data-id="10" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
-            </div>
-
-            <div class="d-none d-md-block w-100"></div>
+              <div 
+                class="member-image img rounded-circle" 
+                style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutregy.jpg')"
+              ></div>              
+              <p class="personal-name">Regi Roy</p>
+              <p class="personal-designation">Chief Customer Success Officer</p>
+            </div> 
 
             <div data-id="11" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
-            </div>
+              <div 
+                class="member-image img rounded-circle" 
+                style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutAllison.jpg')"
+              ></div>              
+              <p class="personal-name">Allyson Burroughs</p>
+              <p class="personal-designation">Marketing Head</p>
+            </div> 
             <div data-id="12" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
-            </div>
+              <div 
+                class="member-image img rounded-circle" 
+                style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutshreyas.jpg')"
+              ></div>              
+              <p class="personal-name">Shreyas Chandrahasan</p>
+              <p class="personal-designation">Implementation Head</p>
+            </div> 
             <div data-id="13" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
-            </div>
-            <div data-id="14" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
-            </div>
-            <div data-id="15" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
-            </div>
+              <div 
+                class="member-image img rounded-circle" 
+                style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutPrasanth.jpg')"
+              ></div>              
+              <p class="personal-name">Prasanth	Perumparambil</p>
+              <p class="personal-designation">Customer Success Head, APAC & EU</p>
+            </div> 
 
-            <div class="d-none d-md-block w-100"></div>
 
-            <div data-id="16" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
-            </div>
-            <div data-id="17" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
-            </div>
-            <div data-id="18" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
-            </div>
-            <div data-id="19" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
-            </div>
-            <div data-id="20" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
-            </div>
+            <div class="d-none d-md-block col-md-1"></div>
 
-            <div class="d-none d-md-block w-100"></div>
+            <div class="w-100 text-center team-name">Technology Excellence Team</div>
 
-             <div data-id="21" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
-            </div>
-            <div data-id="22" class="team-member col-sm-6 col-md-2">
-              <img class="img rounded-circle" src="https://place-hold.it/100x100"/>
-            </div>
 
-            <div class="d-none d-md-block col-md-2"></div>
-            <div class="d-none d-md-block col-md-2"></div>
-            <div class="d-none d-md-block col-md-2"></div>
+              <div data-id="14" class="team-member col-sm-6 col-md-2">
+                <div 
+                  class="member-image img rounded-circle" 
+                  style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutjayan.jpg')"
+                ></div>              
+                <p class="personal-name">Jayan Chacko</p>
+                <p class="personal-designation">Head of Engineering - JIFFY.ai Innovate</p>
+              </div>
+
+              <div data-id="15" class="team-member col-sm-6 col-md-2">
+                <div 
+                  class="member-image img rounded-circle" 
+                  style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutjayaraj.jpg')"
+                ></div>              
+                <p class="personal-name">Jayaraj Poroor PhD</p>
+                <p class="personal-designation">VP, Technology</p>
+              </div>
+
+              <div data-id="16" class="team-member col-sm-6 col-md-2">
+                <div 
+                  class="member-image img rounded-circle" 
+                  style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutsudhir.jpg')"
+                ></div>              
+                <p class="personal-name">Sudhir	Sen</p>
+                <p class="personal-designation">Product Head</p>
+              </div>
+
+              <div data-id="17" class="team-member col-sm-6 col-md-2">
+                <div 
+                  class="member-image img rounded-circle" 
+                  style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutsubin.jpg')"
+                ></div>              
+                <p class="personal-name">Subin Perumbidy</p>
+                <p class="personal-designation">Engineering Head</p>
+              </div>
+
+              <div data-id="18" class="team-member col-sm-6 col-md-2">
+                <div 
+                  class="member-image img rounded-circle" 
+                  style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutraju.jpg')"
+                ></div>              
+                <p class="personal-name">Rajmohan	Harindranath</p>
+                <p class="personal-designation">R&D Head</p>
+              </div>
+
+              <div class="d-none d-md-block w-100"></div>
+              <div class="d-none d-md-block offset-md-1"></div>
+
+              
+              <div data-id="19" class="team-member col-sm-6 col-md-2">
+                <div 
+                  class="member-image img rounded-circle" 
+                  style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutsekhar.jpg')"
+                ></div>              
+                <p class="personal-name">Sekhar	Prakash</p>
+                <p class="personal-designation">DevOps & Implementation Head</p>
+              </div>
+
+              <div data-id="20" class="team-member col-sm-6 col-md-2">
+                <div 
+                  class="member-image img rounded-circle" 
+                  style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutajmal.jpg')"
+                ></div>              
+                <p class="personal-name">Ajmal Ashraf</p>
+                <p class="personal-designation">Senior Architect</p>
+              </div>
+
+              <div data-id="21" class="team-member col-sm-6 col-md-2">
+                <div 
+                  class="member-image img rounded-circle" 
+                  style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutjoseph.jpg')"
+                ></div>              
+                <p class="personal-name">Joseph	Thomas</p>
+                <p class="personal-designation">VP, User Experience</p>
+              </div>
+
+              <div data-id="22" class="team-member col-sm-6 col-md-2">
+                <div 
+                  class="member-image img rounded-circle" 
+                  style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutRahul.jpg')"
+                ></div>              
+                <p class="personal-name">Rahul Raj</p>
+                <p class="personal-designation">Chief Architect, JIFFY.ai</p>
+              </div>
+
+              <div class="d-none d-md-block col-md-1"></div>
+
           </div>
         </div>
       </div>

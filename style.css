@@ -260,9 +260,9 @@ h3.widget-title {
 
 .green-circle-1 {
   position: absolute;
-  top: 240px;
-  right: 0px;
-  width: 290px;
+  top: 420px;
+  right: 0;
+  width: 220px;
   z-index: -1;
 }
 
@@ -1069,5 +1069,59 @@ footer#colophon a {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 75%;
+  }
+}
+
+.green-circle-features {
+  position: absolute;
+  top: 172vh;
+  left: -70px;
+  width: 280px;
+  z-index: -1;
+  transform: rotate(180deg);
+}
+
+.green-circle-1-2 {
+  position: absolute;
+  top: 1920px;
+  right: 0;
+  width: 220px;
+  z-index: -1;
+}
+
+.green-circle-features-2 {
+  position: absolute;
+  top: 350vh;
+  left: -70px;
+  width: 280px;
+  z-index: -1;
+  transform: rotate(180deg);
+}
+
+.green-circle-1-3 {
+  position: absolute;
+  top: 3540px;
+  right: 0;
+  width: 220px;
+  z-index: -1;
+}
+
+@media (max-width: 576px) {
+  .green-circle-1 {
+    display: none;
+  }
+  .green-circle-features {
+    display: none;
+  }
+  .green-circle-1-2 {
+    display: none;
+  }
+
+  .green-circle-features-2 {
+    display: none;
+  }
+
+  .green-circle-1-3 {
+    display: none;
   }
 }
