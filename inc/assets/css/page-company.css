@@ -165,10 +165,6 @@
   line-height: 28px;
 }
 
-@media (max-width: 576px) {
-
-}
-
 .investors {
   border-top: 1px solid #efefef;
   padding: 64px 0;

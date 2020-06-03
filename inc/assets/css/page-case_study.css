@@ -31,7 +31,7 @@
 }
 
 .subheading h3 {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 24px;
   line-height: 32px;
 }
@@ -56,13 +56,34 @@
   z-index: -1;
 }
 
+@media (max-width: 576px) {
+  .heading h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .subheading p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .green-semi-1 {
+    position: absolute;
+    top: -90px;
+    right: 0px;
+    width: 90px;
+    z-index: -1;
+  }
+}
+
 .transform {
   padding: 76px 0px 67px;
 }
 
 .transform h4 {
   margin-top: 40px;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 32px;
   line-height: 40px;
 }
@@ -80,7 +101,7 @@
 }
 
 .features h4 {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 48px;
   line-height: 66px;
 }
@@ -91,14 +112,20 @@
 }
 
 .use-cases {
-  padding-top: 60px;
-  padding-bottom: 50px;
+  padding: 64px 0 50px;
 }
 
 .use-cases h4 {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 48px;
   line-height: 66px;
+}
+
+.use-cases h5 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 24px;
 }
 
 .use-cases h6 {
@@ -107,6 +134,23 @@
 
 .use-cases p {
   margin-top: 24px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.use-cases ul {
+  margin: 20px 0 0;
+}
+
+.use-cases li {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.use-cases img {
+  margin-top: 40px;
 }
 
 .use-cases button {
@@ -116,39 +160,17 @@
 
 .use-cases .green-circle-3 {
   position: absolute;
-  top: -100px;
-  right: 40px;
-  width: 120px;
+  top: -150px;
+  right: 0;
+  width: 110px;
   z-index: -1;
   transform: rotate(-45deg);
 }
 
-.partners {
-  padding-top: 32px;
-  padding-bottom: 64px;
-}
-
-.partners h4 {
-  margin-bottom: 64px;
-  font-weight: 900;
-  font-size: 48px;
-  line-height: 66px;
-}
-
-.partners .hcl {
-  width: 130px;
-}
-
-.partners .kpmg {
-  width: 120px;
-}
-
-.partners .tech-m {
-  width: 150px;
-}
-
-.partners .deloitte {
-  width: 112px;
+@media (max-width: 576px) {
+  .use-cases .green-circle-3 {
+    display: none;
+  }
 }
 
 .case-studies {
@@ -158,14 +180,14 @@
 
 .case-studies h4 {
   margin-top: 64px;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 48px;
   line-height: 66px;
 }
 
 .case-studies h6 {
   margin-top: 40px;
-  font-weight: 900;
+  font-weight: 600;
   font-size: 24px;
   line-height: 32px;
 }
@@ -206,21 +228,60 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.stat {
-  margin-top: 60px;
+.metrics {
+  padding: 64px 0;
+  border-bottom: 1px solid #efefef;
 }
 
-.title {
-  font-weight: 500;
-  font-size: 100px;
-  line-height: 28px;
+.metrics h4 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 66px;
 }
 
-.subtitle {
-  margin-top: 36px;
+.metrics .description {
+  margin-top: 50px;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
+}
+
+.metrics .subheading {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.metrics .title {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.metrics .subtitle {
+  margin: 10px 0 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.metrics .stat {
+  margin-top: 64px;
+}
+
+@media (max-width: 576px) {
+  .metrics .stat {
+    margin-top: 40px;
+  }
+
+  .metrics .subtitle {
+    margin-bottom: 50px;
+  }
+
+  .metrics .stat > div:last-child .subtitle {
+    margin-bottom: 0;
+  }
 }
 
 .green-circle-1 {
@@ -268,17 +329,14 @@
   padding: 14px 64px;
 }
 
-.cta-section .container {
-  max-width: 1140px;
+.cta-section p {
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 780px;
-  }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .cta-section {
     text-align: center;
   }
@@ -291,7 +349,16 @@
     font-size: 40px;
     line-height: 48px;
   }
-  h5 {
+}
+
+/* @media (min-width: 1200px) {
+  .container {
+    max-width: 780px;
+  }
+} */
+
+@media (max-width: 768px) {
+  /* h5 {
     font-size: 24px;
   }
   .green-circle-features {
@@ -306,7 +373,7 @@
     font-size: 42px;
   }
   .use-cases h4 {
-    font-weight: 800;
+    font-weight: 600;
     font-size: 36px;
     line-height: 66px;
   }
@@ -320,5 +387,5 @@
   .use-cases p {
     margin-top: 12px;
     font-size: 16px;
-  }
+  } */
 }
