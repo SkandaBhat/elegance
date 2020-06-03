@@ -76,24 +76,26 @@ get_header(); ?>
         </div>
       </section>
 
-      <section class="use-cases">
-        <h4 class="text-center text-primary">Case Study</h4>
-        <div class="row justify-content-around align-items-center">
-          <div class="col-sm-12 col-md-4">
-            <h6>Cognitive Invoice Processing for an Automobile Manufacturer</h6>
-            <p>Our client wanted to automate their finance and accounting process. JIFFY.ai deployed a cognitive, self-learning RPA which was used to process structured and unstructured data, something that rule-based RPA platforms were unable to do. Turnaround time for invoice processing improved by 85%.</p>
-            <button class="btn-outline-primary">READ MORE</button>
-          </div>
-          <div class="col-sm-12 col-md-6 text-center">
-            <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_1.png" />
-          </div>
-
-        </div>
-      </section>
-
     </div>
     <img class="img green-circle-features" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" />
   </div>
+
+  <section class="use-cases">
+    <div class="container">
+      <h4 class="text-center text-primary">Case Study</h4>
+      <div class="row justify-content-around align-items-center">
+        <div class="col-sm-12 col-md-4">
+          <h6>Cognitive Invoice Processing for an Automobile Manufacturer</h6>
+          <p>Our client wanted to automate their finance and accounting process. JIFFY.ai deployed a cognitive, self-learning RPA which was used to process structured and unstructured data, something that rule-based RPA platforms were unable to do. Turnaround time for invoice processing improved by 85%.</p>
+          <button class="btn-outline-primary">READ MORE</button>
+        </div>
+        <div class="col-sm-12 col-md-6 text-center">
+          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_1.png" />
+        </div>
+
+      </div>
+    </div>
+  </section>
 
   <section class="in-action bg-light">
     <div class="container">

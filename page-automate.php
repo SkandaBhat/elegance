@@ -95,7 +95,7 @@ get_header(); ?>
     </div>
   </section>
 
-  <section class="use-cases pt-0 bg-light">
+  <section class="use-cases bg-light">
     <div class="container">
       <div class="row second-row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-6 text-center">
@@ -110,7 +110,7 @@ get_header(); ?>
     </div>
   </section>
 
-  <section class="use-cases pt-0 position-relative overflow-hidden">
+  <section class="use-cases position-relative overflow-hidden">
     <div class="container">
       <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-4">

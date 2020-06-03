@@ -191,6 +191,15 @@
   transform: rotate(180deg);
 }
 
+.green-circle-assure {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  width: 18%;
+  z-index: -1;
+  transform: rotate(180deg);
+}
+
 .green-circle-how {
   position: absolute;
   bottom: -120px;
@@ -230,7 +239,8 @@
   }
 
   .green-circle-features,
-  .green-cirlce-how {
+  .green-cirlce-how,
+  .green-circle-assure {
     display: none;
   }
 }
@@ -243,6 +253,7 @@
   font-weight: 600;
   font-size: 48px;
   line-height: 66px;
+  margin-bottom: 50px;
 }
 
 .use-cases h6 {

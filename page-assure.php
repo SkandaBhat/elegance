@@ -101,55 +101,25 @@ get_header(); ?>
         </div>
       </section>
 
-      <section class="use-cases">
-        <h4 class="text-center text-primary">Use Cases</h4>
-        <div class="row justify-content-around align-items-center">
-          <div class="col-sm-12 col-md-4">
-            <h6>Automated testing of order management lifecycle for retailers</h6>
-            <p>A typical order management lifecycle has numerous steps, all dependent on the smooth and cohesive functioning of different systems and platforms. This results in a high possibility of the lifecycle breaking down, and leading to frustrations for the customer and retailer alike. With JIFFY.ai Assure, you can automate your testing process, making it smart, fast and accurate.</p>
-            <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
-          </div>
-          <div class="col-sm-12 col-md-6 text-center">
-            <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_1.png" />
-          </div>
-
-        </div>
-      </section>
-
     </div>
-    <img class="img green-circle-features" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" />
+    <img class="img green-circle-assure" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" />
   </div>
 
-  <!-- <section class="use-cases pt-0 bg-light">
+  <section class="use-cases">
     <div class="container">
-      <div class="row justify-content-around">
-        <div class="col-sm-12 col-md-6 text-center">
-          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_2.png" />
-        </div>
+      <h4 class="text-center text-primary">Use Cases</h4>
+      <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-4">
-          <h6>Hyperautomating Group Airline Bookings</h6>
-          <p>Managing group travel bookings can be a drain on customer service teams. At the very least, each booking can take 3+ hours to complete. Enter JIFFY.ai Automate. With a single smart bot, we can process more than 10,000 transactions, every single day.</p>
-          <button class="btn-outline-primary">READ MORE</button>
+          <h6>Automated testing of order management lifecycle for retailers</h6>
+          <p>A typical order management lifecycle has numerous steps, all dependent on the smooth and cohesive functioning of different systems and platforms. This results in a high possibility of the lifecycle breaking down, and leading to frustrations for the customer and retailer alike. With JIFFY.ai Assure, you can automate your testing process, making it smart, fast and accurate.</p>
+          <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
+        </div>
+        <div class="col-sm-12 col-md-6 text-center">
+          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_1.png" />
         </div>
       </div>
     </div>
   </section>
-
-  <section class="use-cases pt-0 position-relative overflow-hidden">
-    <div class="container">
-      <div class="row justify-content-around">
-        <div class="col-sm-12 col-md-4">
-          <h6>Transforming Finance and Accounting Processes</h6>
-          <p>Companies that have implemented the JIFFY.ai Automate app for F&A report that they are able to realize returns on their investment in six months or less. With success rates as high as 85%, we've made this critical process more foolproof, nimble, and cost-effective.</p>
-          <button class="btn-outline-primary">READ MORE</button>
-        </div>
-        <div class="col-sm-12 col-md-6 text-center">
-          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_3.png" />
-        </div>
-      </div>
-    </div>
-    <img class="img green-circle-use-cases" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" />
-  </section> -->
 
   <section class="in-action bg-light">
     <div class="container">
