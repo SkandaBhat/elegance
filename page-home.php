@@ -20,17 +20,17 @@ get_header(); ?>
             </div>
 
             <div class="row justify-content-between main-card-row">
-              <a href="http://159.89.140.235/automate/" class="card main-card card-automate">
+              <a href="/automate/" class="card main-card card-automate">
                 <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/automate_icon.png" />
                 <h2>JIFFY.ai Automate</h2>
                 <p>Business processes, transformed</p>
               </a>
-              <a href="http://159.89.140.235/assure/" class="card main-card card-assure">
+              <a href="/assure/" class="card main-card card-assure">
                 <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/assure_icon.png" />
                 <h2>JIFFY.ai Assure</h2>
                 <p>Continuous testing, perfected</p>
               </a>
-              <a href="http://159.89.140.235/innovate/" class="card main-card card-innovate">
+              <a href="/innovate/" class="card main-card card-innovate">
                 <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/innovate_icon.png" />
                 <h2>JIFFY.ai Innovate</h2>
                 <p>Software development, reimagined</p>
