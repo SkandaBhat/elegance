@@ -45,7 +45,7 @@ get_header(); ?>
     <img class="img green-circle-1" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" />
     <img class="img ochre-square-1" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_ochre_square.png" />
     <img class="img green-circle-2" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" />
-
+    <img class="img green-semi-1" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" />
   </div>
 
 

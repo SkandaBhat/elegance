@@ -54,6 +54,10 @@
   transform: rotate(180deg);
 }
 
+.green-semi-1 {
+  display: none;
+}
+
 @media (max-width: 576px) {
   .heading {
     max-width: 330px;
@@ -70,21 +74,25 @@
     line-height: 24px;
   }
 
-  .green-circle-1 {
+  .green-semi-1 {
+    display: block;
     position: absolute;
-    top: -42px;
-    right: 24px;
-    width: 60px;
+    top: -90px;
+    right: 0px;
+    width: 90px;
     z-index: -1;
-    transform: rotate(-45deg);
+  }
+
+  .green-circle-1, .green-circle-2 {
+    display: none;
   }
 
   .ochre-square-1 {
     position: absolute;
     z-index: -1;
     width: 30px;
-    top: 18%;
-    right: 9%;
+    top: 15%;
+    right: 4%;
   }
 }
 
