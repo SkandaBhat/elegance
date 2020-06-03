@@ -115,6 +115,10 @@
   padding-top: 64px;
 }
 
+.features.how-it-works {
+  padding: 64px 0;
+}
+
 .features h4 {
   font-weight: 600;
   font-size: 48px;
@@ -125,6 +129,10 @@
 .features .feature-card {
   padding: 64px;
   margin-bottom: 64px;
+}
+
+.features .feature-card:last-child {
+  margin-bottom: 0;
 }
 
 .features .text1 {
@@ -176,9 +184,9 @@
 
 .green-circle-features {
   position: absolute;
-  bottom: 370px;
-  left: -70px;
-  width: 280px;
+  top: 70%;
+  left: 0;
+  width: 18%;
   z-index: -1;
   transform: rotate(180deg);
 }

@@ -47,7 +47,7 @@ get_header(); ?>
   <div class="position-relative">
     <div class="container">
 
-      <section class="features">
+      <section class="features how-it-works">
         <h4 class="text-center text-primary">How It Works</h4>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-md-6">
@@ -76,55 +76,9 @@ get_header(); ?>
         </div>
       </section>
 
-      <!-- <section class="use-cases">
-        <h4 class="text-center text-primary">Use Cases</h4>
-        <div class="row justify-content-around">
-          <div class="col-sm-12 col-md-4">
-            <h6>KYC Process Automation with Intelligent RPA</h6>
-            <p>KYC processes are tedious, expensive and inaccurate. JIFFY.ai Automate's result focused and intuitive app takes over the monotonous tasks seamlessly. Not only are your documents read accurately, the app learns over time and improves itself, minimizing human intervention.</p>
-            <button class="btn-outline-primary">READ MORE</button>
-          </div>
-          <div class="col-sm-12 col-md-6 text-center">
-            <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_1.png" />
-          </div>
-
-        </div>
-      </section> -->
-
     </div>
     <img class="img green-circle-how" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" />
   </div>
-
-  <!-- <section class="use-cases pt-0 bg-light">
-    <div class="container">
-      <div class="row justify-content-around">
-        <div class="col-sm-12 col-md-6 text-center">
-          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_2.png" />
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <h6>Hyperautomating Group Airline Bookings</h6>
-          <p>Managing group travel bookings can be a drain on customer service teams. At the very least, each booking can take 3+ hours to complete. Enter JIFFY.ai Automate. With a single smart bot, we can process more than 10,000 transactions, every single day.</p>
-          <button class="btn-outline-primary">READ MORE</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="use-cases pt-0 position-relative overflow-hidden">
-    <div class="container">
-      <div class="row justify-content-around">
-        <div class="col-sm-12 col-md-4">
-          <h6>Transforming Finance and Accounting Processes</h6>
-          <p>Companies that have implemented the JIFFY.ai Automate app for F&A report that they are able to realize returns on their investment in six months or less. With success rates as high as 85%, we've made this critical process more foolproof, nimble, and cost-effective.</p>
-          <button class="btn-outline-primary">READ MORE</button>
-        </div>
-        <div class="col-sm-12 col-md-6 text-center">
-          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_3.png" />
-        </div>
-      </div>
-    </div>
-    <img class="img green-circle-use-cases" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" />
-  </section> -->
 
   <section class="in-action bg-light">
     <div class="container">
@@ -138,15 +92,6 @@ get_header(); ?>
           <p>JIFFY.ai Innovate requires no coding knowledge. Anyone can develop software, minimizing lag and dependencies.</p>
         </div>
       </div>
-      <!-- <div class="row justify-content-around align-items-center">
-        <div class="col-sm-12 col-md-4">
-          <h6>Powerful data analytics</h6>
-          <p>Our data engine performs data cleansing, analytics and reconciliation to solve complex reporting and reconciliation problems</p>
-        </div>
-        <div class="col-sm-12 col-md-6">
-          <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
-        </div>
-      </div> -->
     </div>
   </section>
 

@@ -45,9 +45,8 @@ get_header(); ?>
   </section>
 
   <div class="position-relative">
-    <div class="container">
-
-      <section class="features">
+    <section class="features">
+      <div class="container">
         <h4 class="text-center text-primary">Features</h4>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-md-6">
@@ -74,26 +73,27 @@ get_header(); ?>
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="use-cases">
-        <h4 class="text-center text-primary">Use Cases</h4>
-        <div class="row justify-content-around align-items-center">
-          <div class="col-sm-12 col-md-4">
-            <h6>KYC Process Automation with Intelligent RPA</h6>
-            <p>KYC processes are tedious, expensive and inaccurate. JIFFY.ai Automate's result focused and intuitive app takes over the monotonous tasks seamlessly. Not only are your documents read accurately, the app learns over time and improves itself, minimizing human intervention.</p>
-            <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
-          </div>
-          <div class="col-sm-12 col-md-6 text-center">
-            <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_1.png" />
-          </div>
-
-        </div>
-      </section>
-
-    </div>
     <img class="img green-circle-features" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" />
   </div>
+
+  <section class="use-cases">
+    <div class="container">
+      <h4 class="text-center text-primary">Use Cases</h4>
+      <div class="row justify-content-around align-items-center">
+        <div class="col-sm-12 col-md-4">
+          <h6>KYC Process Automation with Intelligent RPA</h6>
+          <p>KYC processes are tedious, expensive and inaccurate. JIFFY.ai Automate's result focused and intuitive app takes over the monotonous tasks seamlessly. Not only are your documents read accurately, the app learns over time and improves itself, minimizing human intervention.</p>
+          <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
+        </div>
+        <div class="col-sm-12 col-md-6 text-center">
+          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_1.png" />
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="use-cases pt-0 bg-light">
     <div class="container">

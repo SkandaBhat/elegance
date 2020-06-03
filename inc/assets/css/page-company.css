@@ -37,8 +37,29 @@
   z-index: -1;
 }
 
+@media (max-width: 576px) {
+  .heading h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .subheading p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .green-semi-1 {
+    position: absolute;
+    top: -90px;
+    right: 0px;
+    width: 90px;
+    z-index: -1;
+  }
+}
+
 .welcome {
-  padding: 76px 0px 52px;
+  padding: 64px 0px 50px;
 }
 
 .welcome h4 {
@@ -49,7 +70,7 @@
 }
 
 .vision {
-  padding: 70px 0;
+  padding: 64px 0;
 }
 
 .vision h6 {
@@ -65,8 +86,19 @@
   line-height: 28px;
 }
 
+@media (max-width: 576px) {
+  .vision h6 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .vision img {
+    margin-top: 54px;
+  }
+}
+
 .team {
-  padding: 60px 0;
+  padding: 64px 0;
   color: #fff;
 }
 
@@ -84,7 +116,7 @@
 }
 
 .team .team-name {
-  margin: 50px 0 14px;
+  margin: 40px 0 14px;
   font-size: 24px;
   font-weight: 600;
 }
@@ -100,12 +132,13 @@
   font-size: 16px;
   font-weight: 500;
   color: #fff;
+  margin-bottom: 0;
 }
 
 .team .team-member .member-image {
   width: 150px;
   height: 150px;
-  background-position: top center;
+  background-position: 0 -8px;
   background-repeat: no-repeat;
   background-size: 150px 187px;
   display: inline-block;
@@ -132,15 +165,20 @@
   line-height: 28px;
 }
 
+@media (max-width: 576px) {
+
+}
+
 .investors {
   border-top: 1px solid #efefef;
-  padding: 80px 0 100px;
+  padding: 64px 0;
 }
 
 .investors h4 {
   font-weight: 600;
   font-size: 48px;
   line-height: 66px;
+  margin-bottom: 40px;
 }
 
 .investors p {
@@ -148,11 +186,17 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 576px) {
+  .investors h4 {
+    margin-bottom: 40px;
+  }
 }
 
 .metrics {
-  padding: 80px 0;
+  padding: 64px 0;
 }
 
 .metrics h4 {
@@ -186,7 +230,7 @@
 }
 
 .metrics .awards {
-  margin-top: 70px;
+  margin-top: 64px;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
@@ -208,8 +252,30 @@
   margin-top: 20px;
 }
 
+@media (max-width: 576px) {
+  .metrics .stat {
+    margin-top: 40px;
+  }
+
+  .metrics .subtitle {
+    margin-bottom: 50px;
+  }
+
+  .metrics .awards {
+    margin-top: 0px;
+  }
+
+  .awards p {
+    margin-bottom: 50px;
+  }
+
+  .awards div:last-child > p {
+    margin-bottom: 0;
+  }
+}
+
 .cta-section {
-  padding: 80px 0;
+  padding: 64px 0;
 }
 
 .cta-section h5 {
@@ -219,7 +285,7 @@
 }
 
 .cta-section button {
-  margin-top: 80px;
+  margin-top: 24px;
   padding: 14px 64px;
 }
 
@@ -228,6 +294,21 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
+}
+
+@media (max-width: 576px) {
+  .cta-section {
+    text-align: center;
+  }
+
+  .cta-section img {
+    margin-top: 50px;
+  }
+
+  .cta-section h5 {
+    font-size: 40px;
+    line-height: 48px;
+  }
 }
 
 .features {

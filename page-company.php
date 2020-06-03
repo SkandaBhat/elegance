@@ -33,7 +33,7 @@ get_header(); ?>
       <h4 class="text-center text-primary">Welcome to JIFFY.ai</h4>
       <div class="row justify-content-around">
         <div class="col-sm-12 col-md-6">
-          <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/transform_dashboard.png" />
+          <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/transform_dashboard.png" />
         </div>
       </div>
     </div>
@@ -42,10 +42,10 @@ get_header(); ?>
   <section class="vision">
     <div class="container">
       <div class="row align-items-center justify-content-between">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6 order-sm-2 order-md-1">
           <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
         </div>
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6 order-sm-1 order-md-2">
           <h6 class="text-primary">Vision</h6>
           <p>We are a team of people here to disrupt tomorrow. We have set out to transform how innovation happens, for a better future.
             <br/><br/>
@@ -302,10 +302,10 @@ get_header(); ?>
    <section class="vision">
     <div class="container">
       <div class="row align-items-center justify-content-between">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6 order-sm-2 order-md-1">
           <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
         </div>
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6 order-sm-1 order-md-2">
           <h6 class="text-primary">Responsible Innovation</h6>
           <p>At JIFFY.ai, we believe in the power of advancing computing and automation, while being conscious of the social impact of such disruptive technology. The Paanini Foundation was created to help support the displacement of human resources caused by automation.<br/><br/> The Paanini Foundation partners with our clients to help them manage the potential workforce disruption caused by the automation we bring in via upskilling initiatives that prepare the workforce for new age jobs.
 
@@ -374,10 +374,10 @@ get_header(); ?>
   <section class="cta-section">
     <div class="container">
       <div class="row justify-content-around align-items-center">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6 order-sm-2 order-md-1">
           <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_cta.png" />
         </div>
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-4 order-sm-1 order-md-2">
           <h5 class="text-primary">Lorem Ipsum Text</h5>
           <p>Our committed management team is ably guided by advisors from the technology, academia and financial world.</p>
           <button class="btn-primary">CONTACT US</button>
