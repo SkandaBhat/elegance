@@ -89,7 +89,7 @@ get_header(); ?>
           <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
         </div>
         <div class="col-sm-12 col-md-6 text-center">
-          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_1.png" />
+          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/kyc_automation.jpg" />
         </div>
       </div>
     </div>
@@ -99,7 +99,7 @@ get_header(); ?>
     <div class="container">
       <div class="row second-row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-6 text-center">
-          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_2.png" />
+          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/group_airline_booking.jpg" />
         </div>
         <div class="col-sm-12 col-md-4">
           <h6>Hyperautomating Group Airline Bookings</h6>
@@ -119,7 +119,7 @@ get_header(); ?>
             <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
         </div>
         <div class="col-sm-12 col-md-6 text-center">
-          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_3.png" />
+          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_finance_process.jpg" />
         </div>
       </div>
     </div>
@@ -241,7 +241,10 @@ get_header(); ?>
           <button class="btn-primary">REQUEST DEMO</button>
         </div>
         <div class="col-sm-12 col-md-6">
-          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_cta.png" />
+          <div class="cta-image overflow-hidden position-relative">
+            <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_work.jpg" />
+          </div>
+
         </div>
       </div>
     </div>

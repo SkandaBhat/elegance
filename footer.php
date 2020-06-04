@@ -14,33 +14,33 @@
 	</div><!-- #content -->
     <?php get_template_part( 'footer-widget' ); ?>
   <footer id="colophon" class="site-footer <?php echo wp_bootstrap_starter_bg_class(); ?>" role="contentinfo">
-  		<div class="container pt-3 pb-3 separator">
-        <div class="row flags">
+  		<div class="container pt-6 pb-6 separator">
+        <div class="row">
           <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="row">
               <div class="col-md-4 col-sm-6 col-xs-6">
-                <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-67.png">
-                <p>691 S. Milpitas Blvd. Suite 217 Milpitas, CA 95035, USA <br />+1 6466520764</p>
+                <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-67.png" style="margin-bottom: 12px">
+                <p>691 S. Milpitas Blvd.<br /> Suite 217<br/> Milpitas, CA 95035, USA <br />+1 6466520764</p>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-6">
-                <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-66.png">
-                <p>1142, 6th Main Sector 7, HSR Layout Bangalore 560102, India <br />+91 804 170 0051</p>
+                <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-66.png" style="margin-bottom: 12px">
+                <p>1142, 6th Main<br > Sector 7, HSR Layout<br/> Bangalore 560102, India <br />+91 804 170 0051</p>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-6">
-              </div>
-            </div>
-            <div class="row flags">
-              <div class="col-md-4 col-sm-4 col-xs-4">
-                <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-67-1.png">
-                <p>+44 203 500 2738</p>
-              </div>
-              <div class="col-md-4 col-sm-4 col-xs-4">
-                <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-68.png">
-                <p>+61 260 642035</p>
-              </div>
-              <div class="col-md-4 col-sm-4 col-xs-4">
-                <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-69.png">
-                <p>+65 315 82890</p>
+                <div class="row flags smaller">
+                  <div class="col-md-12 col-sm-4 col-xs-4">
+                    <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-67-1.png">
+                    <p>+44 203 500 2738</p>
+                  </div>
+                  <div class="col-md-12 col-sm-4 col-xs-4">
+                    <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-68.png">
+                    <p>+61 260 642035</p>
+                  </div>
+                  <div class="col-md-12 col-sm-4 col-xs-4">
+                    <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-69.png">
+                    <p>+65 315 82890</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -49,17 +49,14 @@
               <div class="card main-card card-automate">
                 <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/automate_icon.png" />
                 <h2>JIFFY.ai Automate</h2>
-                <p>Business processes, transformed</p>
               </div>
               <div class="card main-card card-assure">
                 <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/assure_icon.png" />
                 <h2>JIFFY.ai Assure</h2>
-                <p>Continuous testing, perfected</p>
               </div>
               <div class="card main-card card-innovate">
                 <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/innovate_icon.png" />
                 <h2>JIFFY.ai Innovate</h2>
-                <p>Software development, reimagined</p>
               </div>
             </div>
           </div>

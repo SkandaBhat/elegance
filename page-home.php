@@ -71,7 +71,7 @@ get_header(); ?>
       <div class="row">
         <div class="col-sm-12 col-md-4">
           <div class="text-center">
-            <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_1.png" />
+            <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/custom_service_telecom.jpg" />
           </div>
           <h6>Helping Telecom Customer Service Teams in Times of Crisis</h6>
           <p>With the Covid-19 pandemic forcing the global workforce to work from home, the pressure on telecom networks has increased. Customer service teams are struggling with customer inquiry volumes. JIFFY.ai can automate help desk operations, ensuring 30% improvement in agent efficiency.</p>
@@ -79,7 +79,7 @@ get_header(); ?>
         </div>
         <div class="col-sm-12 col-md-4">
           <div class="text-center">
-            <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_2.png" />
+            <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/kyc_automation.jpg" />
           </div>
           <h6>KYC Process Automation with Intelligent RPA</h6>
           <p>Know Your Customer processes are tedious, expensive and inaccurate. JIFFY.ai Automate’s result-focused and intuitive app takes over repetitive tasks seamlessly. Not only are your documents processed accurately, the app learns over time and improves itself, minimizing human intervention</p>
@@ -87,7 +87,7 @@ get_header(); ?>
         </div>
         <div class="col-sm-12 col-md-4">
           <div class="text-center">
-            <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_3.png" />
+            <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_finance_process.jpg" />
           </div>
           <h6>Transforming Finance and Accounting Processes</h6>
           <p>Companies that have implemented the JIFFY.ai Automate app for F&A report that they are able to realize returns on their investment in six months or less. With success rates as high as 85%, we’ve made this critical process more foolproof, nimble, and cost-effective.<br/><br/></p>
@@ -136,7 +136,7 @@ get_header(); ?>
               <a href="/automating-employee-onboarding-for-a-global-professional-services-firm/"><button class="btn-outline-primary">READ MORE</button></a>
             </div>
             <div class="col-sm-12 col-md-8 position-relative">
-              <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/case_studies.png" />
+              <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/employee_onboarding.jpg" />
               <img class="img white-squares" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_white_squares.png" />
             </div>
           </div>
@@ -149,7 +149,7 @@ get_header(); ?>
               <a href="/automating-employee-onboarding-for-a-global-professional-services-firm/"><button class="btn-outline-primary">READ MORE</button></a>
             </div>
             <div class="col-sm-12 col-md-8 position-relative">
-              <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/case_studies.png" />
+              <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/airline_refund.jpg" />
               <img class="img white-squares" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_white_squares.png" />
             </div>
           </div>
@@ -162,7 +162,7 @@ get_header(); ?>
               <a href="/automating-employee-onboarding-for-a-global-professional-services-firm/"><button class="btn-outline-primary">READ MORE</button></a>
             </div>
             <div class="col-sm-12 col-md-8 position-relative">
-              <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/case_studies.png" />
+              <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/automobile_manufacturing.jpg" />
               <img class="img white-squares" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_white_squares.png" />
             </div>
           </div>

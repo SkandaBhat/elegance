@@ -90,7 +90,7 @@ get_header(); ?>
           <button class="btn-outline-primary">READ MORE</button>
         </div>
         <div class="col-sm-12 col-md-6 text-center">
-          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/use_case_1.png" />
+          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/automobile_manufacturing.jpg" />
         </div>
 
       </div>
@@ -212,7 +212,9 @@ get_header(); ?>
           <button class="btn-primary">REQUEST DEMO</button>
         </div>
         <div class="col-sm-12 col-md-6">
-          <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_cta.png" />
+          <div class="cta-image overflow-hidden position-relative">
+            <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_invoice.jpg" />
+          </div> 
         </div>
       </div>
     </div>

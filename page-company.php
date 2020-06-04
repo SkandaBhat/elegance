@@ -43,7 +43,7 @@ get_header(); ?>
     <div class="container">
       <div class="row align-items-center justify-content-between">
         <div class="col-sm-12 col-md-6 order-sm-2 order-md-1">
-          <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+          <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/vision.jpg" />
         </div>
         <div class="col-sm-12 col-md-6 order-sm-1 order-md-2">
           <h6 class="text-primary">Vision</h6>
@@ -303,7 +303,7 @@ get_header(); ?>
     <div class="container">
       <div class="row align-items-center justify-content-between">
         <div class="col-sm-12 col-md-6 order-sm-2 order-md-1">
-          <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+          <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/responsible_innovation.jpg" />
         </div>
         <div class="col-sm-12 col-md-6 order-sm-1 order-md-2">
           <h6 class="text-primary">Responsible Innovation</h6>
