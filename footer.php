@@ -18,6 +18,25 @@
         <div class="row">
           <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="row">
+              <div class="col-md-4 col-sm-12 col-xs-12 mobile">
+                <div class="row flags">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-67-1.png">
+                    <p>+44 203 500 2738</p>
+                  </div>
+                  <div style="clear: both;"></div>
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-68.png">
+                    <p>+61 260 642035</p>
+                  </div>
+                  <div style="clear: both;"></div>
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-69.png">
+                    <p>+65 315 82890</p>
+                  </div>
+                  <div style="clear: both;"></div>
+                </div>
+              </div>
               <div class="col-md-4 col-sm-6 col-xs-6">
                 <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-67.png" style="margin-bottom: 12px">
                 <p>691 S. Milpitas Blvd.<br /> Suite 217<br/> Milpitas, CA 95035, USA <br />+1 6466520764</p>

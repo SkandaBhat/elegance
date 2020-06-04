@@ -9729,7 +9729,7 @@ footer .main-card-row {
 footer .main-card {
   content: "";
   /* min-width: 189px; */
-  max-width: 30%;
+  max-width: 32%;
   padding: 20px;
   border-radius: 0;
   background-color: grey;
@@ -9804,6 +9804,8 @@ footer .card-innovate {
 }
 .flags p {
   margin-bottom: 0;
+  position: relative;
+  top: 4px;
 }
 
 .site-info {
@@ -9825,8 +9827,37 @@ footer .card-innovate {
   height: 40px;
   width: 170px;
 }
+.mobile {
+  display: none;
+}
 
 @media (max-width: 576px) {
+  .navbar-brand img {
+    height: 40px;
+    width: 148px;
+  }
+  .mobile p {
+    position: relative;
+    top: 6px;
+  }
+  .separator {
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 24px;
+    padding-top: 32px;
+  }
+  .mobile img {
+    float: left;
+    padding: 0 8px 0px 0;
+  }
+  .mobile {
+    display: block;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+  }
+  .smaller {
+    display: none;
+  }
   button {
     width: 100%;
   }
@@ -9835,8 +9866,8 @@ footer .card-innovate {
   }
   footer .main-card {
     min-width: 60px;
-    max-width: 120px;
-    margin-top: 42px;
+    max-width: 110px;
+    margin-top: 24px;
     padding: 10px;
   }
   footer .main-card h2 {
@@ -9856,6 +9887,8 @@ footer .card-innovate {
   }
   .social-media {
     float: unset;
+    justify-content: space-evenly;
+    display: flex;
   }
   .social-media img {
     margin-left: 13px;
@@ -9864,6 +9897,7 @@ footer .card-innovate {
   .site-info {
     margin-top: 8px;
     text-align: center;
+    float: unset;
   }
   footer .main-card img {
     position: absolute;
