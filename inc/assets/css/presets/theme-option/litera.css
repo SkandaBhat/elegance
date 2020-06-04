@@ -9782,7 +9782,8 @@ footer .card-innovate {
 
 .separator {
   border-bottom: 1px solid #d0d0d0;
-  padding: 42px 0 24px;
+  padding-bottom: 24px;
+  padding-top: 42px;
 }
 
 .flags {
