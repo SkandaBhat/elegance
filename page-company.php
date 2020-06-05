@@ -120,7 +120,7 @@ get_header(); ?>
             <div data-id="7" class="team-member col-sm-6 col-md-2">
               <div
                 class="member-image img rounded-circle"
-                style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Sangeetha3-Headshot-1-2.png')"
+                style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Sangeetha-Headshot.png')"
               ></div>
               <p class="personal-name">Sangeetha Phalgunan</p>
               <p class="personal-designation">VP, APAC Sales & Alliances</p>
