@@ -51,7 +51,7 @@ get_header(); ?>
         <h4 class="text-center text-primary">Features</h4>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Task-DesignDemo1.jpg" />
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">
@@ -71,12 +71,12 @@ get_header(); ?>
             <p>JIFFY.ai Assure’s cognitive testing capabilities powered by AI and ML self-learn and ensure improved accuracy of your tests over time, predicting what to test.</p>
           </div>
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Features-Smarter-testing-that-gets-better-with-time.png" />
           </div>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between">
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Features-DevOps-and-Continuous-Testing-Ready.jpg" />
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">
@@ -95,7 +95,7 @@ get_header(); ?>
             <p>Domain-ready Hyper Apps – be it retail, banking or manufacturing. Leverage our pre-built testing automation apps across standard enterprise applications including SAP, SFDC, IBM and more.</p>
           </div>
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Features-Hyper-Apps-for-Test-Automation.png" />
           </div>
         </div>
       </section>
@@ -125,7 +125,7 @@ get_header(); ?>
       <h4 class="text-center text-secondary">In Action</h4>
       <div class="row first-row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-6">
-          <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+          <img class="img" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/In-Action-Smart-test-data-management1.png" />
         </div>
         <div class="col-sm-12 col-md-4">
           <h6>Smart test data management</h6>
@@ -138,7 +138,7 @@ get_header(); ?>
           <p>Leverage the big data platform of JIFFY.ai Assure to cleanse, transform and scramble data to adhere to your data privacy requirements.</p>
         </div>
         <div class="col-sm-12 col-md-6">
-          <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+          <img class="img" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/In-Action-Manage-Data-Privacy-Challenges-in-Testing.jpg" />
         </div>
       </div>
     </div>
