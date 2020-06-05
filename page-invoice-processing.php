@@ -11,11 +11,11 @@ get_header(); ?>
           <article>
             <div>
               <div class="heading heading-xl">
-                <h1>High-speed Invoice Processing</h1>
+                <h1>Seamless Invoice Processing</h1>
               </div>
               <div class="subheading">
-                <h3>Hyperautomate for effortless cash flow management.</h3>
-                <p>JIFFY.aiâ€™s Invoice Processing Hyper App is the only comprehensive solution that addresses all the gaps in your invoice processing workflow</p>
+                <h3>Hyperautomate invoice processing for effortless cash flow management.</h3>
+                <p>JIFFY.ai’s AI-powered Invoice Processing Hyper App is the only comprehensive solution that addresses all the gaps in your invoice processing workflow.</p>
               </div>
               <button class="btn-primary primary-cta">REQUEST DEMO</button>
             </div>
@@ -36,9 +36,9 @@ get_header(); ?>
         </div>
         <div class="col-sm-12 col-md-6">
           <h4>Transform the way you process invoices</h4>
-          <p>By automating your invoice processing and related workflows, Jiffy.ai helps reduce the cost of invoicing by X%, reduces invoice processing errors by X%, and shortens the turnaround time by up 80% or more.
+          <p>By automating your invoice processing and related workflows, JIFFY.ai helps reduce the cost of invoicing by 70%, reduces invoice processing errors by 98%, and improves straight-through processing by 100%.
           <br/> <br/>
-          Built with a dashboard that gives end-to-end visibility of the entire invoice process, our Hyper App provides comprehensive analysis and insights into your financial data â€“ allowing you to report on time and with confidence.</p>
+          Equipped with a built-in analytics engine, our Invoice Processing Hyper App provides end-to-end visibility of the entire invoice process and provides comprehensive insights into your financial data.</p>
         </div>
       </div>
     </div>
@@ -55,20 +55,44 @@ get_header(); ?>
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">
-              <h6>Intelligent Invoice Processing</h6>
+              <h6>Intelligent Invoice Extraction</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
             </div>
-            <p>The only hybrid invoice processing engine with self learning machine models that captures invoices through OCR and supplier portals, eliminating the need for manual data entry. It handles new vendors and new UI formats with ease.</p>
+            <p>The only hybrid invoice data extraction engine with self-learning machine models that automatically understands your suppliers and invoice formats.</p>
           </div>
           <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/product_light_ochre_square.png" />
         </div>
         <div class="row bg-secondary feature-card align-items-center justify-content-between">
           <div class="col-sm-12 col-md-5 text2">
             <div class="position-relative">
-              <h6>Simplifies the invoice lifecycle</h6>
+              <h6>Customizable Supplier Portal</h6>
               <img class="img pointer-green" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_green.png" />
             </div>
-            <p>Streamlines workflows by automatically routing invoices and simplifying approvals. Provides flexibility to configure specific workflows for different invoice types, vendor types etc.</p>
+            <p>Set up an invoice registration portal with a few clicks to onboard new suppliers with ease.</p>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+          </div>
+        </div>
+        <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
+          <div class="col-sm-12 col-md-6">
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+          </div>
+          <div class="col-sm-12 col-md-5 text1">
+            <div class="position-relative">
+              <h6>Configurable Workflows</h6>
+              <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
+            </div>
+            <p>Delivers out-of-the-box configurations for routing invoices and simplifying approvals. Provides flexibility to configure specific workflows for different invoice types, vendor types, and more.</p>
+          </div>
+        </div>
+        <div class="row bg-secondary feature-card align-items-center justify-content-between">
+          <div class="col-sm-12 col-md-5 text2">
+            <div class="position-relative">
+              <h6>Powerful Validation Engine</h6>
+              <img class="img pointer-green" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_green.png" />
+            </div>
+            <p>Provides flexibility in setting up validations at the generic or supplier level. Business users can configure complex validations like a three-way match, PO validation, and item validations with ease.</p>
           </div>
           <div class="col-sm-12 col-md-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
@@ -85,8 +109,8 @@ get_header(); ?>
       <h4 class="text-center text-primary">Case Study</h4>
       <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-4">
-          <h6>Cognitive Invoice Processing for an Automobile Manufacturer</h6>
-          <p>Our client wanted to automate their finance and accounting process. JIFFY.ai deployed a cognitive, self-learning RPA which was used to process structured and unstructured data, something that rule-based RPA platforms were unable to do. Turnaround time for invoice processing improved by 85%.</p>
+          <h6>Invoice Processing Automated for a Global Manufacturer</h6>
+          <p>Using JIFFY.ai’s invoice processing Hyper App, a global manufacturer was able to automate the entire invoice processing function across multiple countries. We achieved 85% straight-through processing over a 12-week period across 150,000 invoices a month for 5,000 suppliers.</p>
           <button class="btn-outline-primary">READ MORE</button>
         </div>
         <div class="col-sm-12 col-md-6 text-center">
@@ -106,13 +130,13 @@ get_header(); ?>
         </div>
         <div class="col-sm-12 col-md-4">
           <h6>Powerful data analytics</h6>
-          <p>Our Hyper App generates analytics that provide visibility into the invoicing process as well as automation success metrics.</p>
+          <p>Generate analytics that provides complete visibility into the invoicing process, allowing you to manage and predict cash flows, fast-track book closure and provide flexibility in managing vendor payment cycles.</p>
         </div>
       </div>
       <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-4">
-          <h6>Ready-To-Deploy</h6>
-          <p>Seamless integration with existing ERP and accounting systems to complete the invoice and payment lifecycle.</p>
+          <h6>Pluggable ERP connectors</h6>
+          <p>Seamless integration with existing ERP and accounting systems to complete the invoice and payment lifecycle with out-of-the-box connectors.</p>
         </div>
         <div class="col-sm-12 col-md-6">
           <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
@@ -127,8 +151,7 @@ get_header(); ?>
       <div class="testimonial">
         <div class="wrapper">
           <div class="upper-part position-relative">
-            JIFFY.ai has the ability to process complex PDFs, work with legacy systems, comply with our software security needs, and
-            are a good partner.
+            JIFFY.ai has the ability to process complex PDFs, work with legacy systems, comply with our software security needs, and are a good partner.
             <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
           </div>
         </div>
@@ -140,7 +163,7 @@ get_header(); ?>
       <div class="testimonial">
         <div class="wrapper">
           <div class="upper-part position-relative">
-            JIFFY.ai really helped us take away heavy year-end workload and let us focus on year closing activity
+            JIFFY.ai really helped us take away heavy year-end workload and let us focus on year closing activity.
             <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
           </div>
         </div>
@@ -153,9 +176,7 @@ get_header(); ?>
         <div class="wrapper">
           <div class="upper-part position-relative">
             (The JIFFY.ai team) went above and beyond to turn (our) automation around in such a short time.
-            On behalf of [our company], we are very grateful for your heroic efforts. You are helping us to make our JIFFY.ai
-            Automate program a success and help us deliver value to our customers. This is especially critical for us at this
-            uncertain (COVID) time.
+            On behalf of [our company], we are very grateful for your heroic efforts. You are helping us to make our JIFFY.ai Automate program a success and help us deliver value to our customers. This is especially critical for us at this uncertain (COVID) time.
             <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
           </div>
         </div>
@@ -167,8 +188,7 @@ get_header(); ?>
       <div class="testimonial">
         <div class="wrapper">
           <div class="upper-part position-relative">
-            Thank you for all your heroic efforts over the last few months. We have together made a ton of progress! We thank you
-            for your dedication, hard work, long hours, and partnership in this RPA journey!
+            Thank you for all your heroic efforts over the last few months.  We have together made a ton of progress! We thank you for your dedication, hard work, long hours, and partnership in this RPA journey!
             <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
           </div>
         </div>
@@ -214,7 +234,7 @@ get_header(); ?>
         <div class="col-sm-12 col-md-6">
           <div class="cta-image overflow-hidden position-relative">
             <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_invoice.jpg" />
-          </div> 
+          </div>
         </div>
       </div>
     </div>

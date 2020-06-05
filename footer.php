@@ -65,18 +65,18 @@
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="row justify-content-between main-card-row">
-              <div class="card main-card card-automate">
+              <a href="/automate" class="card main-card card-automate">
                 <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/automate_icon.png" />
                 <h2>JIFFY.ai Automate</h2>
-              </div>
-              <div class="card main-card card-assure">
+              </a>
+              <a href="/assure" class="card main-card card-assure">
                 <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/assure_icon.png" />
                 <h2>JIFFY.ai Assure</h2>
-              </div>
-              <div class="card main-card card-innovate">
+              </a>
+              <a href="/innovate" class="card main-card card-innovate">
                 <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/innovate_icon.png" />
                 <h2>JIFFY.ai Innovate</h2>
-              </div>
+              </a>
             </div>
           </div>
         </div>

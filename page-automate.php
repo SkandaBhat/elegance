@@ -36,9 +36,9 @@ get_header(); ?>
         </div>
         <div class="col-sm-12 col-md-6">
           <h4>Transform your business processes</h4>
-          <p>JIFFY.ai Automate is the only application platform that lets you implement, manage and monitor enterprise-wide automation, so you can deliver on the promise of business transformation.
+          <p>JIFFY.ai Automate is the only app-based intelligent automation platform that lets you implement, manage and monitor enterprise-wide automation, so you can deliver on the promise of business transformation.
           <br/> <br/>
-          JIFFY.ai Automate's single dashboard combines the power of RPA, ML, AI, document processing, workflow and analytics, to support the end-to-end lifecycle management of automation so you can actually achieve significant ROI.</p>
+          JIFFY.ai Automate’s single dashboard combines the power of RPA, ML, AI, document processing, workflow and analytics, to support the end-to-end lifecycle management of automation with a human-in-the-loop approach so you can actually achieve significant ROI.</p>
         </div>
       </div>
     </div>
@@ -54,7 +54,7 @@ get_header(); ?>
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">
-              <h6>Intelligent document processing</h6>
+              <h6>Intelligent Document Processing</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
             </div>
             <p>The only hybrid document processing engine with self learning machine models that can handle structured, semi-structured and unstructured documents without the need to create machine models from scratch.</p>
@@ -67,7 +67,31 @@ get_header(); ?>
               <h6>ML based automation, simplified</h6>
               <img class="img pointer-green" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_green.png" />
             </div>
-            <p>A native machine learning workspace that helps both non data science and data science professionals with building and leveraging ML models - truly democratizing machine learning based automation.</p>
+            <p>A native machine learning workspace that helps both non-data science and data science professionals with building and leveraging ML models – truly democratizing machine learning based automation.</p>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+          </div>
+        </div>
+        <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
+          <div class="col-sm-12 col-md-6">
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+          </div>
+          <div class="col-sm-12 col-md-5 text1">
+            <div class="position-relative">
+              <h6>App-based  Automation Studio</h6>
+              <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
+            </div>
+            <p>Leverage JIFFY.ai’s powerful automation studio that allows you to automate beyond tasks. Integrate automation with native document processing, workflow, ML and analytics with a few clicks.</p>
+          </div>
+        </div>
+        <div class="row bg-secondary feature-card align-items-center justify-content-between">
+          <div class="col-sm-12 col-md-5 text2">
+            <div class="position-relative">
+              <h6>Configurable Forms and Workflows</h6>
+              <img class="img pointer-green" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_green.png" />
+            </div>
+            <p>Empower business users to easily build custom forms and workflows to handle complex business user interactions and validations.</p>
           </div>
           <div class="col-sm-12 col-md-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
@@ -85,7 +109,7 @@ get_header(); ?>
       <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-4">
           <h6>KYC Process Automation with Intelligent RPA</h6>
-          <p>KYC processes are tedious, expensive and inaccurate. JIFFY.ai Automate's result focused and intuitive app takes over the monotonous tasks seamlessly. Not only are your documents read accurately, the app learns over time and improves itself, minimizing human intervention.</p>
+          <p>KYC processes are tedious, expensive and inaccurate. JIFFY.ai Automate’s result focused and intuitive app takes over the monotonous tasks seamlessly. Not only are your documents read accurately, the app learns over time and improves itself, minimizing human intervention.</p>
           <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
         </div>
         <div class="col-sm-12 col-md-6 text-center">
@@ -115,7 +139,7 @@ get_header(); ?>
       <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-4">
           <h6>Transforming Finance and Accounting Processes</h6>
-          <p>Companies that have implemented the JIFFY.ai Automate app for F&A report that they are able to realize returns on their investment in six months or less. With success rates as high as 85%, we've made this critical process more foolproof, nimble, and cost-effective.</p>
+          <p>Companies that have implemented the JIFFY.ai Automate app for F&A report that they are able to realize returns on their investment in six months or less. With success rates as high as 85%, we’ve made this critical process more foolproof, nimble, and cost-effective.</p>
             <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
         </div>
         <div class="col-sm-12 col-md-6 text-center">
@@ -134,7 +158,7 @@ get_header(); ?>
           <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
         </div>
         <div class="col-sm-12 col-md-4">
-          <h6>Adaptable and ready-to-deploy</h6>
+          <h6>Adaptable and ready&#8209;to&#8209;deploy</h6>
           <p>Our versatile dashboard allows you to build workflows with a few clicks, without having to make changes to existing business applications.</p>
         </div>
       </div>
@@ -156,8 +180,7 @@ get_header(); ?>
       <div class="testimonial">
         <div class="wrapper">
           <div class="upper-part position-relative">
-            JIFFY.ai has the ability to process complex PDFs, work with legacy systems, comply with our software security needs, and
-            are a good partner.
+            JIFFY.ai has the ability to process complex PDFs, work with legacy systems, comply with our software security needs, and are a good partner.
             <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
           </div>
         </div>
@@ -169,7 +192,7 @@ get_header(); ?>
       <div class="testimonial">
         <div class="wrapper">
           <div class="upper-part position-relative">
-            JIFFY.ai really helped us take away heavy year-end workload and let us focus on year closing activity
+            JIFFY.ai really helped us take away heavy year-end workload and let us focus on year closing activity.
             <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
           </div>
         </div>
@@ -182,9 +205,7 @@ get_header(); ?>
         <div class="wrapper">
           <div class="upper-part position-relative">
             (The JIFFY.ai team) went above and beyond to turn (our) automation around in such a short time.
-            On behalf of [our company], we are very grateful for your heroic efforts. You are helping us to make our JIFFY.ai
-            Automate program a success and help us deliver value to our customers. This is especially critical for us at this
-            uncertain (COVID) time.
+            On behalf of [our company], we are very grateful for your heroic efforts. You are helping us to make our JIFFY.ai Automate program a success and help us deliver value to our customers. This is especially critical for us at this uncertain (COVID) time.
             <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
           </div>
         </div>
@@ -196,8 +217,7 @@ get_header(); ?>
       <div class="testimonial">
         <div class="wrapper">
           <div class="upper-part position-relative">
-            Thank you for all your heroic efforts over the last few months. We have together made a ton of progress! We thank you
-            for your dedication, hard work, long hours, and partnership in this RPA journey!
+            Thank you for all your heroic efforts over the last few months. We have together made a ton of progress! We thank you for your dedication, hard work, long hours, and partnership in this RPA journey.
             <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
           </div>
         </div>

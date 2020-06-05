@@ -38,7 +38,7 @@ get_header(); ?>
           <h4>Transform your software development</h4>
           <p>Software development is a slow and complicated process. With dependencies on several teams and common resources, it takes months for even the most advanced software companies to launch new products.
           <br/> <br/>
-          With JIFFY.ai Innovate, weâ€™ve redefined software development and empowered everyone with ideas to develop, deploy, test and launch software.</p>
+          With JIFFY.ai Innovate, we’ve redefined software development and empowered everyone with ideas to develop, deploy, test and launch software.</p>
         </div>
       </div>
     </div>
@@ -58,7 +58,7 @@ get_header(); ?>
               <h6>Talk in your natural language</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
             </div>
-            <p>Tell JIFFY.ai Innovate what you need by speaking to it, chatting with it, or submitting a document. Natural Language Processing ensures your requirement is converted accurately into JIFFY.aiâ€™s proprietary Intermediate Language.</p>
+            <p>Tell JIFFY.ai Innovate what you need by speaking to it, chatting with it, or submitting a document. Natural Language Processing ensures your requirement is converted accurately into JIFFY.ai’s proprietary Intermediate Language.</p>
           </div>
           <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/product_light_ochre_square.png" />
         </div>
@@ -69,6 +69,30 @@ get_header(); ?>
               <img class="img pointer-green" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_green.png" />
             </div>
             <p>JIFFY.ai Innovate uses the inputs to generate the required code, ensures continuous integration and deployment, and runs test cases continuously, ensuring your software runs without glitches.</p>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+          </div>
+        </div>
+        <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
+          <div class="col-sm-12 col-md-6">
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+          </div>
+          <div class="col-sm-12 col-md-5 text1">
+            <div class="position-relative">
+              <h6>Automated DevOps</h6>
+              <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
+            </div>
+            <p>JIFFY.ai Innovate deploys the apps developed on-site in an elastic, scalable fashion or in any external cloud like AWS, Azure, Google Cloud, etc. The platform ensures continuous integration and deployment, after smoke and regression testing.</p>
+          </div>
+        </div>
+        <div class="row bg-secondary feature-card align-items-center justify-content-between">
+          <div class="col-sm-12 col-md-5 text2">
+            <div class="position-relative">
+              <h6>Automated Testing</h6>
+              <img class="img pointer-green" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_green.png" />
+            </div>
+            <p>JIFFY.ai Innovate creates test documents using our proprietary Intermediate Language. The Test Suite Express runs test cases continuously, ensuring your software runs properly.</p>
           </div>
           <div class="col-sm-12 col-md-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
@@ -101,8 +125,7 @@ get_header(); ?>
       <div class="testimonial">
         <div class="wrapper">
           <div class="upper-part position-relative">
-            JIFFY.ai has the ability to process complex PDFs, work with legacy systems, comply with our software security needs, and
-            are a good partner.
+            JIFFY.ai has the ability to process complex PDFs, work with legacy systems, comply with our software security needs, and are a good partner.
             <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
           </div>
         </div>
@@ -114,7 +137,7 @@ get_header(); ?>
       <div class="testimonial">
         <div class="wrapper">
           <div class="upper-part position-relative">
-            JIFFY.ai really helped us take away heavy year-end workload and let us focus on year closing activity
+            JIFFY.ai really helped us take away heavy year-end workload and let us focus on year closing activity.
             <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
           </div>
         </div>
@@ -127,9 +150,7 @@ get_header(); ?>
         <div class="wrapper">
           <div class="upper-part position-relative">
             (The JIFFY.ai team) went above and beyond to turn (our) automation around in such a short time.
-            On behalf of [our company], we are very grateful for your heroic efforts. You are helping us to make our JIFFY.ai
-            Automate program a success and help us deliver value to our customers. This is especially critical for us at this
-            uncertain (COVID) time.
+            On behalf of [our company], we are very grateful for your heroic efforts. You are helping us to make our JIFFY.ai Automate program a success and help us deliver value to our customers. This is especially critical for us at this uncertain (COVID) time.
             <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
           </div>
         </div>
@@ -141,8 +162,7 @@ get_header(); ?>
       <div class="testimonial">
         <div class="wrapper">
           <div class="upper-part position-relative">
-            Thank you for all your heroic efforts over the last few months. We have together made a ton of progress! We thank you
-            for your dedication, hard work, long hours, and partnership in this RPA journey!
+            Thank you for all your heroic efforts over the last few months.  We have together made a ton of progress! We thank you for your dedication, hard work, long hours, and partnership in this RPA journey!
             <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
           </div>
         </div>
@@ -188,7 +208,7 @@ get_header(); ?>
         <div class="col-sm-12 col-md-6">
           <div class="cta-image overflow-hidden position-relative">
             <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_develop.jpg" />
-          </div> 
+          </div>
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ get_header(); ?>
                 <h1>Accelerate human-machine collaboration</h1>
               </div>
               <div class="subheading">
-                <p>JIFFY.ai’s revolutionary automation suite turbo-charges productivity, transforms processes, and helps your teams unleash their creativity and innovation.</p>
+                <p>JIFFY.ai’s revolutionary app-based intelligent automation suite turbo-charges productivity, transforms processes, and helps your teams unleash their creativity and innovation.</p>
               </div>
               <button class="btn-primary primary-cta">REQUEST DEMO</button>
             </div>
@@ -56,7 +56,7 @@ get_header(); ?>
           <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
         </div>
         <div class="col-sm-12 col-md-6">
-          <h2>Meet JIFFY.ai’s Hyper Apps.</h2>
+          <h2>Meet JIFFY.ai’s Hyper Apps</h2>
           <h4>Our Hyper Apps are specifically designed to help enterprises automate and improve the most complex business processes with ease.</h4>
           <p>JIFFY.ai’s Invoice Processing Hyper App is the only comprehensive solution that addresses all the gaps and inefficiencies in your invoice processing workflow. Our AI and ML powered app integrates with your ERP seamlessly, and assures faster, more economical, and more accurate invoice processing.</p>
         </div>
@@ -74,7 +74,7 @@ get_header(); ?>
             <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/custom_service_telecom.jpg" />
           </div>
           <h6>Helping Telecom Customer Service Teams in Times of Crisis</h6>
-          <p>With the Covid-19 pandemic forcing the global workforce to work from home, the pressure on telecom networks has increased. Customer service teams are struggling with customer inquiry volumes. JIFFY.ai can automate help desk operations, ensuring 30% improvement in agent efficiency.</p>
+          <p>With the Covid-19 pandemic forcing the global workforce to work from home, the pressure on telecom networks has increased. Customer service teams have struggled with customer inquiry volumes. JIFFY.ai can automate help desk operations, ensuring 30% improvement in agent efficiency.</p>
           <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
         </div>
         <div class="col-sm-12 col-md-4">
@@ -82,7 +82,7 @@ get_header(); ?>
             <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/kyc_automation.jpg" />
           </div>
           <h6>KYC Process Automation with Intelligent RPA</h6>
-          <p>Know Your Customer processes are tedious, expensive and inaccurate. JIFFY.ai Automate’s result-focused and intuitive app takes over repetitive tasks seamlessly. Not only are your documents processed accurately, the app learns over time and improves itself, minimizing human intervention</p>
+          <p>Know Your Customer processes are tedious, expensive and inaccurate. JIFFY.ai Automate’s result-focused and intuitive app takes over repetitive tasks seamlessly. Not only are your documents processed accurately, the app learns over time and improves itself, minimizing human intervention.</p>
           <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
         </div>
         <div class="col-sm-12 col-md-4">
@@ -146,7 +146,7 @@ get_header(); ?>
             <div class="col-sm-12 col-md-3">
               <h6>Automating Cancellation & Refund Queue Requests for a Leading American Airline</h6>
               <p>With global restrictions on travel due to the Covid-19 pandemic, our client faced an overload of requests for flight cancellations, rescheduling, and refunds. JIFFY.ai stepped in and automated the cancellation and refund queue process, clearing thousands of requests in less than a week.</p>
-              <a href="/automating-employee-onboarding-for-a-global-professional-services-firm/"><button class="btn-outline-primary">READ MORE</button></a>
+              <a href="/automating-cancellation-refund-queue-requests-for-a-leading-american-airline/"><button class="btn-outline-primary">READ MORE</button></a>
             </div>
             <div class="col-sm-12 col-md-8 position-relative">
               <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/airline_refund.jpg" />
@@ -159,7 +159,7 @@ get_header(); ?>
             <div class="col-sm-12 col-md-3">
               <h6>Cognitive Invoice Processing for an Automobile Manufacturer</h6>
               <p>Our client wanted to automate their finance and accounting process. JIFFY.ai deployed a cognitive, self-learning RPA which was used to process structured and unstructured data, something that rule-based RPA platforms were unable to do. Turnaround time for invoice processing improved by 85%.</p>
-              <a href="/automating-employee-onboarding-for-a-global-professional-services-firm/"><button class="btn-outline-primary">READ MORE</button></a>
+              <a href="/cognitive-invoice-processing-for-an-automobile-manufacturer/"><button class="btn-outline-primary">READ MORE</button></a>
             </div>
             <div class="col-sm-12 col-md-8 position-relative">
               <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/automobile_manufacturing.jpg" />

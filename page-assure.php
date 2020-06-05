@@ -14,9 +14,8 @@ get_header(); ?>
                 <h1>Tested For Perfection</h1>
               </div>
               <div class="subheading">
-                <h3>Continuous testing powered by AI and ML.</h3>
-                <p>JIFFY.ai Assure provides your teams a ready-to-deploy, end to end platform which makes the testing process more
-                intelligent, reliable and fast.</p>
+                <h3>Continuous test automation powered by AI and ML.</h3>
+                <p>JIFFY.ai Assure provides your teams a ready-to-deploy, end-to-end platform which makes the testing process more intelligent, reliable and fast.</p>
               </div>
               <button class="btn-primary primary-cta">REQUEST DEMO</button>
             </div>
@@ -37,9 +36,9 @@ get_header(); ?>
         </div>
         <div class="col-sm-12 col-md-6">
           <h4>Transform your testing processes</h4>
-          <p>JIFFY.ai Assure is the only application platform that lets you implement, manage and monitor enterprise-wide automation, so you can deliver on the promise of business transformation.
+          <p>JIFFY.ai Assure is the only low code AI-based integrated test automation platform that lets you automate your tests across your entire software lifecycle.
           <br/> <br/>
-          JIFFY.ai Assure’s single dashboard combines the power of RPA, ML, AI, document processing, workflow and analytics, to support the end-to-end lifecycle management of automation so you can actually achieve significant ROI.</p>
+          JIFFY.ai combines the capabilities of end-to-end test automation, DevOps integration, test data management and AI, so you can implement intelligent and agile continuous testing automation across your enterprise.</p>
         </div>
       </div>
     </div>
@@ -56,20 +55,20 @@ get_header(); ?>
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">
-              <h6>Low Code End to End Test Automation</h6>
+              <h6>Low Code End-to-End Test Automation</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
             </div>
-            <p>JIFFY.ai Assure works seamlessly across the entire testing lifecycle, and thrives on web, desktop and even legacy systems. It’s easy drag-drop-and-connect interface ensures that your teams can start testing from the word go.</p>
+            <p>JIFFY.ai Assure works seamlessly across the entire testing lifecycle. Integrate across web, desktop and even legacy systems with a few clicks. It’s easy drag-drop-and-connect interface ensures you can start testing from the word go.</p>
           </div>
           <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/product_light_ochre_square.png" />
         </div>
         <div class="row bg-secondary feature-card align-items-center justify-content-between">
           <div class="col-sm-12 col-md-5 text2">
             <div class="position-relative">
-              <h6>Accurate Cognitive Testing</h6>
+              <h6>Smarter testing that gets better with time</h6>
               <img class="img pointer-green" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_green.png" />
             </div>
-            <p>JIFFY.ai Assure’s cognitive testing capabilities are unparalleled. Powered by AI and ML, it self-learns and ensures improved accuracy of your tests over time, even predicting what to test.</p>
+            <p>JIFFY.ai Assure’s cognitive testing capabilities powered by AI and ML self-learn and ensure improved accuracy of your tests over time, predicting what to test.</p>
           </div>
           <div class="col-sm-12 col-md-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
@@ -81,19 +80,19 @@ get_header(); ?>
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">
-              <h6>Manage Data Privacy Challenges</h6>
+              <h6>DevOps and Continuous Testing Ready</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
             </div>
-            <p>Leverage our big data platform to cleanse, transform and scramble data to adhere to your data privacy requirements.</p>
+            <p>JIFFY.ai Assure provides built in connectors to manage your end-to-end devops cycle right from requirements, test cycles, defects and deployment.</p>
           </div>
         </div>
         <div class="row bg-secondary feature-card align-items-center justify-content-between">
           <div class="col-sm-12 col-md-5 text2">
             <div class="position-relative">
-              <h6>DevOps and Continuous Testing Ready</h6>
+              <h6>Hyper Apps for Test Automation</h6>
               <img class="img pointer-green" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_green.png" />
             </div>
-            <p>JIFFY.ai Assure provides built in connectors to manage your end to end DevOps cycle right form requirements, test cycles, defects and deployment.</p>
+            <p>Domain-ready Hyper Apps – be it retail, banking or manufacturing. Leverage our pre-built testing automation apps across standard enterprise applications including SAP, SFDC, IBM and more.</p>
           </div>
           <div class="col-sm-12 col-md-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
@@ -129,14 +128,14 @@ get_header(); ?>
           <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
         </div>
         <div class="col-sm-12 col-md-4">
-          <h6>Solution ready package</h6>
-          <p>With JIFFY.ai Assure’s domain ready test bots – be it retail, banking or manufacturing – you can leverage our pre-built automation components across standard enterprise applications including SAP, SFDC, IBM and more.</p>
+          <h6>Smart test data management</h6>
+          <p>Our cognitive data platform chooses the right test data for you. No more test data creation hassles. Your test cycles get faster with automatic data selection.</p>
         </div>
       </div>
       <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-4">
-          <h6>Smart data management</h6>
-          <p>Our cognitive data platform chooses the right test data for you. No more test data creation hassles. Your test cycles get faster with automatic data selection.</p>
+          <h6>Manage Data Privacy Challenges in Testing</h6>
+          <p>Leverage the big data platform of JIFFY.ai Assure to cleanse, transform and scramble data to adhere to your data privacy requirements.</p>
         </div>
         <div class="col-sm-12 col-md-6">
           <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
@@ -151,8 +150,7 @@ get_header(); ?>
       <div class="testimonial">
         <div class="wrapper">
           <div class="upper-part position-relative">
-            JIFFY.ai has the ability to process complex PDFs, work with legacy systems, comply with our software security needs, and
-            are a good partner.
+            JIFFY.ai has the ability to process complex PDFs, work with legacy systems, comply with our software security needs, and are a good partner.
             <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
           </div>
         </div>
@@ -164,7 +162,7 @@ get_header(); ?>
       <div class="testimonial">
         <div class="wrapper">
           <div class="upper-part position-relative">
-            JIFFY.ai really helped us take away heavy year-end workload and let us focus on year closing activity
+            JIFFY.ai really helped us take away heavy year-end workload and let us focus on year closing activity.
             <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
           </div>
         </div>
@@ -177,9 +175,7 @@ get_header(); ?>
         <div class="wrapper">
           <div class="upper-part position-relative">
             (The JIFFY.ai team) went above and beyond to turn (our) automation around in such a short time.
-            On behalf of [our company], we are very grateful for your heroic efforts. You are helping us to make our JIFFY.ai
-            Automate program a success and help us deliver value to our customers. This is especially critical for us at this
-            uncertain (COVID) time.
+            On behalf of [our company], we are very grateful for your heroic efforts. You are helping us to make our JIFFY.ai Automate program a success and help us deliver value to our customers. This is especially critical for us at this uncertain (COVID) time.
             <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
           </div>
         </div>
@@ -191,8 +187,7 @@ get_header(); ?>
       <div class="testimonial">
         <div class="wrapper">
           <div class="upper-part position-relative">
-            Thank you for all your heroic efforts over the last few months. We have together made a ton of progress! We thank you
-            for your dedication, hard work, long hours, and partnership in this RPA journey!
+            Thank you for all your heroic efforts over the last few months.  We have together made a ton of progress! We thank you for your dedication, hard work, long hours, and partnership in this RPA journey!
             <img class="img quotes" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/quotes.png" />
           </div>
         </div>
@@ -238,7 +233,7 @@ get_header(); ?>
         <div class="col-sm-12 col-md-6">
           <div class="cta-image overflow-hidden position-relative">
             <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_test.jpg" />
-          </div> 
+          </div>
         </div>
       </div>
     </div>
