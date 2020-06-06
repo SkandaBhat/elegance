@@ -16,7 +16,7 @@ get_header(); ?>
               <div class="subheading">
                 <p>JIFFY.ai’s revolutionary app-based intelligent automation suite turbo-charges productivity, transforms processes, and helps your teams unleash their creativity and innovation.</p>
               </div>
-              <button class="btn-primary primary-cta">REQUEST DEMO</button>
+              <button class="btn-primary primary-cta request-demo-button">REQUEST DEMO</button>
             </div>
 
             <div class="row justify-content-between main-card-row">

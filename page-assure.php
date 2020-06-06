@@ -17,7 +17,7 @@ get_header(); ?>
                 <h3>Continuous test automation powered by AI and ML.</h3>
                 <p>JIFFY.ai Assure provides your teams a ready-to-deploy, end-to-end platform which makes the testing process more intelligent, reliable and fast.</p>
               </div>
-              <button class="btn-primary primary-cta">REQUEST DEMO</button>
+              <button class="btn-primary primary-cta request-demo-button">REQUEST DEMO</button>
             </div>
 
           </article>
@@ -231,13 +231,13 @@ get_header(); ?>
           <div class="cta-image overflow-hidden position-relative show-mobile">
             <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_test.jpg" />
           </div>
-          <button class="btn-primary show-desktop">REQUEST DEMO</button>
+          <button class="btn-primary show-desktop request-demo-button">REQUEST DEMO</button>
         </div>
         <div class="col-sm-12 col-md-6">
           <div class="cta-image overflow-hidden position-relative show-desktop">
             <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_test.jpg" />
           </div>
-          <button class="btn-primary show-mobile">REQUEST DEMO</button>
+          <button class="btn-primary show-mobile request-demo-button">REQUEST DEMO</button>
         </div>
       </div>
     </div>

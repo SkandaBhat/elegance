@@ -60,7 +60,7 @@
                     <ul id="menu-products" class="navbar-nav">
                         <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150 nav-item"><a title="Company" href="/company/" class="nav-link">Company</a></li>
                         <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-153 nav-item"><a title="Support" href="mailto:support@jiffy.ai" class="nav-link">Support</a></li>
-                        <li><button class="request-demo btn-primary primary-cta">REQUEST DEMO</button></li>
+                        <li><button class="request-demo request-demo-button btn-primary primary-cta">REQUEST DEMO</button></li>
                     </ul>
                   </div>
 

@@ -1142,6 +1142,12 @@ html.pum-open.pum-open-overlay.pum-open-scrollable body>[aria-hidden]{
   .green-circle-1-3 {
     display: none;
   }
+  .show-desktop{
+    display: none !important;
+  }
+  .custom-modal{
+    padding: 0px !important;
+  }
 }
 
 /* Custom Modal Styling */
@@ -1204,4 +1210,7 @@ html.pum-open.pum-open-overlay.pum-open-scrollable body>[aria-hidden]{
 .wpforms-submit {
   background: #4f8b52 !important;
   color: #fff !important;
+}
+.show-desktop{
+  display: block;
 }

@@ -17,7 +17,7 @@ get_header(); ?>
                 <h3>Software development, faster than you think.</h3>
                 <p>JIFFY.ai Innovate dramatically shortens and simplifies your software development life cycle. So you can focus on the big ideas.</p>
               </div>
-              <button class="btn-primary primary-cta">REQUEST DEMO</button>
+              <button class="btn-primary primary-cta request-demo-button">REQUEST DEMO</button>
             </div>
 
           </article>
@@ -206,13 +206,13 @@ get_header(); ?>
           <div class="cta-image overflow-hidden position-relative show-mobile">
             <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_develop.jpg" />
           </div>
-          <button class="btn-primary show-desktop">REQUEST DEMO</button>
+          <button class="btn-primary show-desktop request-demo-button">REQUEST DEMO</button>
         </div>
         <div class="col-sm-12 col-md-6">
           <div class="cta-image overflow-hidden position-relative show-desktop">
             <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_develop.jpg" />
           </div>
-          <button class="btn-primary show-desktop show-mobile">REQUEST DEMO</button>
+          <button class="btn-primary show-desktop show-mobile request-demo-button">REQUEST DEMO</button>
         </div>
       </div>
     </div>
