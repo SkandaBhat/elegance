@@ -532,6 +532,9 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    /* border: 1px solid #D3D3D3;
+    border-radius: 3px;
+    padding: 12px; */
   }
   .transform p {
     margin-top: 12px;
