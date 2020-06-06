@@ -15,7 +15,7 @@ get_header(); ?>
               </div>
               <div class="subheading">
                 <h3>Hyperautomate invoice processing for effortless cash flow management.</h3>
-                <p>JIFFY.ai’s AI-powered Invoice Processing Hyper App is the only comprehensive solution that addresses all the gaps in your invoice processing workflow.</p>
+                <p>JIFFY.ai's AI-powered Invoice Processing Hyper App is the only comprehensive solution that addresses all the gaps in your invoice processing workflow.</p>
               </div>
               <button class="btn-primary primary-cta">REQUEST DEMO</button>
             </div>
@@ -32,7 +32,7 @@ get_header(); ?>
     <div class="container">
       <div class="row justify-content-between align-items-center">
         <div class="col-sm-12 col-md-6">
-          <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Transform-Invoice-Processing.jpg" />
+          <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Transform-Invoice-Processing.png" />
         </div>
         <div class="col-sm-12 col-md-6">
           <h4>Transform the way you process invoices</h4>
@@ -51,7 +51,7 @@ get_header(); ?>
         <h4 class="text-center text-primary">Features</h4>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Intelligent-Invoice-Extraction.jpg" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Intelligent-Invoice-processing.png" />
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">
@@ -76,7 +76,7 @@ get_header(); ?>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Configurable-Workflows.jpg" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Configurable-Workflows.png" />
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">
@@ -110,7 +110,7 @@ get_header(); ?>
       <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-4">
           <h6>Invoice Processing Automated for a Global Manufacturer</h6>
-          <p>Using JIFFY.ai’s invoice processing Hyper App, a global manufacturer was able to automate the entire invoice processing function across multiple countries. We achieved 85% straight-through processing over a 12-week period across 150,000 invoices a month for 5,000 suppliers.</p>
+          <p>Using JIFFY.ai's invoice processing Hyper App, a global manufacturer was able to automate the entire invoice processing function across multiple countries. We achieved 85% straight-through processing over a 12-week period across 150,000 invoices a month for 5,000 suppliers.</p>
           <button class="btn-outline-primary">READ MORE</button>
         </div>
         <div class="col-sm-12 col-md-6 text-center">
@@ -139,7 +139,7 @@ get_header(); ?>
           <p>Seamless integration with existing ERP and accounting systems to complete the invoice and payment lifecycle with out-of-the-box connectors.</p>
         </div>
         <div class="col-sm-12 col-md-6">
-          <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Pluggable-ERP-Connectors.jpg" />
+          <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Pluggable-ERP-connectors.png" />
         </div>
       </div>
     </div>

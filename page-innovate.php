@@ -38,7 +38,7 @@ get_header(); ?>
           <h4>Transform your software development</h4>
           <p>Software development is a slow and complicated process. With dependencies on several teams and common resources, it takes months for even the most advanced software companies to launch new products.
           <br/> <br/>
-          With JIFFY.ai Innovate, we’ve redefined software development and empowered everyone with ideas to develop, deploy, test and launch software.</p>
+          With JIFFY.ai Innovate, weï¿½ve redefined software development and empowered everyone with ideas to develop, deploy, test and launch software.</p>
         </div>
       </div>
     </div>
@@ -51,14 +51,14 @@ get_header(); ?>
         <h4 class="text-center text-primary">How It Works</h4>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/natural-lang-processing.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/talk-natural-lang-processing.png" />
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">
               <h6>Talk in your natural language</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
             </div>
-            <p>Tell JIFFY.ai Innovate what you need by speaking to it, chatting with it, or submitting a document. Natural Language Processing ensures your requirement is converted accurately into JIFFY.ai’s proprietary Intermediate Language.</p>
+            <p>Tell JIFFY.ai Innovate what you need by speaking to it, chatting with it, or submitting a document. Natural Language Processing ensures your requirement is converted accurately into JIFFY.aiï¿½s proprietary Intermediate Language.</p>
           </div>
           <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/product_light_ochre_square.png" />
         </div>
@@ -71,7 +71,7 @@ get_header(); ?>
             <p>JIFFY.ai Innovate uses the inputs to generate the required code, ensures continuous integration and deployment, and runs test cases continuously, ensuring your software runs without glitches.</p>
           </div>
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/continuous-integration.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Let-the-platform-do-the-work.png" />
           </div>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
@@ -109,7 +109,7 @@ get_header(); ?>
       <h4 class="text-center text-secondary">In Action</h4>
       <div class="row first-row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-6">
-          <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+          <img class="img" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Reimagined-Software-development.png" />
         </div>
         <div class="col-sm-12 col-md-4">
           <h6>Reimagined software development</h6>

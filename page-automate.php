@@ -32,7 +32,7 @@ get_header(); ?>
     <div class="container">
       <div class="row justify-content-between align-items-center">
         <div class="col-sm-12 col-md-6">
-          <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/transform_dashboard.png" />
+          <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15)" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_dashboard.png" />
         </div>
         <div class="col-sm-12 col-md-6">
           <h4>Transform your business processes</h4>
@@ -75,7 +75,7 @@ get_header(); ?>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-md-6">
-            <img class="img" style="height: 287px;" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/App-Based-Automation-Studio.jpg" />
+            <img class="img" style="" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/App-based-Automation-Studio.png" />
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">
@@ -94,7 +94,7 @@ get_header(); ?>
             <p>Empower business users to easily build custom forms and workflows to handle complex business user interactions and validations.</p>
           </div>
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Configurable-Forms.jpg" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Configurable-forms-workflow.png" />
           </div>
         </div>
       </div>

@@ -32,7 +32,7 @@ get_header(); ?>
     <div class="container">
       <div class="row justify-content-between align-items-center">
         <div class="col-sm-12 col-md-6">
-          <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/transform_dashboard.png" />
+          <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/assure-page.png" />
         </div>
         <div class="col-sm-12 col-md-6">
           <h4>Transform your testing processes</h4>
@@ -51,7 +51,7 @@ get_header(); ?>
         <h4 class="text-center text-primary">Features</h4>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Task-DesignDemo1.jpg" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Low-Code-End-to-End-Test-Automation.png" />
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">
@@ -71,7 +71,7 @@ get_header(); ?>
             <p>JIFFY.ai Assure’s cognitive testing capabilities powered by AI and ML self-learn and ensure improved accuracy of your tests over time, predicting what to test.</p>
           </div>
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Features-Smarter-testing-that-gets-better-with-time.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Features-Smarter-testing-that-gets-better-with-time-1.png" />
           </div>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between">
@@ -125,7 +125,7 @@ get_header(); ?>
       <h4 class="text-center text-secondary">In Action</h4>
       <div class="row first-row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-6">
-          <img class="img" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/In-Action-Smart-test-data-management1.png" />
+          <img class="img" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Smart-data-management.png" />
         </div>
         <div class="col-sm-12 col-md-4">
           <h6>Smart test data management</h6>
@@ -138,7 +138,7 @@ get_header(); ?>
           <p>Leverage the big data platform of JIFFY.ai Assure to cleanse, transform and scramble data to adhere to your data privacy requirements.</p>
         </div>
         <div class="col-sm-12 col-md-6">
-          <img class="img" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/In-Action-Manage-Data-Privacy-Challenges-in-Testing.jpg" />
+          <img class="img" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Manage-Data-Privacy-Challenges-in-Testing.png" />
         </div>
       </div>
     </div>

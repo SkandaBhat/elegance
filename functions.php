@@ -231,6 +231,10 @@ function wp_bootstrap_starter_scripts() {
     wp_enqueue_style( 'page_use_case', get_template_directory_uri() . '/inc/assets/css/page-case_study.css' );
   }
 
+    if (is_page_template ( 'page-usecases.php' ) || is_page_template ( 'page-blog.php' ) || is_page_template ( 'page-casestudies.php' )) {
+    wp_enqueue_style( 'page_use_case', get_template_directory_uri() . '/inc/assets/css/page-aggregate.css' );
+    }
+
   if (is_page ( 'company' ) ) {
     wp_enqueue_style( 'company', get_template_directory_uri() . '/inc/assets/css/page-company.css' );
   }

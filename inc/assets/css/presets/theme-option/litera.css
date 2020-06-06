@@ -9740,6 +9740,12 @@ footer .main-card {
   transition: transform 0.2s ease;
 }
 
+@media (min-width: 1281px) {
+  footer .main-card {
+    width: 400px;
+  }
+}
+
 footer .main-card:hover {
   transform: translateY(-10px);
 }
