@@ -531,12 +531,15 @@
     font-size: 40px;
     line-height: 48px;
   }
+  .product-testimonials .upper-part{
+    width: 375px;
+  }
   @media (width: 360px){
     .product-testimonials .upper-part{
       width: 360px;
     }
   }
-  .product-testimonials .upper-part{
-    width: 375px;
+  .testimonials{
+    padding: 64px 0 24px 0;
   }
 }
