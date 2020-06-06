@@ -38,7 +38,7 @@ get_header(); ?>
           <h4>Transform your software development</h4>
           <p>Software development is a slow and complicated process. With dependencies on several teams and common resources, it takes months for even the most advanced software companies to launch new products.
           <br/> <br/>
-          With JIFFY.ai Innovate, we�ve redefined software development and empowered everyone with ideas to develop, deploy, test and launch software.</p>
+          With JIFFY.ai Innovate, we've redefined software development and empowered everyone with ideas to develop, deploy, test and launch software.</p>
         </div>
       </div>
     </div>
@@ -58,7 +58,7 @@ get_header(); ?>
               <h6>Talk in your natural language</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
             </div>
-            <p>Tell JIFFY.ai Innovate what you need by speaking to it, chatting with it, or submitting a document. Natural Language Processing ensures your requirement is converted accurately into JIFFY.ai�s proprietary Intermediate Language.</p>
+            <p>Tell JIFFY.ai Innovate what you need by speaking to it, chatting with it, or submitting a document. Natural Language Processing ensures your requirement is converted accurately into JIFFY.ai's proprietary Intermediate Language.</p>
           </div>
           <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/product_light_ochre_square.png" />
         </div>
