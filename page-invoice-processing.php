@@ -229,12 +229,16 @@ get_header(); ?>
       <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-5">
           <h5>Transform the way you process invoices</h5>
-          <button class="btn-primary">REQUEST DEMO</button>
-        </div>
-        <div class="col-sm-12 col-md-6">
-          <div class="cta-image overflow-hidden position-relative">
+          <div class="cta-image overflow-hidden position-relative show-mobile">
             <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_invoice.jpg" />
           </div>
+          <button class="btn-primary show-desktop">REQUEST DEMO</button>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="cta-image overflow-hidden position-relative show-desktop">
+            <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_invoice.jpg" />
+          </div>
+          <button class="btn-primary show-mobile">REQUEST DEMO</button>
         </div>
       </div>
     </div>

@@ -11,13 +11,15 @@ get_header(); ?>
           <article>
             <div>
               <div class="heading">
-                <h1>Blog</h1>
+                <h1>Use Cases</h1>
               </div>
             </div>
           </article>
         </main><!-- #main -->
       </section><!-- #primary -->
     </div>
+    <img class="img green-circle-1" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" />
+    <img class="img ochre-square-1" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_ochre_square.png" />
   </div>
 
 
@@ -39,13 +41,21 @@ get_header(); ?>
         );
         $wpb_all_query = new WP_Query($args); ?>
         <?php if ( $wpb_all_query->have_posts() ) : ?>
-        <ul>
+        <div class="row">
             <!-- the loop -->
             <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
-                <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                <div class="col-sm-12 col-md-4">
+                  <div class="box">
+                  <!-- <img src="<?php the_field( 'banner' ); ?>"> -->
+                    <a href="<?php the_permalink(); ?>">
+                      <?php the_title(); ?>
+                    </a>
+                    <p><?php the_field( 'executive_summary' ); ?></p>
+                  </div>
+                </div>
             <?php endwhile; ?>
             <!-- end of the loop -->
-        </ul>
+        </div>
             <?php wp_reset_postdata(); ?>
         <?php else : ?>
             <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
