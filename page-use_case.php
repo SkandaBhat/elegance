@@ -90,7 +90,7 @@ get_header(); ?>
         <div class="col-sm-12 col-md-4 order-sm-1 order-md-2">
           <h5 class="text-primary">Lorem Ipsum Text</h5>
           <p>Our committed management team is ably guided by advisors from the technology, academia and financial world.</p>
-          <button class="btn-primary">CONTACT US</button>
+          <button class="btn-primary request-demo-button">CONTACT US</button>
         </div>
       </div>
     </div>
