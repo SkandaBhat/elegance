@@ -1156,6 +1156,10 @@ div.wpforms-container-full {
 
 /* Custom Modal Styling */
 
+div.wpforms-container-full .wpforms-form button[type="submit"] {
+  float: right;
+}
+
 .custom-modal {
   display: flex;
   flex-direction: row;
