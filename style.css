@@ -1076,6 +1076,10 @@ footer#colophon a {
   overflow: hidden;
 }
 
+html.pum-open.pum-open-overlay.pum-open-scrollable body>[aria-hidden]{
+  padding-right: 0px !important;
+}
+
 .pum-theme-344 .pum-content + .pum-close,
 .pum-theme-lightbox .pum-content + .pum-close {
   top: 12px !important;
@@ -1083,6 +1087,7 @@ footer#colophon a {
   background: #f1f1f1 !important;
   color: #000 !important;
   box-shadow: none !important;
+  border: none !important;
 }
 
 .green-circle-features {
