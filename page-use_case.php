@@ -5,7 +5,7 @@
 
 get_header(); ?>
 
-  <div class="position-relative banner-section" style="background-image: linear-gradient(rgba(80, 141, 83, 0.3), rgba(80, 141, 83, 0.3)), url(<?php the_field( 'banner' ); ?>)">
+  <div class="position-relative banner-section">
     <!-- <?php if ( get_field( 'banner' ) ) : ?>
       <img src="<?php the_field( 'banner' ); ?>" />
     <?php endif ?> -->

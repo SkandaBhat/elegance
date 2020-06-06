@@ -231,7 +231,7 @@ get_header(); ?>
           autoplay: true,
           slidesToScroll: 1,
           speed: 800,
-          autoplaySpeed: 3000,
+          autoplaySpeed: 300000,
           centerPadding: '40px',
       });
     });

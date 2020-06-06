@@ -11,7 +11,7 @@ get_header(); ?>
           <article>
             <div>
               <div class="heading">
-                <h1>Use Cases</h1>
+                <h1>Case Studies</h1>
               </div>
             </div>
           </article>

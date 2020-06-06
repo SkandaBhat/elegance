@@ -23,6 +23,9 @@
   font-style: normal;
   font-weight: 600;
   font-size: 62px;
+  color: #121212;
+  padding: 0;
+  padding-right: 190px;
 }
 
 .subheading {
@@ -61,6 +64,7 @@
     font-weight: 600;
     font-size: 40px;
     line-height: 48px;
+    padding: 0;
   }
 
   .subheading p {
@@ -129,7 +133,7 @@
 }
 
 @media (min-width: 1280px) {
-  .use-cases h5{
+  .use-cases h5 {
     max-width: 94%;
   }
 }
@@ -222,6 +226,7 @@
 .banner-section {
   height: 100%;
   padding: 162px 0 90px 0;
+  padding-bottom: 0;
 }
 
 .banner-section img {
