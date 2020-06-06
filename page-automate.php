@@ -233,19 +233,25 @@ get_header(); ?>
     <div class="container">
       <h4 class="text-center text-secondary">Partners</h4>
       <div class="row justify-content-around">
-        <div class="col-xs-12 col-md-10">
+        <div class="col-xs-12 col-md-12">
           <div class="row text-center justify-content-between align-items-center">
-            <div class="col-xs-4 col-md-3 col-sm-6">
+            <div class="col-xs-4 col-md-2 col-sm-6">
               <img class="hcl" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hcl.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-3">
+            <div class="col-sm-6 col-xs-4 col-md-2">
               <img class="kpmg" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/kpmg.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-3">
+            <div class="col-sm-6 col-xs-4 col-md-2">
               <img class="tech-m" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/tech_mahindra.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-3">
+            <div class="col-sm-6 col-xs-4 col-md-2">
               <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/deloitte.png"/>
+            </div>
+            <div class="col-sm-6 col-xs-4 col-md-2">
+              <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/wipro.png"/>
+            </div>
+            <div class="col-sm-6 col-xs-4 col-md-2">
+              <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/tata.png"/>
             </div>
           </div>
         </div>
