@@ -178,7 +178,7 @@
   position: absolute;
   width: 243px;
   top: 50%;
-  right: -183px;
+  right: -214px;
   z-index: 1;
 }
 
@@ -492,12 +492,10 @@
   height: 400px;
 }
 
-
 .cta-section .cta-image img {
   position: absolute;
   top: 0px;
 }
-
 
 @media (max-width: 576px) {
   .cta-section {

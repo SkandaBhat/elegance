@@ -32,7 +32,7 @@ get_header(); ?>
     <div class="container">
       <div class="row justify-content-between align-items-center">
         <div class="col-sm-12 col-md-6">
-          <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/transform_dashboard.png" />
+          <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Transform-Invoice-Processing.jpg" />
         </div>
         <div class="col-sm-12 col-md-6">
           <h4>Transform the way you process invoices</h4>
@@ -51,7 +51,7 @@ get_header(); ?>
         <h4 class="text-center text-primary">Features</h4>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Intelligent-Invoice-Extraction.jpg" />
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">
@@ -76,7 +76,7 @@ get_header(); ?>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Configurable-Workflows.jpg" />
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">
@@ -95,7 +95,7 @@ get_header(); ?>
             <p>Provides flexibility in setting up validations at the generic or supplier level. Business users can configure complex validations like a three-way match, PO validation, and item validations with ease.</p>
           </div>
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Powerful-Validation-Engine.jpg" />
           </div>
         </div>
       </section>
@@ -126,7 +126,7 @@ get_header(); ?>
       <h4 class="text-center text-secondary">In Action</h4>
       <div class="row first-row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-6">
-          <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+          <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Powerful-Data-Analytics.jpg" />
         </div>
         <div class="col-sm-12 col-md-4">
           <h6>Powerful data analytics</h6>
@@ -139,7 +139,7 @@ get_header(); ?>
           <p>Seamless integration with existing ERP and accounting systems to complete the invoice and payment lifecycle with out-of-the-box connectors.</p>
         </div>
         <div class="col-sm-12 col-md-6">
-          <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+          <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Pluggable-ERP-Connectors.jpg" />
         </div>
       </div>
     </div>

@@ -75,7 +75,7 @@ get_header(); ?>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/App-Based-Automation-Studio.jpg" />
+            <img class="img" style="height: 287px;" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/App-Based-Automation-Studio.jpg" />
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">

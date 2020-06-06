@@ -51,7 +51,7 @@ get_header(); ?>
         <h4 class="text-center text-primary">How It Works</h4>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/natural-lang-processing.png" />
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">
@@ -71,7 +71,7 @@ get_header(); ?>
             <p>JIFFY.ai Innovate uses the inputs to generate the required code, ensures continuous integration and deployment, and runs test cases continuously, ensuring your software runs without glitches.</p>
           </div>
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/continuous-integration.png" />
           </div>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
@@ -95,7 +95,7 @@ get_header(); ?>
             <p>JIFFY.ai Innovate creates test documents using our proprietary Intermediate Language. The Test Suite Express runs test cases continuously, ensuring your software runs properly.</p>
           </div>
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/reimagine-dev.png" />
           </div>
         </div>
       </section>
