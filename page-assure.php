@@ -71,12 +71,12 @@ get_header(); ?>
             <p>JIFFY.ai Assure’s cognitive testing capabilities powered by AI and ML self-learn and ensure improved accuracy of your tests over time, predicting what to test.</p>
           </div>
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Features-Smarter-testing-that-gets-better-with-time-1.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Features-Smarter-testing-that-gets-better-with-time.png" />
           </div>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between">
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Features-DevOps-and-Continuous-Testing-Ready.jpg" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Features-DevOps-and-Continuous-Testing-Ready-1.jpg" />
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">
@@ -95,7 +95,7 @@ get_header(); ?>
             <p>Domain-ready Hyper Apps – be it retail, banking or manufacturing. Leverage our pre-built testing automation apps across standard enterprise applications including SAP, SFDC, IBM and more.</p>
           </div>
           <div class="col-sm-12 col-md-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Features-Hyper-Apps-for-Test-Automation.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/assure-page.png" />
           </div>
         </div>
       </section>
@@ -111,7 +111,7 @@ get_header(); ?>
         <div class="col-sm-12 col-md-4">
           <h6>Automated testing of order management lifecycle for retailers</h6>
           <p>A typical order management lifecycle has numerous steps, all dependent on the smooth and cohesive functioning of different systems and platforms. This results in a high possibility of the lifecycle breaking down, and leading to frustrations for the customer and retailer alike. With JIFFY.ai Assure, you can automate your testing process, making it smart, fast and accurate.</p>
-          <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
+          <a href="/automated-testing-of-order-management-lifecycle-for-retailers/"><button class="btn-outline-primary">READ MORE</button></a>
         </div>
         <div class="col-sm-12 col-md-6 text-center">
           <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/retailer_testing.jpg" />

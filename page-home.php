@@ -75,7 +75,7 @@ get_header(); ?>
           </div>
           <h6>Helping Telecom Customer Service Teams in Times of Crisis</h6>
           <p>With the Covid-19 pandemic forcing the global workforce to work from home, the pressure on telecom networks has increased. Customer service teams have struggled with customer inquiry volumes. JIFFY.ai can automate help desk operations, ensuring 30% improvement in agent efficiency.</p>
-          <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
+          <a href="/helping-telecom-customer-service-teams-in-times-of-crisis-with-automation/"><button class="btn-outline-primary">READ MORE</button></a>
         </div>
         <div class="col-sm-12 col-md-4">
           <div class="text-center">
@@ -91,7 +91,7 @@ get_header(); ?>
           </div>
           <h6>Transforming Finance and Accounting Processes</h6>
           <p>Companies that have implemented the JIFFY.ai Automate app for F&A report that they are able to realize returns on their investment in six months or less. With success rates as high as 85%, we’ve made this critical process more foolproof, nimble, and cost-effective.<br/><br/></p>
-          <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
+          <a href="/transforming-finance-and-accounting-processes/"><button class="btn-outline-primary">READ MORE</button></a>
         </div>
       </div>
     </div>

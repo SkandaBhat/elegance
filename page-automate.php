@@ -128,7 +128,7 @@ get_header(); ?>
         <div class="col-sm-12 col-md-4">
           <h6>Hyperautomating Group Airline Bookings</h6>
           <p>Managing group travel bookings can be a drain on customer service teams. At the very least, each booking can take 3+ hours to complete. Enter JIFFY.ai Automate. With a single smart bot, we can process more than 10,000 transactions, every single day.</p>
-            <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
+            <a href="/hyperautomating-group-airline-bookings/"><button class="btn-outline-primary">READ MORE</button></a>
         </div>
       </div>
     </div>
