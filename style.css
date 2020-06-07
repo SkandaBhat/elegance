@@ -1084,8 +1084,8 @@ html.pum-open.pum-open-overlay.pum-open-scrollable body > [aria-hidden] {
 .pum-theme-lightbox .pum-content + .pum-close {
   top: 12px !important;
   right: 12px !important;
-  background: #f1f1f1 !important;
-  color: #000 !important;
+  background: #aeaeae !important;
+  color: #fff !important;
   box-shadow: none !important;
   border: none !important;
 }
@@ -1170,7 +1170,7 @@ div.wpforms-container-full .wpforms-form button[type="submit"] {
 .custom-modal {
   display: flex;
   flex-direction: row;
-  padding: 97px 45px 0px 45px;
+  padding: 60px 45px 0px 45px;
 }
 
 div.wpforms-container-full .wpforms-form textarea.wpforms-field-large {
@@ -1179,16 +1179,18 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-large {
 .custom-modal .custom-modal-content {
   flex-direction: column;
   max-width: 462px;
+  margin-right: 42px;
 }
 
 .custom-modal-content h3 {
   font-family: Nunito Sans;
   font-style: normal;
-  font-weight: 900;
   font-size: 36px;
   line-height: 49px;
   color: #000000;
-  width: 370px;
+  font-weight: 600;
+  width: 430px;
+  margin-bottom: 42px;
 }
 .custom-modal-content p {
   font-family: Nunito Sans;
@@ -1220,10 +1222,10 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-large {
 .custom-modal .green-circle-3 {
   width: 229px;
   height: 610px;
-  transform: rotate(160deg);
+  transform: rotate(180deg);
   position: absolute;
-  top: 459px;
-  left: 10px;
+  top: 400px;
+  left: -40px;
 }
 
 .wpforms-submit {
