@@ -1074,6 +1074,7 @@ footer#colophon a {
 
 .pum-container.pum-responsive.pum-responsive-large {
   overflow: hidden;
+  background: #f4f4f4;
 }
 
 html.pum-open.pum-open-overlay.pum-open-scrollable body > [aria-hidden] {
