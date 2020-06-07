@@ -35,10 +35,10 @@ get_header(); ?>
           <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15)" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_dashboard.png" />
         </div>
         <div class="col-sm-12 col-md-6">
-          <h4>Transform your business processes</h4>
+          <h4>Transform<br class="break-on-mobile" /> your<br class="break-on-mobile" /> business processes</h4>
           <p>JIFFY.ai Automate is the only app-based intelligent automation platform that lets you implement, manage and monitor enterprise-wide automation, so you can deliver on the promise of business transformation.
           <br/> <br/>
-          JIFFY.ai Automate’s single dashboard combines the power of RPA, ML, AI, document processing, workflow and analytics, to support the end-to-end lifecycle management of automation with a human-in-the-loop approach so you can actually achieve significant ROI.</p>
+          JIFFY.ai Automate’s single dashboard combines the power of RPA, ML, AI, document processing, workflow and analytics, to support the end&#x2011;to&#x2011;end lifecycle management of automation with a human-in-the-loop approach so you can actually achieve significant ROI.</p>
         </div>
       </div>
     </div>
@@ -108,7 +108,7 @@ get_header(); ?>
       <h4 class="text-center text-primary">Use Cases</h4>
       <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-4">
-          <h6>KYC Process Automation with Intelligent RPA</h6>
+          <h6>KYC Process Automation<br class="break-on-mobile" /> with<br class="break-on-mobile" /> Intelligent RPA</h6>
           <p>KYC processes are tedious, expensive and inaccurate. JIFFY.ai Automate’s result focused and intuitive app takes over the monotonous tasks seamlessly. Not only are your documents read accurately, the app learns over time and improves itself, minimizing human intervention.</p>
           <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
         </div>
@@ -251,7 +251,7 @@ get_header(); ?>
               <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/wipro.png"/>
             </div>
             <div class="col-sm-6 col-xs-4 col-md-2">
-              <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/tata.png"/>
+              <img class="tata" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/tata.png"/>
             </div>
           </div>
         </div>

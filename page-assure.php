@@ -11,11 +11,11 @@ get_header(); ?>
           <article>
             <div>
               <div class="heading">
-                <h1>Tested For Perfection</h1>
+                <h1>Tested<br class="break-on-mobile" /> For<br class="break-on-mobile" /> Perfection</h1>
               </div>
               <div class="subheading">
                 <h3>Continuous test automation powered by AI and ML.</h3>
-                <p>JIFFY.ai Assure provides your teams a ready-to-deploy, end-to-end platform which makes the testing process more intelligent, reliable and fast.</p>
+                <p>JIFFY.ai Assure provides your teams a ready-to-deploy, end&#x2011;to&#x2011;end platform which makes the testing process more intelligent, reliable and fast.</p>
               </div>
               <button class="btn-primary primary-cta request-demo-button">REQUEST DEMO</button>
             </div>
@@ -38,7 +38,7 @@ get_header(); ?>
           <h4>Transform your testing processes</h4>
           <p>JIFFY.ai Assure is the only low code AI-based integrated test automation platform that lets you automate your tests across your entire software lifecycle.
           <br/> <br/>
-          JIFFY.ai combines the capabilities of end-to-end test automation, DevOps integration, test data management and AI, so you can implement intelligent and agile continuous testing automation across your enterprise.</p>
+          JIFFY.ai combines the capabilities of end&#x2011;to&#x2011;end test automation, DevOps integration, test data management and AI, so you can implement intelligent and agile continuous testing automation across your enterprise.</p>
         </div>
       </div>
     </div>
@@ -55,7 +55,7 @@ get_header(); ?>
           </div>
           <div class="col-sm-12 col-md-5 text1">
             <div class="position-relative">
-              <h6>Low Code End-to-End Test Automation</h6>
+              <h6>Low Code End&#x2011;to&#x2011;End<br class="break-on-mobile" /> Test Automation</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
             </div>
             <p>JIFFY.ai Assure works seamlessly across the entire testing lifecycle. Integrate across web, desktop and even legacy systems with a few clicks. It’s easy drag-drop-and-connect interface ensures you can start testing from the word go.</p>
@@ -83,7 +83,7 @@ get_header(); ?>
               <h6>DevOps and Continuous Testing Ready</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
             </div>
-            <p>JIFFY.ai Assure provides built in connectors to manage your end-to-end devops cycle right from requirements, test cycles, defects and deployment.</p>
+            <p>JIFFY.ai Assure provides built in connectors to manage your end&#x2011;to&#x2011;end devops cycle right from requirements, test cycles, defects and deployment.</p>
           </div>
         </div>
         <div class="row bg-secondary feature-card align-items-center justify-content-between">
@@ -221,7 +221,7 @@ get_header(); ?>
               <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/wipro.png"/>
             </div>
             <div class="col-sm-6 col-xs-4 col-md-2">
-              <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/tata.png"/>
+              <img class="tata" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/tata.png"/>
             </div>
           </div>
         </div>

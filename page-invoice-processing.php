@@ -11,7 +11,7 @@ get_header(); ?>
           <article>
             <div>
               <div class="heading heading-xl">
-                <h1>Seamless Invoice Processing</h1>
+                <h1>Seamless<br class="break-on-mobile" /> Invoice<br class="break-on-mobile" /> Processing</h1>
               </div>
               <div class="subheading">
                 <h3>Hyperautomate invoice processing for effortless cash flow management.</h3>
@@ -35,10 +35,10 @@ get_header(); ?>
           <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Transform-Invoice-Processing.png" />
         </div>
         <div class="col-sm-12 col-md-6">
-          <h4>Transform the way you process invoices</h4>
+          <h4>Transform the way<br class="break-on-mobile" /> you process<br class="break-on-mobile" /> invoices</h4>
           <p>By automating your invoice processing and related workflows, JIFFY.ai helps reduce the cost of invoicing by 70%, reduces invoice processing errors by 98%, and improves straight-through processing by 100%.
           <br/> <br/>
-          Equipped with a built-in analytics engine, our Invoice Processing Hyper App provides end-to-end visibility of the entire invoice process and provides comprehensive insights into your financial data.</p>
+          Equipped with a built-in analytics engine, our Invoice Processing Hyper App provides end&#x2011;to&#x2011;end visibility of the entire invoice process and provides comprehensive insights into your financial data.</p>
         </div>
       </div>
     </div>
@@ -135,7 +135,7 @@ get_header(); ?>
       </div>
       <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-md-4">
-          <h6>Pluggable ERP connectors</h6>
+          <h6>Pluggable<br class="break-on-mobile" /> ERP<br class="break-on-mobile" /> connectors</h6>
           <p>Seamless integration with existing ERP and accounting systems to complete the invoice and payment lifecycle with out-of-the-box connectors.</p>
         </div>
         <div class="col-sm-12 col-md-6">
@@ -222,7 +222,7 @@ get_header(); ?>
               <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/wipro.png"/>
             </div>
             <div class="col-sm-6 col-xs-4 col-md-2">
-              <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/tata.png"/>
+              <img class="tata" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/tata.png"/>
             </div>
           </div>
         </div>

@@ -22,6 +22,8 @@ get_header(); ?>
         </main><!-- #main -->
       </section><!-- #primary -->
     </div>
+    <img class="img green-circle-3" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" />
+    <img class="img ochre-square-1" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_ochre_square.png" />
   </div>
 
     <section class="use-cases position-relative overflow-hidden">
@@ -33,7 +35,7 @@ get_header(); ?>
         </div>
       </div>
     </div>
-    <img class="img green-circle-3" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" />
+
 
     <!-- <img class="img green-circle-3" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png" /> -->
   </section>

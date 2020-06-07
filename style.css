@@ -1128,7 +1128,14 @@ div.wpforms-container-full {
   z-index: -1;
 }
 
+.break-on-mobile {
+  display: none;
+}
+
 @media (max-width: 576px) {
+  .break-on-mobile {
+    display: block;
+  }
   .green-circle-1 {
     display: none;
   }

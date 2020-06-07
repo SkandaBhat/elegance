@@ -1,6 +1,6 @@
-/* .case-study-section {
-  max-width: 760px;
-} */
+.case-study-section {
+  overflow: hidden;
+}
 
 #primary {
   padding: 0;
@@ -8,6 +8,7 @@
 
 #content.site-content {
   padding-top: 0;
+  overflow: hidden;
 }
 
 .hero {
@@ -168,18 +169,36 @@
   padding: 14px 60px;
 }
 
-.use-cases .green-circle-3 {
+.green-circle-3 {
   position: absolute;
-  top: -150px;
-  right: 0;
-  width: 110px;
+  top: -80px;
+  right: 0px;
+  width: 160px;
   z-index: -1;
   transform: rotate(-45deg);
 }
-
+.ochre-square-1 {
+  position: absolute;
+  top: 92px !important;
+  right: 310px;
+  width: 120px;
+  z-index: -1;
+}
 @media (max-width: 576px) {
-  .use-cases .green-circle-3 {
-    display: none;
+  .ochre-square-1 {
+    position: absolute;
+    top: 100px !important;
+    right: 260px;
+    width: 80px;
+    z-index: -1;
+  }
+  .green-circle-3 {
+    position: absolute;
+    top: -80px !important;
+    right: 0px;
+    width: 130px;
+    z-index: -1;
+    transform: rotate(-45deg);
   }
 }
 

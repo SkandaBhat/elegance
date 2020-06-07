@@ -11,7 +11,7 @@ get_header(); ?>
           <article>
             <div>
               <div class="heading impossible-width">
-                <h1>Develop<br />The Impossible</h1>
+                <h1>Develop<br /><br class="break-on-mobile" />The<br class="break-on-mobile" /> Impossible</h1>
               </div>
               <div class="subheading">
                 <h3>Software development, faster than you think.</h3>
@@ -35,7 +35,7 @@ get_header(); ?>
           <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_dashboard.png" />
         </div>
         <div class="col-sm-12 col-md-6">
-          <h4>Transform your software development</h4>
+          <h4>Transform<br class="break-on-mobile" /> your<br class="break-on-mobile" /> software<br class="break-on-mobile" /> development</h4>
           <p>Software development is a slow and complicated process. With dependencies on several teams and common resources, it takes months for even the most advanced software companies to launch new products.
           <br/> <br/>
           With JIFFY.ai Innovate, we've redefined software development and empowered everyone with ideas to develop, deploy, test and launch software.</p>
@@ -196,7 +196,7 @@ get_header(); ?>
               <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/wipro.png"/>
             </div>
             <div class="col-sm-6 col-xs-4 col-md-2">
-              <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/tata.png"/>
+              <img class="tata" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/tata.png"/>
             </div>
           </div>
         </div>

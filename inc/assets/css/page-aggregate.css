@@ -445,7 +445,7 @@
 }
 
 .box img {
-  margin-bottom: 36px;
+  margin-bottom: 24px;
 }
 
 .box a {
@@ -498,6 +498,10 @@
 
 .partners .deloitte {
   width: 125px;
+}
+
+.partners .tata {
+  width: 180px;
 }
 
 .cta-section {

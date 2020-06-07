@@ -56,7 +56,7 @@ get_header(); ?>
           <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
         </div>
         <div class="col-sm-12 col-md-6">
-          <h2>Meet JIFFY.ai’s Hyper Apps</h2>
+          <h2>Meet<br class="break-on-mobile" /> JIFFY.ai’s<br class="break-on-mobile" /> Hyper Apps</h2>
           <h4>Our Hyper Apps are specifically designed to help enterprises automate and improve the most complex business processes with ease.</h4>
           <p>JIFFY.ai’s Invoice Processing Hyper App is the only comprehensive solution that addresses all the gaps and inefficiencies in your invoice processing workflow. Our AI and ML powered app integrates with your ERP seamlessly, and assures faster, more economical, and more accurate invoice processing.</p>
         </div>
@@ -121,7 +121,7 @@ get_header(); ?>
               <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/wipro.png"/>
             </div>
             <div class="col-sm-6 col-xs-4 col-md-2">
-              <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/tata.png"/>
+              <img class="tata" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/tata.png"/>
             </div>
           </div>
         </div>
