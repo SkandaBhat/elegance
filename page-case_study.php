@@ -29,7 +29,7 @@ get_header(); ?>
     <section class="use-cases position-relative overflow-hidden">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 col-md-12">
+        <div class="col-sm-12 col-lg-12">
           <h4 class="text-primary">Executive Summary</h4>
           <p><?php the_field( 'executive_summary' ); ?></p>
         </div>
@@ -43,7 +43,7 @@ get_header(); ?>
   <section class="use-cases position-relative overflow-hidden grey">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 col-md-12">
+        <div class="col-sm-12 col-lg-12">
           <h4 class="text-primary">The Challenge</h4>
           <p><?php the_field( 'the_challenge' ); ?></p>
         </div>
@@ -55,7 +55,7 @@ get_header(); ?>
   <section class="use-cases position-relative overflow-hidden">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 col-md-12">
+        <div class="col-sm-12 col-lg-12">
           <h4 class="text-primary">Our Approach</h4>
             <p><?php the_field( 'our_approach' ); ?></p>
             <p><?php the_field( 'we_helped_by_label' ); ?></p>
@@ -82,7 +82,7 @@ get_header(); ?>
   <section class="use-cases position-relative overflow-hidden grey">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 col-md-12">
+        <div class="col-sm-12 col-lg-12">
           <h4 class="text-primary">Results</h4>
           <p><?php the_field( 'results' ); ?></p>
           <?php $results_list_checked_values = get_field( 'results_list' ); ?>

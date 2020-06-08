@@ -26,7 +26,7 @@ get_header(); ?>
   <section class="transform bg-light">
     <div class="container">
       <div class="row justify-content-between align-items-center">
-        <div class="col-sm-12 col-md-12">
+        <div class="col-sm-12 col-lg-12">
         <?php
         // the query
         $args = array(
@@ -44,7 +44,7 @@ get_header(); ?>
         <div class="row">
             <!-- the loop -->
             <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-lg-4">
                   <div class="box">
                   <img src="<?php the_post_thumbnail_url(); ?>">
                     <a href="<?php the_permalink(); ?>">

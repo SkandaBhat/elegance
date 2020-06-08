@@ -31,10 +31,10 @@ get_header(); ?>
   <section class="transform bg-light">
     <div class="container">
       <div class="row justify-content-between align-items-center">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-lg-6">
           <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Transform-Invoice-Processing.png" />
         </div>
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-lg-6">
           <h4>Transform the way<br class="break-on-mobile" /> you process<br class="break-on-mobile" /> invoices</h4>
           <p>By automating your invoice processing and related workflows, JIFFY.ai helps reduce the cost of invoicing by 70%, reduces invoice processing errors by 98%, and improves straight-through processing by 100%.
           <br/> <br/>
@@ -50,10 +50,10 @@ get_header(); ?>
       <section class="features">
         <h4 class="text-center text-primary">Features</h4>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-lg-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Intelligent-Invoice-processing.png" />
           </div>
-          <div class="col-sm-12 col-md-5 text1">
+          <div class="col-sm-12 col-lg-5 text1">
             <div class="position-relative">
               <h6>Intelligent Invoice Extraction</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
@@ -63,22 +63,22 @@ get_header(); ?>
           <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/product_light_ochre_square.png" />
         </div>
         <div class="row bg-secondary feature-card align-items-center justify-content-between">
-          <div class="col-sm-12 col-md-5 text2">
+          <div class="col-sm-12 col-lg-5 text2">
             <div class="position-relative">
               <h6>Customizable Supplier Portal</h6>
               <img class="img pointer-green" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_green.png" />
             </div>
             <p>Set up an invoice registration portal with a few clicks to onboard new suppliers with ease.</p>
           </div>
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-lg-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
           </div>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-lg-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Configurable-Workflows.png" />
           </div>
-          <div class="col-sm-12 col-md-5 text1">
+          <div class="col-sm-12 col-lg-5 text1">
             <div class="position-relative">
               <h6>Configurable Workflows</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
@@ -87,14 +87,14 @@ get_header(); ?>
           </div>
         </div>
         <div class="row bg-secondary feature-card align-items-center justify-content-between">
-          <div class="col-sm-12 col-md-5 text2">
+          <div class="col-sm-12 col-lg-5 text2">
             <div class="position-relative">
               <h6>Powerful Validation Engine</h6>
               <img class="img pointer-green" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_green.png" />
             </div>
             <p>Provides flexibility in setting up validations at the generic or supplier level. Business users can configure complex validations like a three-way match, PO validation, and item validations with ease.</p>
           </div>
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-lg-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Powerful-Validation-Engine.jpg" />
           </div>
         </div>
@@ -108,12 +108,12 @@ get_header(); ?>
     <div class="container">
       <h4 class="text-center text-primary">Case Study</h4>
       <div class="row justify-content-around align-items-center">
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-lg-4">
           <h6>Invoice Processing Automated for a Global Manufacturer</h6>
           <p>Using JIFFY.ai's invoice processing Hyper App, a global manufacturer was able to automate the entire invoice processing function across multiple countries. We achieved 85% straight-through processing over a 12-week period across 150,000 invoices a month for 5,000 suppliers.</p>
           <button class="btn-outline-primary">READ MORE</button>
         </div>
-        <div class="col-sm-12 col-md-6 text-center">
+        <div class="col-sm-12 col-lg-6 text-center">
           <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/automobile_manufacturing.jpg" />
         </div>
 
@@ -125,20 +125,20 @@ get_header(); ?>
     <div class="container">
       <h4 class="text-center text-secondary">In Action</h4>
       <div class="row first-row justify-content-around align-items-center">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-lg-6">
           <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Powerful-Data-Analytics.jpg" />
         </div>
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-lg-4">
           <h6>Powerful data analytics</h6>
           <p>Generate analytics that provides complete visibility into the invoicing process, allowing you to manage and predict cash flows, fast-track book closure and provide flexibility in managing vendor payment cycles.</p>
         </div>
       </div>
       <div class="row justify-content-around align-items-center">
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-lg-4">
           <h6>Pluggable<br class="break-on-mobile" /> ERP<br class="break-on-mobile" /> connectors</h6>
           <p>Seamless integration with existing ERP and accounting systems to complete the invoice and payment lifecycle with out-of-the-box connectors.</p>
         </div>
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-lg-6">
           <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Pluggable-ERP-connectors.png" />
         </div>
       </div>
@@ -204,24 +204,24 @@ get_header(); ?>
     <div class="container">
       <h4 class="text-center text-secondary">Partners</h4>
       <div class="row justify-content-around">
-        <div class="col-xs-12 col-md-12">
+        <div class="col-xs-12 col-lg-12">
           <div class="row text-center justify-content-between align-items-center">
-            <div class="col-xs-4 col-md-2 col-sm-6">
+            <div class="col-xs-4 col-lg-2 col-sm-6">
               <img class="hcl" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hcl.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-2">
+            <div class="col-sm-6 col-xs-4 col-lg-2">
               <img class="kpmg" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/kpmg.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-2">
+            <div class="col-sm-6 col-xs-4 col-lg-2">
               <img class="tech-m" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/tech_mahindra.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-2">
+            <div class="col-sm-6 col-xs-4 col-lg-2">
               <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/deloitte.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-2">
+            <div class="col-sm-6 col-xs-4 col-lg-2">
               <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/wipro.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-2">
+            <div class="col-sm-6 col-xs-4 col-lg-2">
               <img class="tata" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/tata.png"/>
             </div>
           </div>
@@ -233,14 +233,14 @@ get_header(); ?>
   <section class="cta-section">
     <div class="container">
       <div class="row justify-content-around align-items-center">
-        <div class="col-sm-12 col-md-5">
+        <div class="col-sm-12 col-lg-5">
           <h5>Transform the way you process invoices</h5>
           <div class="cta-image overflow-hidden position-relative show-mobile">
             <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_invoice.jpg" />
           </div>
           <button class="btn-primary show-desktop request-demo-button">REQUEST DEMO</button>
         </div>
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-lg-6">
           <div class="cta-image overflow-hidden position-relative show-desktop">
             <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_invoice.jpg" />
           </div>

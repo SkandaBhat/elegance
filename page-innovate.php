@@ -31,10 +31,10 @@ get_header(); ?>
   <section class="transform bg-light">
     <div class="container">
       <div class="row justify-content-between align-items-center">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-lg-6">
           <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_dashboard.png" />
         </div>
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-lg-6">
           <h4>Transform<br class="break-on-mobile" /> your<br class="break-on-mobile" /> software<br class="break-on-mobile" /> development</h4>
           <p>Software development is a slow and complicated process. With dependencies on several teams and common resources, it takes months for even the most advanced software companies to launch new products.
           <br/> <br/>
@@ -50,10 +50,10 @@ get_header(); ?>
       <section class="features how-it-works">
         <h4 class="text-center text-primary">How It Works</h4>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-lg-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/talk-natural-lang-processing.png" />
           </div>
-          <div class="col-sm-12 col-md-5 text1">
+          <div class="col-sm-12 col-lg-5 text1">
             <div class="position-relative">
               <h6>Talk in your natural language</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
@@ -63,22 +63,22 @@ get_header(); ?>
           <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/product_light_ochre_square.png" />
         </div>
         <div class="row bg-secondary feature-card align-items-center justify-content-between">
-          <div class="col-sm-12 col-md-5 text2">
+          <div class="col-sm-12 col-lg-5 text2">
             <div class="position-relative">
               <h6>Let the platform do the work</h6>
               <img class="img pointer-green" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_green.png" />
             </div>
             <p>JIFFY.ai Innovate uses the inputs to generate the required code, ensures continuous integration and deployment, and runs test cases continuously, ensuring your software runs without glitches.</p>
           </div>
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-lg-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Let-the-platform-do-the-work.png" />
           </div>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-lg-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
           </div>
-          <div class="col-sm-12 col-md-5 text1">
+          <div class="col-sm-12 col-lg-5 text1">
             <div class="position-relative">
               <h6>Automated DevOps</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
@@ -87,14 +87,14 @@ get_header(); ?>
           </div>
         </div>
         <div class="row bg-secondary feature-card align-items-center justify-content-between">
-          <div class="col-sm-12 col-md-5 text2">
+          <div class="col-sm-12 col-lg-5 text2">
             <div class="position-relative">
               <h6>Automated Testing</h6>
               <img class="img pointer-green" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_green.png" />
             </div>
             <p>JIFFY.ai Innovate creates test documents using our proprietary Intermediate Language. The Test Suite Express runs test cases continuously, ensuring your software runs properly.</p>
           </div>
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-lg-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/reimagine-dev.png" />
           </div>
         </div>
@@ -108,10 +108,10 @@ get_header(); ?>
     <div class="container">
       <h4 class="text-center text-secondary">In Action</h4>
       <div class="row first-row justify-content-around align-items-center">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-lg-6">
           <img class="img" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Reimagined-Software-development.png" />
         </div>
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-lg-4">
           <h6>Reimagined software development</h6>
           <p>JIFFY.ai Innovate requires no coding knowledge. Anyone can develop software, minimizing lag and dependencies.</p>
         </div>
@@ -178,24 +178,24 @@ get_header(); ?>
     <div class="container">
       <h4 class="text-center text-secondary">Partners</h4>
       <div class="row justify-content-around">
-        <div class="col-xs-12 col-md-12">
+        <div class="col-xs-12 col-lg-12">
           <div class="row text-center justify-content-between align-items-center">
-            <div class="col-xs-4 col-md-2 col-sm-6">
+            <div class="col-xs-4 col-lg-2 col-sm-6">
               <img class="hcl" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hcl.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-2">
+            <div class="col-sm-6 col-xs-4 col-lg-2">
               <img class="kpmg" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/kpmg.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-2">
+            <div class="col-sm-6 col-xs-4 col-lg-2">
               <img class="tech-m" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/tech_mahindra.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-2">
+            <div class="col-sm-6 col-xs-4 col-lg-2">
               <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/deloitte.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-2">
+            <div class="col-sm-6 col-xs-4 col-lg-2">
               <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/wipro.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-2">
+            <div class="col-sm-6 col-xs-4 col-lg-2">
               <img class="tata" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/tata.png"/>
             </div>
           </div>
@@ -207,14 +207,14 @@ get_header(); ?>
   <section class="cta-section">
     <div class="container">
       <div class="row justify-content-around align-items-center">
-        <div class="col-sm-12 col-md-5">
+        <div class="col-sm-12 col-lg-5">
           <h5>Transform the way your teams develop</h5>
           <div class="cta-image overflow-hidden position-relative show-mobile">
             <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_develop.jpg" />
           </div>
           <button class="btn-primary show-desktop request-demo-button">REQUEST DEMO</button>
         </div>
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-lg-6">
           <div class="cta-image overflow-hidden position-relative show-desktop">
             <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_develop.jpg" />
           </div>

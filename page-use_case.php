@@ -11,7 +11,7 @@ get_header(); ?>
     <?php endif ?> -->
     <div class="container">
       <div class="row">
-        <section class="col-sm-12 col-md-12">
+        <section class="col-sm-12 col-lg-12">
           <div class="heading">
             <h1><?php the_field( 'heading' ); ?></h1>
           </div>
@@ -25,7 +25,7 @@ get_header(); ?>
     <section class="use-cases position-relative overflow-hidden">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 col-md-12">
+        <div class="col-sm-12 col-lg-12">
           <h5 class="text-primary"><?php the_field( 'tagline' ); ?></h5>
           <p><?php the_field( 'main_paragraph_1' ); ?></p>
         </div>
@@ -36,7 +36,7 @@ get_header(); ?>
   <section class="use-cases position-relative overflow-hidden bg-light">
     <div class="container">
       <div class="row justify-content-around">
-        <div class="col-sm-12 col-md-12">
+        <div class="col-sm-12 col-lg-12">
           <h5 class="text-primary"><?php the_field( 'jiffy_helps_by' ); ?></h5>
           <?php $benefit_list_checked_values = get_field( 'benefit_list' ); ?>
           <?php if ( $benefit_list_checked_values ) : ?>
@@ -58,19 +58,19 @@ get_header(); ?>
   <section class="metrics position-relative overflow-hidden">
     <div class="container">
       <div class="row justify-content-around">
-        <div class="col-sm-12 col-md-12 text-center">
+        <div class="col-sm-12 col-lg-12 text-center">
           <h4 class="text-primary"><?php the_field( 'impact_label' ); ?></h4>
           <p class="description"><?php the_field( 'impact_content' ); ?></p>
           <div class="row stat">
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-lg-4">
               <p class="title"><?php the_field( 'impact_1_metric' ); ?></p>
               <p class="subtitle"><?php the_field( 'impact_1_text' ); ?></p>
             </div>
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-lg-4">
               <p class="title"><?php the_field( 'impact_2_metric' ); ?></p>
               <p class="subtitle"><?php the_field( 'impact_2_text' ); ?></p>
             </div>
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-lg-4">
               <p class="title"><?php the_field( 'impact_3_metric' ); ?></p>
               <p class="subtitle"><?php the_field( 'impact_3_text' ); ?></p>
             </div>
@@ -85,10 +85,10 @@ get_header(); ?>
   <section class="cta-section">
     <div class="container">
       <div class="row justify-content-around align-items-center">
-        <div class="col-sm-12 col-md-6 order-sm-2 order-md-1">
+        <div class="col-sm-12 col-lg-6 order-sm-2 order-md-1">
           <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_cta.png" />
         </div>
-        <div class="col-sm-12 col-md-4 order-sm-1 order-md-2">
+        <div class="col-sm-12 col-lg-4 order-sm-1 order-md-2">
           <h5 class="text-primary">Lorem Ipsum Text</h5>
           <p>Our committed management team is ably guided by advisors from the technology, academia and financial world.</p>
           <button class="btn-primary request-demo-button">CONTACT US</button>

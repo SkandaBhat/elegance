@@ -31,10 +31,10 @@ get_header(); ?>
   <section class="transform bg-light">
     <div class="container">
       <div class="row justify-content-between align-items-center">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-lg-6">
           <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/assure-page.png" />
         </div>
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-lg-6">
           <h4>Transform your testing processes</h4>
           <p>JIFFY.ai Assure is the only low code AI-based integrated test automation platform that lets you automate your tests across your entire software lifecycle.
           <br/> <br/>
@@ -50,10 +50,10 @@ get_header(); ?>
       <section class="features">
         <h4 class="text-center text-primary">Features</h4>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-lg-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Low-Code-End-to-End-Test-Automation.png" />
           </div>
-          <div class="col-sm-12 col-md-5 text1">
+          <div class="col-sm-12 col-lg-5 text1">
             <div class="position-relative">
               <h6>Low Code End&#x2011;to&#x2011;End<br class="break-on-mobile" /> Test Automation</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
@@ -63,22 +63,22 @@ get_header(); ?>
           <img class="img ochre-square" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/product_light_ochre_square.png" />
         </div>
         <div class="row bg-secondary feature-card align-items-center justify-content-between">
-          <div class="col-sm-12 col-md-5 text2">
+          <div class="col-sm-12 col-lg-5 text2">
             <div class="position-relative">
               <h6>Smarter testing that gets better with time</h6>
               <img class="img pointer-green" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_green.png" />
             </div>
             <p>JIFFY.ai Assure’s cognitive testing capabilities powered by AI and ML self-learn and ensure improved accuracy of your tests over time, predicting what to test.</p>
           </div>
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-lg-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Features-Smarter-testing-that-gets-better-with-time.png" />
           </div>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between">
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-lg-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Features-DevOps-and-Continuous-Testing-Ready-1.jpg" />
           </div>
-          <div class="col-sm-12 col-md-5 text1">
+          <div class="col-sm-12 col-lg-5 text1">
             <div class="position-relative">
               <h6>DevOps and Continuous Testing Ready</h6>
               <img class="img pointer-ochre" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_ochre.png" />
@@ -87,14 +87,14 @@ get_header(); ?>
           </div>
         </div>
         <div class="row bg-secondary feature-card align-items-center justify-content-between">
-          <div class="col-sm-12 col-md-5 text2">
+          <div class="col-sm-12 col-lg-5 text2">
             <div class="position-relative">
               <h6>Hyper Apps for Test Automation</h6>
               <img class="img pointer-green" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_green.png" />
             </div>
             <p>Domain-ready Hyper Apps – be it retail, banking or manufacturing. Leverage our pre-built testing automation apps across standard enterprise applications including SAP, SFDC, IBM and more.</p>
           </div>
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-lg-6">
             <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/assure-page.png" />
           </div>
         </div>
@@ -108,12 +108,12 @@ get_header(); ?>
     <div class="container">
       <h4 class="text-center text-primary">Use Cases</h4>
       <div class="row justify-content-around align-items-center">
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-lg-4">
           <h6>Automated testing of order management lifecycle for retailers</h6>
           <p>A typical order management lifecycle has numerous steps, all dependent on the smooth and cohesive functioning of different systems and platforms. This results in a high possibility of the lifecycle breaking down, and leading to frustrations for the customer and retailer alike. With JIFFY.ai Assure, you can automate your testing process, making it smart, fast and accurate.</p>
           <a href="/automated-testing-of-order-management-lifecycle-for-retailers/"><button class="btn-outline-primary">READ MORE</button></a>
         </div>
-        <div class="col-sm-12 col-md-6 text-center">
+        <div class="col-sm-12 col-lg-6 text-center">
           <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/retailer_testing.jpg" />
         </div>
       </div>
@@ -124,20 +124,20 @@ get_header(); ?>
     <div class="container">
       <h4 class="text-center text-secondary">In Action</h4>
       <div class="row first-row justify-content-around align-items-center">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-lg-6">
           <img class="img" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Smart-data-management.png" />
         </div>
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-lg-4">
           <h6>Smart test data management</h6>
           <p>Our cognitive data platform chooses the right test data for you. No more test data creation hassles. Your test cycles get faster with automatic data selection.</p>
         </div>
       </div>
       <div class="row justify-content-around align-items-center">
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-lg-4">
           <h6>Manage Data Privacy Challenges in Testing</h6>
           <p>Leverage the big data platform of JIFFY.ai Assure to cleanse, transform and scramble data to adhere to your data privacy requirements.</p>
         </div>
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-lg-6">
           <img class="img" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Manage-Data-Privacy-Challenges-in-Testing.png" />
         </div>
       </div>
@@ -203,24 +203,24 @@ get_header(); ?>
     <div class="container">
       <h4 class="text-center text-secondary">Partners</h4>
       <div class="row justify-content-around">
-        <div class="col-xs-12 col-md-12">
+        <div class="col-xs-12 col-lg-12">
           <div class="row text-center justify-content-between align-items-center">
-            <div class="col-xs-4 col-md-2 col-sm-6">
+            <div class="col-xs-4 col-lg-2 col-sm-6">
               <img class="hcl" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hcl.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-2">
+            <div class="col-sm-6 col-xs-4 col-lg-2">
               <img class="kpmg" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/kpmg.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-2">
+            <div class="col-sm-6 col-xs-4 col-lg-2">
               <img class="tech-m" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/tech_mahindra.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-2">
+            <div class="col-sm-6 col-xs-4 col-lg-2">
               <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/deloitte.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-2">
+            <div class="col-sm-6 col-xs-4 col-lg-2">
               <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/wipro.png"/>
             </div>
-            <div class="col-sm-6 col-xs-4 col-md-2">
+            <div class="col-sm-6 col-xs-4 col-lg-2">
               <img class="tata" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/tata.png"/>
             </div>
           </div>
@@ -232,14 +232,14 @@ get_header(); ?>
   <section class="cta-section">
     <div class="container">
       <div class="row justify-content-around align-items-center">
-        <div class="col-sm-12 col-md-5">
+        <div class="col-sm-12 col-lg-5">
           <h5>Transform the way your teams test</h5>
           <div class="cta-image overflow-hidden position-relative show-mobile">
             <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_test.jpg" />
           </div>
           <button class="btn-primary show-desktop request-demo-button">REQUEST DEMO</button>
         </div>
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-lg-6">
           <div class="cta-image overflow-hidden position-relative show-desktop">
             <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_test.jpg" />
           </div>
