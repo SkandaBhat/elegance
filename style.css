@@ -1058,7 +1058,7 @@ footer#colophon a {
 /*--------------------------------------------------------------
 ## iPad
 --------------------------------------------------------------*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   html {
     font-size: 80%;
   }
@@ -1134,7 +1134,7 @@ div.wpforms-container-full {
   display: none;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .break-on-mobile {
     display: block;
   }

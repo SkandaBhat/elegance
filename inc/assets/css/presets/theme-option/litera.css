@@ -9841,7 +9841,7 @@ footer .card-innovate {
   display: none;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .navbar-brand img {
     height: 40px;
     width: 148px;

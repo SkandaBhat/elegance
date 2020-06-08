@@ -47,7 +47,7 @@
   z-index: -1;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .impossible-width br {
     display: none;
   }
@@ -88,7 +88,7 @@
   line-height: 28px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .transform .row {
     flex-direction: column-reverse;
   }
@@ -217,7 +217,7 @@
   transform: rotate(180deg);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .features .features-first {
     flex-direction: column-reverse;
   }
@@ -295,7 +295,7 @@
   margin-top: 64px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .use-cases {
     padding-top: 64px;
   }
@@ -359,7 +359,7 @@
   margin-bottom: 60px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .in-action .first-row {
     flex-direction: column-reverse;
   }
@@ -463,7 +463,7 @@
   top: 12vh;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .product-testimonials .wrapper {
     height: auto;
   }
@@ -528,7 +528,7 @@
   top: 0px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .box {
     margin-bottom: 24px;
     display: flex;

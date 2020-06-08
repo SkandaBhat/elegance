@@ -54,7 +54,7 @@
   display: none;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .impossible-width br {
     display: none;
   }
@@ -80,7 +80,7 @@
   .show-desktop {
     display: none;
   }
-  
+
   .show-mobile {
     display: block;
   }
@@ -94,7 +94,7 @@
 }
 
 .transform {
-  padding: 64px 0px;
+  padding: 54px 0px 64px;
 }
 
 .transform h4 {
@@ -110,7 +110,7 @@
   line-height: 28px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .transform .row {
     flex-direction: column-reverse;
   }
@@ -134,7 +134,7 @@
 }
 
 .features {
-  padding-top: 64px;
+  padding-top: 54px;
 }
 
 .features.how-it-works {
@@ -145,7 +145,7 @@
   font-weight: 600;
   font-size: 48px;
   line-height: 66px;
-  margin-bottom: 64px;
+  margin-bottom: 54px;
 }
 
 .features .feature-card {
@@ -231,7 +231,7 @@
   transform: rotate(180deg);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .features .features-first {
     flex-direction: column-reverse;
   }
@@ -268,7 +268,7 @@
 }
 
 .use-cases {
-  padding: 64px 0;
+  padding: 54px 0 64px;
 }
 
 .use-cases h4 {
@@ -309,7 +309,7 @@
   margin-top: 64px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .use-cases {
     padding-top: 64px;
   }
@@ -349,11 +349,15 @@
   }
 }
 
+.in-action {
+  padding: 54px 0 64px;
+}
+
 .in-action h4 {
   font-weight: 600;
   font-size: 48px;
   line-height: 66px;
-  margin: 64px 0;
+  margin-bottom: 54px;
 }
 
 .in-action h6 {
@@ -370,10 +374,14 @@
 }
 
 .in-action .row {
-  margin-bottom: 60px;
+  margin-bottom: 64px;
 }
 
-@media (max-width: 576px) {
+.in-action .row:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
   .in-action .first-row {
     flex-direction: column-reverse;
   }
@@ -384,14 +392,14 @@
 }
 
 .testimonials {
-  padding: 64px 0;
+  padding: 54px 0 64px;
 }
 
 .testimonials h4 {
   font-weight: 600;
   font-size: 48px;
   line-height: 66px;
-  margin-bottom: 64px;
+  margin-bottom: 54px;
 }
 
 /* .product-testimonials .testimonial {
@@ -458,7 +466,7 @@
   color: #508d53;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .product-testimonials .wrapper {
     height: auto;
   }
@@ -499,9 +507,9 @@
   width: 180px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .partners h4 {
-    margin-bottom: 0
+    margin-bottom: 0;
   }
 
   .partners img {
@@ -547,7 +555,7 @@
   top: 0px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .cta-section {
     text-align: center;
   }

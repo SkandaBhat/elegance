@@ -37,7 +37,7 @@
   z-index: -1;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .heading h1 {
     font-weight: 600;
     font-size: 40px;
@@ -86,7 +86,7 @@
   line-height: 28px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .vision h6 {
     text-align: center;
     margin-bottom: 50px;
@@ -144,7 +144,7 @@
   display: inline-block;
 }
 
-.team .team-member.active img{
+.team .team-member.active img {
   border: 3px solid #508d53;
 }
 
@@ -152,13 +152,15 @@
   margin-top: 40px;
 }
 
-.team-bio .title, .team-modal .title {
+.team-bio .title,
+.team-modal .title {
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
 }
 
-.team-bio .bio, .team-modal .bio{
+.team-bio .bio,
+.team-modal .bio {
   margin-top: 28px;
   font-weight: 500;
   font-size: 18px;
@@ -185,7 +187,7 @@
   margin-bottom: 0px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .investors h4 {
     margin-bottom: 40px;
   }
@@ -248,7 +250,7 @@
   margin-top: 20px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .metrics .stat {
     margin-top: 40px;
   }
@@ -292,7 +294,7 @@
   line-height: 28px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .cta-section {
     text-align: center;
   }
@@ -313,7 +315,7 @@
   color: white;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
   .tomorrows-width br {
     display: none;
   }
