@@ -9867,9 +9867,9 @@ footer .card-innovate {
   }
   .mobile {
     display: block;
-    border-bottom: 1px solid #aaa;
-    padding-bottom: 12px;
-    margin-bottom: 24px;
+    border-top: 1px solid #aaa;
+    padding-top: 12px;
+    margin-top: 24px;
   }
   .smaller {
     display: none;

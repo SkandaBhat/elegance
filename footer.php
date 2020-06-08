@@ -18,6 +18,14 @@
         <div class="row">
           <div class="col-lg-6 col-sm-12 col-xs-12">
             <div class="row">
+              <div class="col-lg-4 col-sm-6 col-xs-6">
+                <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-67.png" style="margin-bottom: 12px">
+                <p>691 S. Milpitas Blvd.<br /> Suite 217<br/> Milpitas, CA 95035, USA <br />+1 6466520764</p>
+              </div>
+              <div class="col-lg-4 col-sm-6 col-xs-6">
+                <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-66.png" style="margin-bottom: 12px">
+                <p>1142, 6th Main<br > Sector 7, HSR Layout<br/> Bangalore 560102, India <br />+91 804 170 0051</p>
+              </div>
               <div class="col-lg-4 col-sm-12 col-xs-12 mobile">
                 <div class="row flags">
                   <div class="col-lg-12 col-sm-12 col-xs-12">
@@ -36,14 +44,6 @@
                   </div>
                   <div style="clear: both;"></div>
                 </div>
-              </div>
-              <div class="col-lg-4 col-sm-6 col-xs-6">
-                <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-67.png" style="margin-bottom: 12px">
-                <p>691 S. Milpitas Blvd.<br /> Suite 217<br/> Milpitas, CA 95035, USA <br />+1 6466520764</p>
-              </div>
-              <div class="col-lg-4 col-sm-6 col-xs-6">
-                <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Rectangle-66.png" style="margin-bottom: 12px">
-                <p>1142, 6th Main<br > Sector 7, HSR Layout<br/> Bangalore 560102, India <br />+91 804 170 0051</p>
               </div>
               <div class="col-lg-4 col-sm-6 col-xs-6">
                 <div class="row flags smaller">
