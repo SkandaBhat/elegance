@@ -42,9 +42,6 @@ get_header(); ?>
     <img class="img green-circle-1-2" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png">
     <img class="img green-circle-features-2" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" />
 
-
-    <img class="img green-circle-1-3" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_circle.png">
-
 <?php
 // get_sidebar();
 get_footer();

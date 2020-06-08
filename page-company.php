@@ -17,7 +17,7 @@ get_header(); ?>
                 <p>At JIFFY.ai, we see automation through a new lens. A lens of possibilities. A lens of innovation. A lens of speed. A lens of ease. While never losing sight of the need for the human touch.
                 <br/><br/>Welcome to the new world order of automation.</p>
               </div>
-              <button class="btn-primary primary-cta">GET IN TOUCH</button>
+              <button class="btn-primary primary-cta request-demo-button">GET IN TOUCH</button>
             </div>
 
           </article>
@@ -104,9 +104,9 @@ get_header(); ?>
               <p class="personal-designation">President & COO</p>
             </div>
 
-            <div class="d-none d-md-block w-100"></div>
+            <div class="d-none d-lg-block w-100"></div>
 
-            <div class="d-none d-md-block offset-md-1"></div>
+            <div class="d-none d-lg-block offset-md-1"></div>
 
 
             <div data-id="6" class="team-member col-sm-6 col-lg-2">
@@ -142,11 +142,11 @@ get_header(); ?>
               <p class="personal-designation">VP, Sales - Europe</p>
             </div>
 
-            <div class="d-none d-md-block col-lg-1"></div>
+            <div class="d-none d-lg-block col-lg-1"></div>
 
             <div class="w-100 text-center team-name">Customer Excellence Team</div>
 
-            <div class="d-none d-md-block offset-md-1"></div>
+            <div class="d-none d-lg-block offset-md-1"></div>
 
 
             <div data-id="10" class="team-member col-sm-6 col-lg-2">
@@ -184,7 +184,7 @@ get_header(); ?>
             </div>
 
 
-            <div class="d-none d-md-block col-lg-1"></div>
+            <div class="d-none d-lg-block col-lg-1"></div>
 
             <div class="w-100 text-center team-name">Technology Excellence Team</div>
 
@@ -234,8 +234,8 @@ get_header(); ?>
                 <p class="personal-designation">R&D Head</p>
               </div>
 
-              <div class="d-none d-md-block w-100"></div>
-              <div class="d-none d-md-block offset-md-1"></div>
+              <div class="d-none d-lg-block w-100"></div>
+              <div class="d-none d-lg-block offset-md-1"></div>
 
 
               <div data-id="19" class="team-member col-sm-6 col-lg-2">
@@ -274,7 +274,7 @@ get_header(); ?>
                 <p class="personal-designation">Chief Architect, JIFFY.ai</p>
               </div>
 
-              <div class="d-none d-md-block col-lg-1"></div>
+              <div class="d-none d-lg-block col-lg-1"></div>
 
           </div>
         </div>
@@ -426,6 +426,7 @@ get_header(); ?>
           jQuery( "#team-mobile").modal('show')
         }
       })
+      
     });
   </script>
 

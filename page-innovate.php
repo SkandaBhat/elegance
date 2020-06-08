@@ -11,7 +11,7 @@ get_header(); ?>
           <article>
             <div>
               <div class="heading impossible-width">
-                <h1>Develop<br /><br class="break-on-mobile" />The<br class="break-on-mobile" /> Impossible</h1>
+                <h1>Develop <br /><br class="break-on-mobile" />The<br class="break-on-mobile" /> Impossible</h1>
               </div>
               <div class="subheading">
                 <h3>Software development, faster than you think.</h3>

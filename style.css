@@ -266,6 +266,13 @@ h3.widget-title {
   z-index: -1;
 }
 
+.entry-content li {
+  font-size: 20px;
+  line-height: 1.7em;
+  word-spacing: 1px;
+  margin: 1.6em 0;
+}
+
 .entry-content p {
   font-size: 20px;
   line-height: 1.7em;
@@ -515,8 +522,11 @@ body:not(.theme-preset-active)
 @media screen and (max-width: 991px) {
   .navbar-nav .dropdown-menu {
     border: medium none;
-    margin-left: 1.25rem;
     padding: 0;
+  }
+
+  .dropdown-menu .dropdown-item {
+    padding-left: 15px;
   }
 
   .dropdown-menu li a {
@@ -1130,13 +1140,18 @@ div.wpforms-container-full {
   z-index: -1;
 }
 
+.post-thumbnail {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
 .break-on-mobile {
   display: none;
 }
 
 @media (max-width: 1024px) {
   .break-on-mobile {
-    display: block;
+    display: none;
   }
   .green-circle-1 {
     display: none;
@@ -1160,6 +1175,12 @@ div.wpforms-container-full {
   }
   .custom-modal {
     padding: 0px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .break-on-mobile {
+    display: block;
   }
 }
 

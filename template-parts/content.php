@@ -28,7 +28,7 @@ article {
 
 	</header><!-- .entry-header -->
 
-	<div class="post-thumbnail">
+	<div class="post-thumbnail text-center">
 		<?php the_post_thumbnail(); ?>
 	</div>
 

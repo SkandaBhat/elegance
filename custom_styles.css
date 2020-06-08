@@ -44,4 +44,8 @@ button:active {
   display: flex;
 }
 
+.dropdown .active{
+  border-bottom: 1px solid;
+}
+
 
