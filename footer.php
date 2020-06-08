@@ -84,10 +84,10 @@
 		<div class="container pt-3 pb-3">
 
             <div class="social-media">
-              <a target="_blank" href="https://www.instagram.com/jiffy.ai/"><img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/image-18.png"></a>
-              <a target="_blank" href="https://www.linkedin.com/company/jiffyai/"><img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/image-15.png"></a>
-              <a target="_blank" href="https://www.facebook.com/jiffyai/"><img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/image-16.png"></a>
-              <a target="_blank" href="https://twitter.com/Jiffyai"><img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/image-17.png"></a>
+              <a target="_blank" href="https://www.instagram.com/jiffy.ai/"><img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/insta-footer.png"></a>
+              <a target="_blank" href="https://www.linkedin.com/company/jiffyai/"><img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/linkedin-footer.png"></a>
+              <a target="_blank" href="https://www.facebook.com/jiffyai/"><img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/facebook-footer.png"></a>
+              <a target="_blank" href="https://twitter.com/Jiffyai"><img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/twitter-footer.png"></a>
             </div>
 
             <div class="site-info">
