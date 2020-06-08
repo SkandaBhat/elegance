@@ -83,7 +83,7 @@ get_header(); ?>
     <!-- <img class="img green-semi" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_green_semi.png" /> -->
   </section>
 
-  <section class="cta-section">
+  <!-- <section class="cta-section">
     <div class="container">
       <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-lg-6 order-sm-2 order-md-1">
@@ -96,6 +96,6 @@ get_header(); ?>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 <?php
 get_footer();

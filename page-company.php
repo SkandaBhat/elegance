@@ -369,7 +369,7 @@ get_header(); ?>
     </div>
   </section>
 
-  <section class="cta-section">
+  <!-- <section class="cta-section">
     <div class="container">
       <div class="row justify-content-around align-items-center">
         <div class="col-sm-12 col-lg-6 order-sm-2 order-md-1">
@@ -382,7 +382,7 @@ get_header(); ?>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <script>
     jQuery(document).ready(function () {
@@ -426,7 +426,7 @@ get_header(); ?>
           jQuery( "#team-mobile").modal('show')
         }
       })
-      
+
       jQuery('.left-nav').find('#menu-item-150').addClass('active');
     });
   </script>
