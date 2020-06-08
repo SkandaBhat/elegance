@@ -76,9 +76,11 @@
     width: 90px;
     z-index: -1;
   }
+
   .show-desktop {
     display: none;
   }
+  
   .show-mobile {
     display: block;
   }
@@ -463,18 +465,14 @@
 }
 
 .partners {
-  padding: 64px;
+  padding: 54px 0 64px;
 }
 
 .partners h4 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-weight: 600;
   font-size: 48px;
   line-height: 66px;
-}
-
-.partners img {
-  margin-top: 40px;
 }
 
 .partners .hcl {
@@ -493,8 +491,36 @@
   width: 125px;
 }
 
+.partners .wipro {
+  width: 100px;
+}
+
 .partners .tata {
   width: 180px;
+}
+
+@media (max-width: 576px) {
+  .partners h4 {
+    margin-bottom: 0
+  }
+
+  .partners img {
+    margin-top: 54px;
+  }
+
+  .partners .hcl {
+    margin-top: 44px;
+    width: 110px;
+  }
+
+  .partners .kpmg {
+    margin-top: 44px;
+    width: 100px;
+  }
+
+  .partners .tech-m {
+    width: 120px;
+  }
 }
 
 .cta-section {

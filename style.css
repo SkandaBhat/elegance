@@ -219,16 +219,16 @@ h6 {
   clear: both;
   color: #24292e;
   font-weight: 600;
-  margin-top: 24px;
-  margin-bottom: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 h1 {
   font-size: 32px;
-  padding-bottom: 10px;
+  padding-bottom: 0;
 }
 h2 {
   font-size: 24px;
-  padding-bottom: 0.3em;
+  padding-bottom: 0;
   line-height: 1.25;
 }
 h3 {
@@ -1200,6 +1200,12 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-large {
   font-size: 18px;
   line-height: 25px;
   color: #000000;
+  margin-bottom: 130px;
+}
+
+.wpforms-confirmation-container-full {
+  background: none;
+  border: none;
 }
 
 .custom-modal .green-circle-1 {

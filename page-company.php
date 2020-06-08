@@ -284,7 +284,7 @@ get_header(); ?>
   </section>
 
   <div class="modal" tabindex="-1" role="dialog" id="team-mobile">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-body">
           <button type="button" class="close text-right" data-dismiss="modal" aria-label="Close">

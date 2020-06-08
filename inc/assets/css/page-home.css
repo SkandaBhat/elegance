@@ -1,5 +1,5 @@
 .hero {
-  padding: 162px 0 64px 0;
+  padding: 162px 0 64px;
 }
 
 .heading {
@@ -59,6 +59,7 @@
 }
 
 @media (max-width: 576px) {
+
   .heading {
     max-width: 330px;
   }
@@ -77,7 +78,7 @@
   .green-semi-1 {
     display: block;
     position: absolute;
-    top: -20px;
+    top: -30px;
     right: 0px;
     width: 90px;
     z-index: -1;
@@ -92,7 +93,7 @@
     position: absolute;
     z-index: -1;
     width: 30px;
-    top: 15%;
+    top: 200px;
     right: 4%;
   }
 }
@@ -124,6 +125,7 @@
   font-size: 36px;
   line-height: 36px;
   letter-spacing: 0.01em;
+  min-width: 300px;
 }
 
 .main-card p {
@@ -155,8 +157,12 @@
 
 @media (max-width: 576px) {
   .main-card {
-    margin-top: 30px;
+    margin-top: 34px;
     width: 100%;
+  }
+
+  .main-card-row {
+    margin-top: 20px;
   }
 
   .main-card h2 {
@@ -180,7 +186,7 @@
 }
 
 .hyper-apps {
-  padding: 64px 0px;
+  padding: 54px 0px 64px;
 }
 
 .hyper-apps h2 {
@@ -190,6 +196,7 @@
 }
 
 .hyper-apps h4 {
+  margin-top: 34px;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -291,7 +298,7 @@
   }
 
   .use-cases .col-sm-12 {
-    margin-top: 64px;
+    margin-top: 54px;
   }
 
   .use-cases button {
@@ -312,18 +319,14 @@
 }
 
 .partners {
-  padding: 64px 0;
+  padding: 54px 0 64px;
 }
 
 .partners h4 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-weight: 600;
   font-size: 48px;
   line-height: 66px;
-}
-
-.partners img {
-  margin-top: 40px;
 }
 
 .partners .hcl {
@@ -342,12 +345,40 @@
   width: 125px;
 }
 
+.partners .wipro {
+  width: 100px;
+}
+
 .partners .tata {
   width: 180px;
 }
 
+@media (max-width: 576px) {
+  .partners h4 {
+    margin-bottom: 0
+  }
+
+  .partners img {
+    margin-top: 54px;
+  }
+
+  .partners .hcl {
+    margin-top: 44px;
+    width: 110px;
+  }
+
+  .partners .kpmg {
+    margin-top: 44px;
+    width: 100px;
+  }
+
+  .partners .tech-m {
+    width: 120px;
+  }
+}
+
 .case-studies {
-  padding: 64px 0;
+  padding: 54px 0 64px;
 }
 
 .grey {
@@ -356,7 +387,7 @@
 }
 
 .case-first {
-  padding-top: 64px;
+  padding-top: 54px;
 }
 
 .case-studies h4 {
@@ -403,10 +434,6 @@
 }
 
 @media (max-width: 576px) {
-  .case-studies {
-    padding: 64px 0;
-  }
-
   .case-studies h4 {
     font-weight: 600;
     font-size: 40px;

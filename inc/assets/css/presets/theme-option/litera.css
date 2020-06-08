@@ -119,12 +119,12 @@ h4,
 h5,
 h6 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 abbr[title],
@@ -137,7 +137,7 @@ abbr[data-original-title] {
 }
 
 address {
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   font-style: normal;
   line-height: inherit;
 }
@@ -146,7 +146,7 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 ol ol,
@@ -161,12 +161,12 @@ dt {
 }
 
 dd {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   margin-left: 0;
 }
 
 blockquote {
-  margin: 0 0 1rem;
+  margin: 0 0 0;
 }
 
 dfn {
@@ -409,7 +409,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   font-family: inherit;
   font-weight: 700;
   line-height: 1.2;
@@ -5941,7 +5941,7 @@ button.close {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1rem;
+  padding: 30px;
 }
 
 .modal-footer {
@@ -9738,6 +9738,10 @@ footer .main-card {
   box-shadow: 0px 5.92625px 17.7788px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: transform 0.2s ease;
+}
+
+footer .main-card h2 {
+  min-width: auto;
 }
 
 @media (min-width: 1281px) {
