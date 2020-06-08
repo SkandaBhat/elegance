@@ -52,37 +52,41 @@ button:active {
   border-bottom: 2px solid #4f8b52;
 } */
 
-.active:after {
-  content: ""; 
-  display: block; 
-  margin: 0 auto; 
-  width: 80%; 
-  padding-top: 0px; 
-  border-bottom: 2px solid #4f8b52; 
+.dropdown-menu .active:after {
+  border: none;
+}
+
+.navbar-left .active:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 0px;
+  border-bottom: 2px solid #4f8b52;
 }
 
 .active-parent:after {
-  content: ""; 
-  display: block; 
-  margin: 0 auto; 
-  width: 80%; 
-  padding-top: 0px; 
-  border-bottom: 2px solid #4f8b52; 
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 0px;
+  border-bottom: 2px solid #4f8b52;
 }
 
-@media(max-width: 1024px){
-  .active a{
+@media (max-width: 1024px) {
+  .active a {
     font-weight: 700;
   }
-  .active-parent{
+  .active-parent {
     font-weight: 700;
   }
   .active:after {
-    content: '';
+    content: "";
     border: none;
   }
-  .active-parent:after{
-    content: '';
+  .active-parent:after {
+    content: "";
     border: none;
   }
 }
