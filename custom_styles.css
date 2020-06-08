@@ -44,8 +44,12 @@ button:active {
   display: flex;
 }
 
-.dropdown .active{
-  border-bottom: 1px solid;
+.active{
+  /* border-bottom: 1px solid;#4f8b52 */
+  border-left: 2px solid #f51c40;
+  position: absolute;
+  top: 50%;
+  bottom: 0;
 }
 
 
