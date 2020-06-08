@@ -1204,8 +1204,8 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-large {
 }
 
 .wpforms-confirmation-container-full {
-  background: none;
-  border: none;
+  background: none !important;
+  border: none !important;
 }
 
 .custom-modal .green-circle-1 {
