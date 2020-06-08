@@ -265,7 +265,7 @@ get_header(); ?>
         <div class="col-sm-12 col-lg-5">
           <h5>Transform the way your teams work</h5>
           <div class="cta-image overflow-hidden position-relative show-mobile">
-            <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_work.jpg" />
+            <img class="zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_work.jpg" />
           </div>
           <button class="btn-primary show-desktop request-demo-button">REQUEST DEMO</button>
         </div>

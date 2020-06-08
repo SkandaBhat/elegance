@@ -46,8 +46,8 @@ get_header(); ?>
             <?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
                 <div class="col-sm-12 col-lg-4">
                   <div class="box">
-                  <img src="<?php the_post_thumbnail_url(); ?>">
-                    <a href="<?php the_permalink(); ?>">
+                  <a href="<?php the_permalink(); ?>">
+                      <img src="<?php the_post_thumbnail_url(); ?>">
                       <?php the_title(); ?>
                     </a>
                   </div>

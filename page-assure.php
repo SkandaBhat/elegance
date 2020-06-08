@@ -32,7 +32,7 @@ get_header(); ?>
     <div class="container">
       <div class="row justify-content-between align-items-center">
         <div class="col-sm-12 col-lg-6">
-          <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/assure-page.png" />
+          <img class="zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/assure-page.png" />
         </div>
         <div class="col-sm-12 col-lg-6">
           <h4>Transform your testing processes</h4>
@@ -51,7 +51,7 @@ get_header(); ?>
         <h4 class="text-center text-primary">Features</h4>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-lg-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Low-Code-End-to-End-Test-Automation.png" />
+            <img class="zoom-image" class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Low-Code-End-to-End-Test-Automation.png" />
           </div>
           <div class="col-sm-12 col-lg-5 text1">
             <div class="position-relative">
@@ -71,12 +71,12 @@ get_header(); ?>
             <p>JIFFY.ai Assure’s cognitive testing capabilities powered by AI and ML self-learn and ensure improved accuracy of your tests over time, predicting what to test.</p>
           </div>
           <div class="col-sm-12 col-lg-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Features-Smarter-testing-that-gets-better-with-time.png" />
+            <img class="zoom-image" class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Features-Smarter-testing-that-gets-better-with-time.png" />
           </div>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between">
           <div class="col-sm-12 col-lg-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Features-DevOps-and-Continuous-Testing-Ready-1.jpg" />
+            <img class="zoom-image" class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Features-DevOps-and-Continuous-Testing-Ready-1.jpg" />
           </div>
           <div class="col-sm-12 col-lg-5 text1">
             <div class="position-relative">
@@ -95,7 +95,7 @@ get_header(); ?>
             <p>Domain-ready Hyper Apps – be it retail, banking or manufacturing. Leverage our pre-built testing automation apps across standard enterprise applications including SAP, SFDC, IBM and more.</p>
           </div>
           <div class="col-sm-12 col-lg-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/assure-page.png" />
+            <img class="zoom-image" class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/assure-page.png" />
           </div>
         </div>
       </section>
@@ -235,7 +235,7 @@ get_header(); ?>
         <div class="col-sm-12 col-lg-5">
           <h5>Transform the way your teams test</h5>
           <div class="cta-image overflow-hidden position-relative show-mobile">
-            <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_test.jpg" />
+            <img class="zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_test.jpg" />
           </div>
           <button class="btn-primary show-desktop request-demo-button">REQUEST DEMO</button>
         </div>

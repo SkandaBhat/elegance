@@ -32,7 +32,7 @@ get_header(); ?>
     <div class="container">
       <div class="row justify-content-between align-items-center">
         <div class="col-sm-12 col-lg-6">
-          <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Transform-Invoice-Processing.png" />
+          <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" class="zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Transform-Invoice-Processing.png" />
         </div>
         <div class="col-sm-12 col-lg-6">
           <h4>Transform the way<br class="break-on-mobile" /> you process<br class="break-on-mobile" /> invoices</h4>
@@ -236,7 +236,7 @@ get_header(); ?>
         <div class="col-sm-12 col-lg-5">
           <h5>Transform the way you process invoices</h5>
           <div class="cta-image overflow-hidden position-relative show-mobile">
-            <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_invoice.jpg" />
+            <img class="zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_invoice.jpg" />
           </div>
           <button class="btn-primary show-desktop request-demo-button">REQUEST DEMO</button>
         </div>

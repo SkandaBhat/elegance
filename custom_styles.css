@@ -44,12 +44,39 @@ button:active {
   display: flex;
 }
 
-.active{
-  /* border-bottom: 1px solid;#4f8b52 */
-  border-left: 2px solid #f51c40;
-  position: absolute;
-  top: 50%;
-  bottom: 0;
+/* .active a{
+  border-bottom: 2px solid #4f8b52;
 }
 
+.active-parent{
+  border-bottom: 2px solid #4f8b52;
+} */
 
+.active:after {
+  content: ""; 
+  display: block; 
+  margin: 0 auto; 
+  width: 80%; 
+  padding-top: 0px; 
+  border-bottom: 2px solid #4f8b52; 
+}
+
+.active-parent:after {
+  content: ""; 
+  display: block; 
+  margin: 0 auto; 
+  width: 80%; 
+  padding-top: 0px; 
+  border-bottom: 2px solid #4f8b52; 
+}
+
+@media(max-width: 1024px){
+  .active:after {
+    content: '';
+    border: none;
+  }
+  .active-parent:after{
+    content: '';
+    border: none;
+  }
+}

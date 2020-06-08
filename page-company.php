@@ -427,6 +427,7 @@ get_header(); ?>
         }
       })
       
+      jQuery('.left-nav').find('#menu-item-150').addClass('active');
     });
   </script>
 

@@ -137,10 +137,13 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 			if ( isset( $args->has_children ) && $args->has_children ) {
 				$classes[] = 'dropdown';
 			}
-			if ( in_array( 'current-menu-item', $classes, true ) || in_array( 'current-menu-parent', $classes, true ) ) {
+			if ( in_array( 'current-menu-item', $classes, true )) {
 				$classes[] = 'active';
 			}
 
+			if( in_array( 'current-menu-parent', $classes, true )){
+				$classes[] = 'active-parent';
+			}
 			// Add some additional default classes to the item.
 			$classes[] = 'menu-item-' . $item->ID;
 			$classes[] = 'nav-item';
