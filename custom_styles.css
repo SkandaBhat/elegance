@@ -71,6 +71,12 @@ button:active {
 }
 
 @media(max-width: 1024px){
+  .active a{
+    font-weight: 700;
+  }
+  .active-parent{
+    font-weight: 700;
+  }
   .active:after {
     content: '';
     border: none;
