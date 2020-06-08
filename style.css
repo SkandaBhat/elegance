@@ -1075,6 +1075,7 @@ footer#colophon a {
 .pum-container.pum-responsive.pum-responsive-large {
   overflow: hidden;
   background: #f4f4f4;
+  max-width: 1050px !important;
 }
 
 html.pum-open.pum-open-overlay.pum-open-scrollable body > [aria-hidden] {
@@ -1201,6 +1202,11 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-large {
   line-height: 25px;
   color: #000000;
   margin-bottom: 130px;
+}
+
+.wpforms-form {
+  max-width: 444px !important;
+  float: right;
 }
 
 .wpforms-confirmation-container-full {
