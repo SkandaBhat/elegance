@@ -11,6 +11,7 @@ get_header(); ?>
           <article>
             <div>
               <div class="heading">
+                <a href="/blog/">BLOGS</a>
                 <h1>Blog Posts</h1>
               </div>
             </div>
@@ -54,6 +55,13 @@ get_header(); ?>
       </div>
     </div>
   </section>
+
+
+  <script>
+jQuery(document).ready(function () {
+  jQuery('.dropdown-menu').find('#menu-item-416').removeClass('active');
+});
+</script>
 
 <?php
 get_footer();

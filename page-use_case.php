@@ -13,6 +13,7 @@ get_header(); ?>
       <div class="row">
         <section class="col-sm-12 col-lg-12">
           <div class="heading">
+            <a href="/use-cases/">USE CASES</a>
             <h1><?php the_field( 'heading' ); ?></h1>
           </div>
         </section><!-- #primary -->

@@ -15,6 +15,7 @@ get_header(); ?>
           <article>
             <div>
               <div class="heading">
+                <a href="/case-studies/">CASE STUDIES</a>
                 <h1><?php the_field( 'heading' ); ?></h1>
               </div>
             </div>

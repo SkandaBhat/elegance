@@ -29,6 +29,11 @@
   padding-right: 190px;
 }
 
+.heading a {
+  color: #4f8b52;
+  font-size: green;
+}
+
 .subheading {
   margin-top: 20px;
   max-width: 640px;
