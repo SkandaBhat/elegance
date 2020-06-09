@@ -32,7 +32,7 @@ get_header(); ?>
     <div class="container">
       <div class="row justify-content-between align-items-center">
         <div class="col-sm-12 col-lg-6">
-          <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15)" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_dashboard.png" />
+          <img class='zoom-image' style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15)" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_dashboard.png" />
         </div>
         <div class="col-sm-12 col-lg-6">
           <h4>Transform<br class="break-on-mobile" /> your<br class="break-on-mobile" /> business processes</h4>
@@ -50,7 +50,7 @@ get_header(); ?>
         <h4 class="text-center text-primary">Features</h4>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-lg-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/automate-ready-to-deploy.gif"/>
+            <img class="img zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/automate-ready-to-deploy.gif"/>
           </div>
           <div class="col-sm-12 col-lg-5 text1">
             <div class="position-relative">
@@ -70,12 +70,12 @@ get_header(); ?>
             <p>A native machine learning workspace that helps both non-data science and data science professionals with building and leveraging ML models – truly democratizing machine learning based automation.</p>
           </div>
           <div class="col-sm-12 col-lg-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/ML-based-automation.jpg" />
+            <img class="img zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/ML-based-automation.jpg" />
           </div>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-lg-6">
-            <img class="img" style="" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/App-based-Automation-Studio.png" />
+            <img class="img zoom-image" style="" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/App-based-Automation-Studio.png" />
           </div>
           <div class="col-sm-12 col-lg-5 text1">
             <div class="position-relative">
@@ -94,7 +94,7 @@ get_header(); ?>
             <p>Empower business users to easily build custom forms and workflows to handle complex business user interactions and validations.</p>
           </div>
           <div class="col-sm-12 col-lg-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Configurable-forms-workflow.png" />
+            <img class="img zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Configurable-forms-workflow.png" />
           </div>
         </div>
       </div>
@@ -155,7 +155,7 @@ get_header(); ?>
       <h4 class="text-center text-secondary">In Action</h4>
       <div class="row first-row justify-content-around align-items-center">
         <div class="col-sm-12 col-lg-6">
-          <img class="img" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/automate-ready-to-deploy.gif" />
+          <img class="img zoom-image" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/automate-ready-to-deploy.gif" />
         </div>
         <div class="col-sm-12 col-lg-4">
           <h6>Adaptable and ready&#8209;to&#8209;deploy</h6>
@@ -168,7 +168,7 @@ get_header(); ?>
           <p>Our data engine performs data cleansing, analytics and reconciliation to solve complex reporting and reconciliation problems.</p>
         </div>
         <div class="col-sm-12 col-lg-6">
-          <img class="img" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/powerful-data-analytics.gif" />
+          <img class="img zoom-image" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/powerful-data-analytics.gif" />
         </div>
       </div>
     </div>
