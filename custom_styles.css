@@ -53,7 +53,7 @@ button:active {
 } */
 
 .dropdown-menu .active:after {
-  border: none;
+  border: none !important;
 }
 
 .navbar-left .active:after {
