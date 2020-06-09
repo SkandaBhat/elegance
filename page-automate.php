@@ -11,7 +11,7 @@ get_header(); ?>
           <article>
             <div>
               <div class="heading">
-                <h1>Think Beyond Automation</h1>
+                <h1>Think<br class="break-on-mobile" /> Beyond<br class="break-on-mobile" /> Automation</h1>
               </div>
               <div class="subheading">
                 <h3>Think beyond bots that only automate tasks.</h3>

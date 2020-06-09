@@ -1180,7 +1180,7 @@ div.wpforms-container-full {
 
 @media (max-width: 767px) {
   .break-on-mobile {
-    display: block;
+    display: block !important;
   }
 }
 

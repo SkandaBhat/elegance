@@ -30,7 +30,7 @@ get_header(); ?>
 
   <section class="welcome bg-light">
     <div class="container">
-      <h4 class="text-center text-primary">Welcome to JIFFY.ai</h4>
+      <h4 class="text-center text-primary">Welcome</h4>
       <div class="row justify-content-around">
         <div class="col-sm-12 col-lg-6">
           <img class="img zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/welcome-to-jiffy-final.gif" />
