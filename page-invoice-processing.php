@@ -51,7 +51,7 @@ get_header(); ?>
         <h4 class="text-center text-primary">Features</h4>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-lg-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Intelligent-Invoice-processing.png" />
+            <img class="img zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Intelligent-Invoice-processing.png" />
           </div>
           <div class="col-sm-12 col-lg-5 text1">
             <div class="position-relative">
@@ -71,12 +71,12 @@ get_header(); ?>
             <p>Set up an invoice registration portal with a few clicks to onboard new suppliers with ease.</p>
           </div>
           <div class="col-sm-12 col-lg-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/supplier-portal.jpg" />
+            <img class="img zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/supplier-portal.jpg" />
           </div>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-lg-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Configurable-Workflows.png" />
+            <img class="img zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Configurable-Workflows.png" />
           </div>
           <div class="col-sm-12 col-lg-5 text1">
             <div class="position-relative">
@@ -95,7 +95,7 @@ get_header(); ?>
             <p>Provides flexibility in setting up validations at the generic or supplier level. Business users can configure complex validations like a three-way match, PO validation, and item validations with ease.</p>
           </div>
           <div class="col-sm-12 col-lg-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Powerful-Validation-Engine.jpg" />
+            <img class="img zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Powerful-Validation-Engine.jpg" />
           </div>
         </div>
       </section>
@@ -126,7 +126,7 @@ get_header(); ?>
       <h4 class="text-center text-secondary">In Action</h4>
       <div class="row first-row justify-content-around align-items-center">
         <div class="col-sm-12 col-lg-6">
-          <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Powerful-Data-Analytics.jpg" />
+          <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" class="img zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Powerful-Data-Analytics.jpg" />
         </div>
         <div class="col-sm-12 col-lg-4">
           <h6>Powerful data analytics</h6>
