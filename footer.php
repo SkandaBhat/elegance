@@ -118,7 +118,9 @@
                 .wrap('<span style="display:inline-block"></span>')
                 .css('display', 'block')
                 .parent()
-                .zoom();
+                .zoom({
+                  touch: false
+                });
           });
         </script>
 
