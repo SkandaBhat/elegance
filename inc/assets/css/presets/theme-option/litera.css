@@ -9732,6 +9732,12 @@ footer .main-card-row {
   margin-top: 40px;
 }
 
+@media (max-width: 1024px) {
+  footer .main-card-row {
+    max-width: 390px;
+  }
+}
+
 footer .main-card {
   content: "";
   min-width: 180px;
