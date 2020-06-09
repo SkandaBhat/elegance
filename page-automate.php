@@ -50,7 +50,7 @@ get_header(); ?>
         <h4 class="text-center text-primary">Features</h4>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-lg-6">
-            <img class="img zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/automate-ready-to-deploy.gif"/>
+            <img class="img zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/intelligent-document-processing.jpg"/>
           </div>
           <div class="col-sm-12 col-lg-5 text1">
             <div class="position-relative">
