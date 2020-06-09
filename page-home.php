@@ -155,7 +155,7 @@ get_header(); ?>
               <a href="/automating-cancellation-refund-queue-requests-for-a-leading-american-airline/"><button class="btn-outline-primary">READ MORE</button></a>
             </div>
             <div class="col-sm-12 col-lg-8 position-relative">
-              <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/airline_refund.jpg" />
+              <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/airplane.jpg" />
               <img class="img white-squares" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/home_white_squares.png" />
             </div>
           </div>
