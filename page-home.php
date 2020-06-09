@@ -11,7 +11,7 @@ get_header(); ?>
           <article>
             <div>
               <div class="heading">
-                <h1>Accelerate human-machine collaboration</h1>
+                <h1>Accelerate Human-Machine Collaboration</h1>
               </div>
               <div class="subheading">
                 <p>JIFFY.ai’s revolutionary app-based intelligent automation suite turbo-charges productivity, transforms processes, and helps your teams unleash their creativity and innovation.</p>
