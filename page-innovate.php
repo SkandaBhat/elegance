@@ -35,7 +35,7 @@ get_header(); ?>
           <img class="zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_dashboard.png" />
         </div>
         <div class="col-sm-12 col-lg-6">
-          <h4>Transform<br class="break-on-mobile" /> your<br class="break-on-mobile" /> software<br class="break-on-mobile" /> development</h4>
+          <h4>Transform<br class="break-on-mobile" /> Your<br class="break-on-mobile" /> Software<br class="break-on-mobile" /> Development</h4>
           <p>Software development is a slow and complicated process. With dependencies on several teams and common resources, it takes months for even the most advanced software companies to launch new products.
           <br/> <br/>
           With JIFFY.ai Innovate, we've redefined software development and empowered everyone with ideas to develop, deploy, test and launch software.</p>

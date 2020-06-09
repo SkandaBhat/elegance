@@ -35,7 +35,7 @@ get_header(); ?>
           <img class='zoom-image' style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15)" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_dashboard.png" />
         </div>
         <div class="col-sm-12 col-lg-6">
-          <h4>Transform<br class="break-on-mobile" /> your<br class="break-on-mobile" /> business processes</h4>
+          <h4>Transform<br class="break-on-mobile" /> Your<br class="break-on-mobile" /> Business Processes</h4>
           <p>JIFFY.ai Automate is the only app-based intelligent automation platform that lets you implement, manage and monitor enterprise-wide automation, so you can deliver on the promise of business transformation.
           <br/> <br/>
           JIFFY.ai Automate’s single dashboard combines the power of RPA, ML, AI, document processing, workflow and analytics, to support the end&#x2011;to&#x2011;end lifecycle management of automation with a human-in-the-loop approach so you can actually achieve significant ROI.</p>
@@ -64,7 +64,7 @@ get_header(); ?>
         <div class="row bg-secondary feature-card align-items-center justify-content-between">
           <div class="col-sm-12 col-lg-5 text2">
             <div class="position-relative">
-              <h6>ML based automation, simplified</h6>
+              <h6>ML Based Automation, Simplified</h6>
               <img class="img pointer-green" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/product_pointer_green.png" />
             </div>
             <p>A native machine learning workspace that helps both non-data science and data science professionals with building and leveraging ML models – truly democratizing machine learning based automation.</p>
