@@ -56,6 +56,10 @@ button:active {
   border: none !important;
 }
 
+.wpforms-confirmation-container-full p:last-of-type {
+  margin-top: 172px !important;
+}
+
 .navbar-left .active:after {
   content: "";
   display: block;
@@ -75,6 +79,9 @@ button:active {
 }
 
 @media (max-width: 1024px) {
+  .wpforms-confirmation-container-full p:last-of-type {
+    margin-top: 0 !important;
+  }
   .active a {
     font-weight: 700;
   }
