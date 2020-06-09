@@ -7,10 +7,6 @@
  * @package WP_Bootstrap_Starter
  */
 
-@ini_set( 'upload_max_size' , '64M' );
-@ini_set( 'post_max_size', '64M');
-@ini_set( 'max_execution_time', '300' );
-
 if ( ! function_exists( 'wp_bootstrap_starter_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
