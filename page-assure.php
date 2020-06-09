@@ -32,7 +32,7 @@ get_header(); ?>
     <div class="container">
       <div class="row justify-content-between align-items-center">
         <div class="col-sm-12 col-lg-6">
-          <img class="zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/assure-page.png" />
+          <img class="zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Transform-Your-Testing-Process.jpg" />
         </div>
         <div class="col-sm-12 col-lg-6">
           <h4>Transform your testing processes</h4>
@@ -125,7 +125,7 @@ get_header(); ?>
       <h4 class="text-center text-secondary">In Action</h4>
       <div class="row first-row justify-content-around align-items-center">
         <div class="col-sm-12 col-lg-6">
-          <img class="img" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Smart-data-management.png" />
+          <img class="img" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/website_gif_2.gif" />
         </div>
         <div class="col-sm-12 col-lg-4">
           <h6>Smart test data management</h6>
@@ -138,7 +138,7 @@ get_header(); ?>
           <p>Leverage the big data platform of JIFFY.ai Assure to cleanse, transform and scramble data to adhere to your data privacy requirements.</p>
         </div>
         <div class="col-sm-12 col-lg-6">
-          <img class="img" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Manage-Data-Privacy-Challenges-in-Testing.png" />
+          <img class="img" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/website_gif_3.gif" />
         </div>
       </div>
     </div>

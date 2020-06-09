@@ -70,7 +70,7 @@ get_header(); ?>
             <p>A native machine learning workspace that helps both non-data science and data science professionals with building and leveraging ML models – truly democratizing machine learning based automation.</p>
           </div>
           <div class="col-sm-12 col-lg-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/ML-based-automation.jpg" />
           </div>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">

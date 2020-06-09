@@ -76,7 +76,7 @@ get_header(); ?>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
           <div class="col-sm-12 col-lg-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Automated-DevOps.jpg" />
           </div>
           <div class="col-sm-12 col-lg-5 text1">
             <div class="position-relative">
@@ -95,7 +95,7 @@ get_header(); ?>
             <p>JIFFY.ai Innovate creates test documents using our proprietary Intermediate Language. The Test Suite Express runs test cases continuously, ensuring your software runs properly.</p>
           </div>
           <div class="col-sm-12 col-lg-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/reimagine-dev.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Automated-Testing.jpg" />
           </div>
         </div>
       </section>
@@ -218,7 +218,7 @@ get_header(); ?>
           <div class="cta-image overflow-hidden position-relative show-desktop">
             <img src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_develop.jpg" />
           </div>
-          <button class="btn-primary show-desktop show-mobile request-demo-button">REQUEST DEMO</button>
+          <button class="btn-primary show-mobile request-demo-button">REQUEST DEMO</button>
         </div>
       </div>
     </div>

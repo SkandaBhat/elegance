@@ -71,7 +71,7 @@ get_header(); ?>
             <p>Set up an invoice registration portal with a few clicks to onboard new suppliers with ease.</p>
           </div>
           <div class="col-sm-12 col-lg-6">
-            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/hyper_apps.png" />
+            <img class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/supplier-portal.jpg" />
           </div>
         </div>
         <div class="row features-first bg-primary feature-card align-items-center justify-content-between position-relative">
@@ -139,7 +139,7 @@ get_header(); ?>
           <p>Seamless integration with existing ERP and accounting systems to complete the invoice and payment lifecycle with out-of-the-box connectors.</p>
         </div>
         <div class="col-sm-12 col-lg-6">
-          <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Pluggable-ERP-connectors.png" />
+          <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/website_gif_1.gif" />
         </div>
       </div>
     </div>
