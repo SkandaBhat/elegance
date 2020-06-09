@@ -133,7 +133,7 @@ get_header(); ?>
               <p class="personal-name">David Baker</p>
               <p class="personal-designation">VP, Sales - Financial Services</p>
             </div>
-            <div data-id="9" class="team-member col-sm-6 col-lg-2">
+            <div data-id="null" class="team-member col-sm-6 col-lg-2">
               <div
                 class="member-image img rounded-circle"
                 style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutZora.jpg')"
@@ -149,7 +149,7 @@ get_header(); ?>
             <div class="d-none d-lg-block offset-md-1"></div>
 
 
-            <div data-id="10" class="team-member col-sm-6 col-lg-2">
+            <div data-id="null" class="team-member col-sm-6 col-lg-2">
               <div
                 class="member-image img rounded-circle"
                 style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutregy.jpg')"
@@ -166,7 +166,7 @@ get_header(); ?>
               <p class="personal-name">Allyson Burroughs</p>
               <p class="personal-designation">Marketing Head</p>
             </div>
-            <div data-id="12" class="team-member col-sm-6 col-lg-2">
+            <div data-id="null" class="team-member col-sm-6 col-lg-2">
               <div
                 class="member-image img rounded-circle"
                 style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutshreyas.jpg')"
@@ -174,7 +174,7 @@ get_header(); ?>
               <p class="personal-name">Shreyas Chandrahasan</p>
               <p class="personal-designation">Implementation Head</p>
             </div>
-            <div data-id="13" class="team-member col-sm-6 col-lg-2">
+            <div data-id="null" class="team-member col-sm-6 col-lg-2">
               <div
                 class="member-image img rounded-circle"
                 style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutPrasanth.jpg')"
@@ -207,7 +207,7 @@ get_header(); ?>
                 <p class="personal-designation">VP, Technology</p>
               </div>
 
-              <div data-id="16" class="team-member col-sm-6 col-lg-2">
+              <div data-id="null" class="team-member col-sm-6 col-lg-2">
                 <div
                   class="member-image img rounded-circle"
                   style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutsudhir.jpg')"
@@ -216,7 +216,7 @@ get_header(); ?>
                 <p class="personal-designation">Product Head</p>
               </div>
 
-              <div data-id="17" class="team-member col-sm-6 col-lg-2">
+              <div data-id="null" class="team-member col-sm-6 col-lg-2">
                 <div
                   class="member-image img rounded-circle"
                   style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutsubin.jpg')"
@@ -238,7 +238,7 @@ get_header(); ?>
               <div class="d-none d-lg-block offset-md-1"></div>
 
 
-              <div data-id="19" class="team-member col-sm-6 col-lg-2">
+              <div data-id="null" class="team-member col-sm-6 col-lg-2">
                 <div
                   class="member-image img rounded-circle"
                   style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutsekhar.jpg')"
@@ -265,7 +265,7 @@ get_header(); ?>
                 <p class="personal-designation">VP, User Experience</p>
               </div>
 
-              <div data-id="22" class="team-member col-sm-6 col-lg-2">
+              <div data-id="null" class="team-member col-sm-6 col-lg-2">
                 <div
                   class="member-image img rounded-circle"
                   style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutRahul.jpg')"
