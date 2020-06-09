@@ -9848,6 +9848,10 @@ footer .card-innovate {
   display: none;
 }
 
+.blog-list a {
+  color: #121212;
+}
+
 @media (max-width: 1024px) {
   .navbar-brand img {
     height: 40px;

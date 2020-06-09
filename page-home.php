@@ -186,28 +186,32 @@ get_header(); ?>
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-lg-3">
+        <a href="/the-strategic-use-of-technology-to-boost-the-people-function/">
           <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/blog_thumb_1.png" />
-          <div class="category text-secondary">CATEGORY</div>
-          <h5>Lorem Ipsum is simply dummy text of the</h5>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem</p>
+          <h5>The Strategic Use of Technology to Boost the People Function</h5>
+          <p>Companies that recognize their employees as their greatest asset and invest in...</p>
+        </a>
         </div>
         <div class="col-sm-12 col-lg-3">
+        <a href="/how-businesses-can-shift-into-life-beyond-covid19/">
           <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/blog_thumb_2.png" />
-          <div class="category text-secondary">CATEGORY</div>
-          <h5>Lorem Ipsum is simply dummy text of the</h5>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem</p>
+          <h5>How Businesses Can Shift into Life Beyond COVID19</h5>
+          <p>In today’s New Now blog, we talk about how businesses can begin to recover and mitigate some of the...</p>
+        </a>
         </div>
         <div class="col-sm-12 col-lg-3">
+        <a href="/advantages-of-web-based-rpa/">
           <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/blog_thumb_3.png" />
-          <div class="category text-secondary">CATEGORY</div>
-          <h5>Lorem Ipsum is simply dummy text of the</h5>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem</p>
+          <h5>Advantages of web-based RPA</h5>
+          <p>Collection and collation of data are done on the cloud, form filling, data extractions, website testing and...</p>
+          </a>
         </div>
         <div class="col-sm-12 col-lg-3">
+        <a href="/is-partial-automation-hindering-your-success/">
           <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/blog_thumb_4.png" />
-          <div class="category text-secondary">CATEGORY</div>
-          <h5>Lorem Ipsum is simply dummy text of the</h5>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem</p>
+          <h5>Is partial automation hindering your success?</h5>
+          <p>Have you ever said, “Let’s start small and then build it up based on how it goes,”? You sure have. So have most of us.</p>
+          </a>
         </div>
       </div>
     </div>
