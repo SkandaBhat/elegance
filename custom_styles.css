@@ -80,7 +80,7 @@ button:active {
 
 @media (max-width: 1024px) {
   .wpforms-confirmation-container-full p:last-of-type {
-    margin-top: 0 !important;
+    margin-top: 24px !important;
   }
   .active a {
     font-weight: 700;
