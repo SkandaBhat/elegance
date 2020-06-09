@@ -53,7 +53,7 @@ get_header(); ?>
     <div class="container">
       <div class="row justify-content-between align-items-center">
         <div class="col-sm-12 col-md-12 col-lg-6 text-center">
-          <img class='zoom-image' src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/welcome-to-jiffy-final.gif" />
+          <img class='zoom-image' src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Transform-Invoice-Processing.png" />
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6">
           <h2>Meet<br class="break-on-mobile" /> JIFFY.ai’s<br class="break-on-mobile" /> Hyper Apps</h2>
