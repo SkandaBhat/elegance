@@ -126,7 +126,7 @@ get_header(); ?>
       <h4 class="text-center text-secondary">In Action</h4>
       <div class="row first-row justify-content-around align-items-center">
         <div class="col-sm-12 col-lg-6">
-          <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" class="img zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Powerful-Data-Analytics.jpg" />
+          <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" class="img zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Powerful-data-analytics-final.gif" />
         </div>
         <div class="col-sm-12 col-lg-4">
           <h6>Powerful data analytics</h6>
@@ -236,7 +236,7 @@ get_header(); ?>
         <div class="col-sm-12 col-lg-5">
           <h5>Transform the way you process invoices</h5>
           <div class="cta-image overflow-hidden position-relative show-mobile">
-            <img class="zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Powerful-data-analytics-final.gif" />
+            <img class="zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_teams_invoice.jpg" />
           </div>
           <button class="btn-primary show-desktop request-demo-button">REQUEST DEMO</button>
         </div>
