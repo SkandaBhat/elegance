@@ -168,7 +168,7 @@ get_header(); ?>
           <p>Our data engine performs data cleansing, analytics and reconciliation to solve complex reporting and reconciliation problems.</p>
         </div>
         <div class="col-sm-12 col-lg-6">
-          <img class="img zoom-image" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/powerful-data-analytics.gif" />
+          <img class="img zoom-image" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Powerful-data-analytics-final.gif" />
         </div>
       </div>
     </div>
