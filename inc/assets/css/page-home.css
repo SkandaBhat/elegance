@@ -155,7 +155,7 @@
 }
 
 @media (max-width: 1024px) {
-  .request-demo{
+  .request-demo {
     margin-left: 0px;
   }
   .main-card {
@@ -472,7 +472,7 @@
 
   .case-studies .white-squares {
     position: absolute;
-    top: 50px;
+    top: 6%;
     left: 50%;
     width: 180px;
     z-index: 2;
