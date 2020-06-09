@@ -95,7 +95,7 @@ get_header(); ?>
             <p>Domain-ready Hyper Apps – be it retail, banking or manufacturing. Leverage our pre-built testing automation apps across standard enterprise applications including SAP, SFDC, IBM and more.</p>
           </div>
           <div class="col-sm-12 col-lg-6">
-            <img class="zoom-image" class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Feature-hyper-apps-for-automation.gif" />
+            <img class="zoom-image" class="img" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Features-Hyper-Apps-for-Test-Automation.jpg" />
           </div>
         </div>
       </section>

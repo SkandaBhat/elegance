@@ -155,7 +155,7 @@ get_header(); ?>
       <h4 class="text-center text-secondary">In Action</h4>
       <div class="row first-row justify-content-around align-items-center">
         <div class="col-sm-12 col-lg-6">
-          <img class="img zoom-image" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/automate-ready-to-deploy.gif" />
+          <img class="img zoom-image" style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Feature-hyper-apps-for-automation.gif" />
         </div>
         <div class="col-sm-12 col-lg-4">
           <h6>Adaptable and ready&#8209;to&#8209;deploy</h6>
