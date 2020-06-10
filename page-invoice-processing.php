@@ -111,7 +111,7 @@ get_header(); ?>
         <div class="col-sm-12 col-lg-4">
           <h6>Invoice Processing Automated for a Global Manufacturer</h6>
           <p>Using JIFFY.ai's invoice processing Hyper App, a global manufacturer was able to automate the entire invoice processing function across multiple countries. We achieved 85% straight-through processing over a 12-week period across 150,000 invoices a month for 5,000 suppliers.</p>
-          <button class="btn-outline-primary">READ MORE</button>
+          <a href="/cognitive-invoice-processing-for-an-automobile-manufacturer/"><button class="btn-outline-primary">READ MORE</button></a>
         </div>
         <div class="col-sm-12 col-lg-6 text-center">
           <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/automobile_manufacturing.jpg" />
