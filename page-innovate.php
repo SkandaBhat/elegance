@@ -193,7 +193,7 @@ get_header(); ?>
               <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/05/deloitte.png"/>
             </div>
             <div class="col-sm-6 col-xs-4 col-lg-2">
-              <img class="deloitte" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/wipro.png"/>
+              <img class="wipro" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/wipro.png"/>
             </div>
             <div class="col-sm-6 col-xs-4 col-lg-2">
               <img class="tata" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/tata.png"/>
