@@ -140,7 +140,7 @@ get_header(); ?>
         <div class="col-sm-12 col-lg-4">
           <h6>Transforming Finance and Accounting Processes</h6>
           <p>Companies that have implemented the JIFFY.ai Automate app for F&A report that they are able to realize returns on their investment in six months or less. With success rates as high as 85%, we’ve made this critical process more foolproof, nimble, and cost-effective.</p>
-            <a href="/kyc-process-automation-with-intelligent-rpa-2/"><button class="btn-outline-primary">READ MORE</button></a>
+            <a href="/transforming-finance-and-accounting-processes/"><button class="btn-outline-primary">READ MORE</button></a>
         </div>
         <div class="col-sm-12 col-lg-6 text-center">
           <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/transform_finance_process.jpg" />
