@@ -35,7 +35,7 @@ get_header(); ?>
           <img class="zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/hyper-apps-for-automation.jpg" />
         </div>
         <div class="col-sm-12 col-lg-6">
-          <h4>Transform your testing processes</h4>
+          <h4>Transform<br class="break-on-mobile" /> your<br class="break-on-mobile" /> testing<br class="break-on-mobile" /> processes</h4>
           <p>JIFFY.ai Assure is the only low code AI-based integrated test automation platform that lets you automate your tests across your entire software lifecycle.
           <br/> <br/>
           JIFFY.ai combines the capabilities of end&#x2011;to&#x2011;end test automation, DevOps integration, test data management and AI, so you can implement intelligent and agile continuous testing automation across your enterprise.</p>

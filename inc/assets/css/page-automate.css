@@ -485,11 +485,11 @@
 }
 
 .partners .kpmg {
-  width: 120px;
+  width: 105px;
 }
 
 .partners .tech-m {
-  width: 150px;
+  width: 125px;
 }
 
 .partners .deloitte {
@@ -497,11 +497,11 @@
 }
 
 .partners .wipro {
-  width: 100px;
+  width: 85px;
 }
 
 .partners .tata {
-  width: 180px;
+  width: 210px;
 }
 
 @media (max-width: 1024px) {

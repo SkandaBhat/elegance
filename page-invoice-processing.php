@@ -35,7 +35,7 @@ get_header(); ?>
           <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" class="zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Transform-Invoice-Processing.png" />
         </div>
         <div class="col-sm-12 col-lg-6">
-          <h4>Transform your<br class="break-on-mobile" /> invoice processing</h4>
+          <h4>Transform<br class="break-on-mobile" /> your<br class="break-on-mobile" /> invoice<br class="break-on-mobile" /> processing</h4>
           <p>By automating your invoice processing and related workflows, JIFFY.ai helps reduce the cost of invoicing by 70%, reduces invoice processing errors by 98%, and improves straight-through processing by 100%.
           <br/> <br/>
           Equipped with a built-in analytics engine, our Invoice Processing Hyper App provides end&#x2011;to&#x2011;end visibility of the entire invoice process and provides comprehensive insights into your financial data.</p>
@@ -111,7 +111,7 @@ get_header(); ?>
         <div class="col-sm-12 col-lg-4">
           <h6>Invoice Processing Automated for a Global Manufacturer</h6>
           <p>Using JIFFY.ai's invoice processing Hyper App, a global manufacturer was able to automate the entire invoice processing function across multiple countries. We achieved 85% straight-through processing over a 12-week period across 150,000 invoices a month for 5,000 suppliers.</p>
-          <button class="btn-outline-primary">READ MORE</button>
+          <a href="/cognitive-invoice-processing-for-an-automobile-manufacturer/"><button class="btn-outline-primary">READ MORE</button></a>
         </div>
         <div class="col-sm-12 col-lg-6 text-center">
           <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/automobile_manufacturing.jpg" />
