@@ -115,7 +115,7 @@ get_header(); ?>
                 style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutDino.jpg')"
               ></div>
               <p class="personal-name">Dino	Di Palma</p>
-              <p class="personal-designation">Group President, Telecom Vertical</p>
+              <p class="personal-designation">Advisor to the CEO</p>
             </div>
             <div data-id="7" class="team-member col-sm-6 col-lg-2">
               <div
@@ -203,8 +203,8 @@ get_header(); ?>
                   class="member-image img rounded-circle"
                   style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutjayaraj.jpg')"
                 ></div>
-                <p class="personal-name">Jayaraj Poroor PhD</p>
-                <p class="personal-designation">VP, Technology</p>
+                <p class="personal-name">Jayaraj Poroor, PhD</p>
+                <p class="personal-designation">Chief Scientist</p>
               </div>
 
               <div data-id="null" class="team-member col-sm-6 col-lg-2">

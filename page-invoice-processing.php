@@ -35,7 +35,7 @@ get_header(); ?>
           <img style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);" class="zoom-image" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Transform-Invoice-Processing.png" />
         </div>
         <div class="col-sm-12 col-lg-6">
-          <h4>Transform your<br class="break-on-mobile" /> invoice processing</h4>
+          <h4>Transform<br class="break-on-mobile" /> your<br class="break-on-mobile" /> invoice<br class="break-on-mobile" /> processing</h4>
           <p>By automating your invoice processing and related workflows, JIFFY.ai helps reduce the cost of invoicing by 70%, reduces invoice processing errors by 98%, and improves straight-through processing by 100%.
           <br/> <br/>
           Equipped with a built-in analytics engine, our Invoice Processing Hyper App provides end&#x2011;to&#x2011;end visibility of the entire invoice process and provides comprehensive insights into your financial data.</p>
