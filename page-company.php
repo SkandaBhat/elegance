@@ -164,7 +164,7 @@ get_header(); ?>
                 style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutAllison.jpg')"
               ></div>
               <p class="personal-name">Allyson Burroughs</p>
-              <p class="personal-designation">Marketing Head</p>
+              <p class="personal-designation">Head of Global Marketing</p>
             </div>
             <div data-id="null" class="team-member col-sm-6 col-lg-2">
               <div
@@ -172,7 +172,7 @@ get_header(); ?>
                 style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutshreyas.jpg')"
               ></div>
               <p class="personal-name">Shreyas Chandrahasan</p>
-              <p class="personal-designation">Implementation Head</p>
+              <p class="personal-designation">Head of Implementation</p>
             </div>
             <div data-id="null" class="team-member col-sm-6 col-lg-2">
               <div
@@ -180,7 +180,7 @@ get_header(); ?>
                 style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutPrasanth.jpg')"
               ></div>
               <p class="personal-name">Prasanth	Perumparambil</p>
-              <p class="personal-designation">Customer Success Head, APAC & EU</p>
+              <p class="personal-designation">Head of Customer Success APAC & EU</p>
             </div>
 
 
@@ -195,7 +195,7 @@ get_header(); ?>
                   style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutjayan.jpg')"
                 ></div>
                 <p class="personal-name">Jayan Chacko</p>
-                <p class="personal-designation">Head of Engineering - JIFFY.ai Innovate</p>
+                <p class="personal-designation">Head of Engineering JIFFY.ai Innovate</p>
               </div>
 
               <div data-id="15" class="team-member col-sm-6 col-lg-2">
@@ -204,7 +204,7 @@ get_header(); ?>
                   style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutjayaraj.jpg')"
                 ></div>
                 <p class="personal-name">Jayaraj Poroor, PhD</p>
-                <p class="personal-designation">Chief Scientist</p>
+                <p class="personal-designation">Head of Technology</p>
               </div>
 
               <div data-id="null" class="team-member col-sm-6 col-lg-2">
@@ -213,7 +213,7 @@ get_header(); ?>
                   style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutsudhir.jpg')"
                 ></div>
                 <p class="personal-name">Sudhir	Sen</p>
-                <p class="personal-designation">Product Head</p>
+                <p class="personal-designation">Head of Products</p>
               </div>
 
               <div data-id="null" class="team-member col-sm-6 col-lg-2">
@@ -222,7 +222,7 @@ get_header(); ?>
                   style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutsubin.jpg')"
                 ></div>
                 <p class="personal-name">Subin Perumbidy</p>
-                <p class="personal-designation">Engineering Head</p>
+                <p class="personal-designation">Head of Engineering</p>
               </div>
 
               <div data-id="18" class="team-member col-sm-6 col-lg-2">
@@ -231,7 +231,7 @@ get_header(); ?>
                   style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutraju.jpg')"
                 ></div>
                 <p class="personal-name">Rajmohan	Harindranath</p>
-                <p class="personal-designation">R&D Head</p>
+                <p class="personal-designation">Head of R&D</p>
               </div>
 
               <div class="d-none d-lg-block w-100"></div>
@@ -244,7 +244,7 @@ get_header(); ?>
                   style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutsekhar.jpg')"
                 ></div>
                 <p class="personal-name">Sekhar	Prakash</p>
-                <p class="personal-designation">DevOps & Implementation Head</p>
+                <p class="personal-designation">Head of DevOps & Implementation</p>
               </div>
 
               <div data-id="20" class="team-member col-sm-6 col-lg-2">
@@ -253,7 +253,7 @@ get_header(); ?>
                   style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutajmal.jpg')"
                 ></div>
                 <p class="personal-name">Ajmal Ashraf</p>
-                <p class="personal-designation">Senior Architect</p>
+                <p class="personal-designation">Senior Architect JIFFY.ai Innovate</p>
               </div>
 
               <div data-id="21" class="team-member col-sm-6 col-lg-2">
@@ -262,7 +262,7 @@ get_header(); ?>
                   style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutjoseph.jpg')"
                 ></div>
                 <p class="personal-name">Joseph	Thomas</p>
-                <p class="personal-designation">VP, User Experience</p>
+                <p class="personal-designation">Head of User Experience</p>
               </div>
 
               <div data-id="null" class="team-member col-sm-6 col-lg-2">
@@ -271,7 +271,7 @@ get_header(); ?>
                   style="background-image: url('<?php echo wp_get_upload_dir()['baseurl'] ?>/team/aboutRahul.jpg')"
                 ></div>
                 <p class="personal-name">Rahul Raj</p>
-                <p class="personal-designation">Chief Architect, JIFFY.ai</p>
+                <p class="personal-designation">Chief Architect JIFFY.ai</p>
               </div>
 
               <div class="d-none d-lg-block col-lg-1"></div>
