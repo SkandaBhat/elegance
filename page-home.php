@@ -188,7 +188,7 @@ get_header(); ?>
         <div class="col-sm-12 col-lg-3">
           <a href="/the-strategic-use-of-technology-to-boost-the-people-function/">
             <div class="text-center">
-              <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Untitled-2-01-1.jpg" />
+              <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Advantages-of-web-based-RPA-1.jpg" />
             </div>
             <h5>The Strategic Use of Technology to Boost the People Function</h5>
             <p>Companies that recognize their employees as their greatest asset and invest in...</p>
@@ -197,7 +197,7 @@ get_header(); ?>
         <div class="col-sm-12 col-lg-3">
           <a href="/how-businesses-can-shift-into-life-beyond-covid19/">
             <div class="text-center">
-              <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Advantages-of-web-based-RPA-1.jpg" />
+            <img class="img-fluid" src="<?php echo wp_get_upload_dir()['baseurl'] ?>/2020/06/Untitled-2-01-1.jpg" />
             </div>
             <h5>How Businesses Can Shift into Life Beyond COVID19</h5>
             <p>In today’s New Now blog, we talk about how businesses can begin to recover and mitigate some of the...</p>
